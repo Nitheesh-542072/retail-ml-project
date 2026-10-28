@@ -1,0 +1,4802 @@
+[
+  {
+    "ticket_id": "TKT_00001",
+    "customer_id": "CUST_00105",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 3.8,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-06-21T14:09:44"
+  },
+  {
+    "ticket_id": "TKT_00002",
+    "customer_id": "CUST_00011",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 9.4,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-06-29T22:52:17"
+  },
+  {
+    "ticket_id": "TKT_00003",
+    "customer_id": "CUST_00154",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "LOW",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 77.0,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-12-28T16:10:15"
+  },
+  {
+    "ticket_id": "TKT_00004",
+    "customer_id": "CUST_00044",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 2.5,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-09-10T07:13:31"
+  },
+  {
+    "ticket_id": "TKT_00005",
+    "customer_id": "CUST_00119",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 5.0,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-15T12:11:01"
+  },
+  {
+    "ticket_id": "TKT_00006",
+    "customer_id": "CUST_00172",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 1.6,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-08-18T03:42:05"
+  },
+  {
+    "ticket_id": "TKT_00007",
+    "customer_id": "CUST_00173",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 12.5,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-07-25T07:52:56"
+  },
+  {
+    "ticket_id": "TKT_00008",
+    "customer_id": "CUST_00023",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "MEDIUM",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 40.6,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-06-28T12:46:42"
+  },
+  {
+    "ticket_id": "TKT_00009",
+    "customer_id": "CUST_00098",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 1.5,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-09-12T17:54:00"
+  },
+  {
+    "ticket_id": "TKT_00010",
+    "customer_id": "CUST_00094",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 3.0,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-08-25T19:25:16"
+  },
+  {
+    "ticket_id": "TKT_00011",
+    "customer_id": "CUST_00152",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 15.0,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-07-14T05:07:00"
+  },
+  {
+    "ticket_id": "TKT_00012",
+    "customer_id": "CUST_00113",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 1.3,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-09-28T05:22:36"
+  },
+  {
+    "ticket_id": "TKT_00013",
+    "customer_id": "CUST_00138",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 12.0,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-01-28T07:09:23"
+  },
+  {
+    "ticket_id": "TKT_00014",
+    "customer_id": "CUST_00044",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 14.1,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-07-12T21:03:36"
+  },
+  {
+    "ticket_id": "TKT_00015",
+    "customer_id": "CUST_00159",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 6.9,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-07-28T14:47:52"
+  },
+  {
+    "ticket_id": "TKT_00016",
+    "customer_id": "CUST_00093",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": true,
+      "resolution_time_hours": 15.7,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-09-24T07:37:04"
+  },
+  {
+    "ticket_id": "TKT_00017",
+    "customer_id": "CUST_00199",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 6.3,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-09-18T23:02:00"
+  },
+  {
+    "ticket_id": "TKT_00018",
+    "customer_id": "CUST_00147",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "MEDIUM",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 35.5,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-04-05T04:47:54"
+  },
+  {
+    "ticket_id": "TKT_00019",
+    "customer_id": "CUST_00088",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 6.6,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-18T10:37:37"
+  },
+  {
+    "ticket_id": "TKT_00020",
+    "customer_id": "CUST_00042",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "LOW",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 69.1,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-09-19T16:12:57"
+  },
+  {
+    "ticket_id": "TKT_00021",
+    "customer_id": "CUST_00089",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "MEDIUM",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 12.8,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-12-17T11:19:54"
+  },
+  {
+    "ticket_id": "TKT_00022",
+    "customer_id": "CUST_00088",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 4.5,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-10-20T04:23:21"
+  },
+  {
+    "ticket_id": "TKT_00023",
+    "customer_id": "CUST_00159",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 4.3,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-08-27T13:49:12"
+  },
+  {
+    "ticket_id": "TKT_00024",
+    "customer_id": "CUST_00172",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 6.3,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-06-23T19:43:21"
+  },
+  {
+    "ticket_id": "TKT_00025",
+    "customer_id": "CUST_00165",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "MEDIUM",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 28.4,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-11-16T04:37:17"
+  },
+  {
+    "ticket_id": "TKT_00026",
+    "customer_id": "CUST_00094",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 11.8,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-08-11T00:06:15"
+  },
+  {
+    "ticket_id": "TKT_00027",
+    "customer_id": "CUST_00105",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 1.6,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-07-24T20:14:49"
+  },
+  {
+    "ticket_id": "TKT_00028",
+    "customer_id": "CUST_00092",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 15.7,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-09-03T12:14:09"
+  },
+  {
+    "ticket_id": "TKT_00029",
+    "customer_id": "CUST_00105",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 3.0,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-09-15T15:11:56"
+  },
+  {
+    "ticket_id": "TKT_00030",
+    "customer_id": "CUST_00092",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": true,
+      "resolution_time_hours": 10.8,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-14T22:30:47"
+  },
+  {
+    "ticket_id": "TKT_00031",
+    "customer_id": "CUST_00033",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 8.2,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-07-10T23:04:27"
+  },
+  {
+    "ticket_id": "TKT_00032",
+    "customer_id": "CUST_00054",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "LOW",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 42.7,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-12-30T14:52:50"
+  },
+  {
+    "ticket_id": "TKT_00033",
+    "customer_id": "CUST_00105",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 2.8,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-06-04T12:54:53"
+  },
+  {
+    "ticket_id": "TKT_00034",
+    "customer_id": "CUST_00128",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 10.0,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-06-11T15:14:22"
+  },
+  {
+    "ticket_id": "TKT_00035",
+    "customer_id": "CUST_00171",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "MEDIUM",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 40.2,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-06-08T02:48:18"
+  },
+  {
+    "ticket_id": "TKT_00036",
+    "customer_id": "CUST_00064",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": true,
+      "resolution_time_hours": 8.8,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-06-14T12:41:56"
+  },
+  {
+    "ticket_id": "TKT_00037",
+    "customer_id": "CUST_00119",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 3.3,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-07-16T04:32:16"
+  },
+  {
+    "ticket_id": "TKT_00038",
+    "customer_id": "CUST_00088",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 11.5,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-09-30T01:50:39"
+  },
+  {
+    "ticket_id": "TKT_00039",
+    "customer_id": "CUST_00094",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 3.8,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-24T19:10:19"
+  },
+  {
+    "ticket_id": "TKT_00040",
+    "customer_id": "CUST_00014",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 10.8,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-05-26T17:03:25"
+  },
+  {
+    "ticket_id": "TKT_00041",
+    "customer_id": "CUST_00064",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": true,
+      "resolution_time_hours": 12.9,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-14T22:09:33"
+  },
+  {
+    "ticket_id": "TKT_00042",
+    "customer_id": "CUST_00096",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "LOW",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 59.0,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-10-30T23:17:51"
+  },
+  {
+    "ticket_id": "TKT_00043",
+    "customer_id": "CUST_00030",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "MEDIUM",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 40.7,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-09-05T13:50:13"
+  },
+  {
+    "ticket_id": "TKT_00044",
+    "customer_id": "CUST_00093",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 10.2,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-10-18T18:35:12"
+  },
+  {
+    "ticket_id": "TKT_00045",
+    "customer_id": "CUST_00137",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "LOW",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 56.2,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-12-09T12:56:39"
+  },
+  {
+    "ticket_id": "TKT_00046",
+    "customer_id": "CUST_00093",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 5.5,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-09-15T18:14:15"
+  },
+  {
+    "ticket_id": "TKT_00047",
+    "customer_id": "CUST_00163",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "LOW",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 61.3,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-08-31T10:03:54"
+  },
+  {
+    "ticket_id": "TKT_00048",
+    "customer_id": "CUST_00003",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "MEDIUM",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 17.0,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-02-01T03:57:09"
+  },
+  {
+    "ticket_id": "TKT_00049",
+    "customer_id": "CUST_00194",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "LOW",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 27.8,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-12-19T11:57:21"
+  },
+  {
+    "ticket_id": "TKT_00050",
+    "customer_id": "CUST_00101",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 12.7,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-03-22T20:17:39"
+  },
+  {
+    "ticket_id": "TKT_00051",
+    "customer_id": "CUST_00043",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 5.8,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-07-27T12:13:36"
+  },
+  {
+    "ticket_id": "TKT_00052",
+    "customer_id": "CUST_00124",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 15.8,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-10-26T09:52:22"
+  },
+  {
+    "ticket_id": "TKT_00053",
+    "customer_id": "CUST_00081",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": false,
+      "resolution_time_hours": 15.1,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-08-29T00:54:49"
+  },
+  {
+    "ticket_id": "TKT_00054",
+    "customer_id": "CUST_00081",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": true,
+      "resolution_time_hours": 1.4,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-07-06T06:38:20"
+  },
+  {
+    "ticket_id": "TKT_00055",
+    "customer_id": "CUST_00019",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "LOW",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 29.6,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-07-01T20:09:22"
+  },
+  {
+    "ticket_id": "TKT_00056",
+    "customer_id": "CUST_00124",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 9.9,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-09-13T08:34:57"
+  },
+  {
+    "ticket_id": "TKT_00057",
+    "customer_id": "CUST_00116",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "MEDIUM",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 18.3,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-06-21T15:33:38"
+  },
+  {
+    "ticket_id": "TKT_00058",
+    "customer_id": "CUST_00074",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 9.6,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-07-19T04:01:59"
+  },
+  {
+    "ticket_id": "TKT_00059",
+    "customer_id": "CUST_00119",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 1.4,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-09-14T18:45:36"
+  },
+  {
+    "ticket_id": "TKT_00060",
+    "customer_id": "CUST_00091",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 6.8,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-07-31T15:06:51"
+  },
+  {
+    "ticket_id": "TKT_00061",
+    "customer_id": "CUST_00159",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 15.5,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-09-14T22:20:28"
+  },
+  {
+    "ticket_id": "TKT_00062",
+    "customer_id": "CUST_00119",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 8.3,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-09-06T08:44:00"
+  },
+  {
+    "ticket_id": "TKT_00063",
+    "customer_id": "CUST_00134",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "LOW",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 32.6,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-09-08T02:45:29"
+  },
+  {
+    "ticket_id": "TKT_00064",
+    "customer_id": "CUST_00197",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "LOW",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 59.9,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-01-20T02:49:14"
+  },
+  {
+    "ticket_id": "TKT_00065",
+    "customer_id": "CUST_00064",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 2.8,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-06-14T11:25:48"
+  },
+  {
+    "ticket_id": "TKT_00066",
+    "customer_id": "CUST_00191",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": false,
+      "resolution_time_hours": 6.5,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-06-26T08:15:19"
+  },
+  {
+    "ticket_id": "TKT_00067",
+    "customer_id": "CUST_00044",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 2.7,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-22T23:56:31"
+  },
+  {
+    "ticket_id": "TKT_00068",
+    "customer_id": "CUST_00096",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "MEDIUM",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 18.9,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-08-05T22:01:12"
+  },
+  {
+    "ticket_id": "TKT_00069",
+    "customer_id": "CUST_00129",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 8.2,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-06-17T06:35:14"
+  },
+  {
+    "ticket_id": "TKT_00070",
+    "customer_id": "CUST_00156",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "LOW",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 63.6,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-10-05T02:50:49"
+  },
+  {
+    "ticket_id": "TKT_00071",
+    "customer_id": "CUST_00133",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 3.8,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-08-17T00:55:51"
+  },
+  {
+    "ticket_id": "TKT_00072",
+    "customer_id": "CUST_00011",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "MEDIUM",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 38.2,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-08-12T10:48:28"
+  },
+  {
+    "ticket_id": "TKT_00073",
+    "customer_id": "CUST_00170",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "MEDIUM",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 24.4,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-10-25T17:28:18"
+  },
+  {
+    "ticket_id": "TKT_00074",
+    "customer_id": "CUST_00007",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "LOW",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 58.0,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-06-04T04:52:35"
+  },
+  {
+    "ticket_id": "TKT_00075",
+    "customer_id": "CUST_00066",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 4.5,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-09-20T19:42:30"
+  },
+  {
+    "ticket_id": "TKT_00076",
+    "customer_id": "CUST_00099",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "CRITICAL",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 2.1,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-08-30T12:23:24"
+  },
+  {
+    "ticket_id": "TKT_00077",
+    "customer_id": "CUST_00004",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 13.9,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-09-03T14:03:29"
+  },
+  {
+    "ticket_id": "TKT_00078",
+    "customer_id": "CUST_00050",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "MEDIUM",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 30.5,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-05-25T21:12:14"
+  },
+  {
+    "ticket_id": "TKT_00079",
+    "customer_id": "CUST_00200",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "LOW",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 41.2,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-07-12T07:45:54"
+  },
+  {
+    "ticket_id": "TKT_00080",
+    "customer_id": "CUST_00092",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 1.4,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-06-12T19:20:50"
+  },
+  {
+    "ticket_id": "TKT_00081",
+    "customer_id": "CUST_00178",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "MEDIUM",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 46.9,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-09-16T13:42:45"
+  },
+  {
+    "ticket_id": "TKT_00082",
+    "customer_id": "CUST_00200",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 9.0,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-04-05T00:13:19"
+  },
+  {
+    "ticket_id": "TKT_00083",
+    "customer_id": "CUST_00169",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 6.0,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-06-07T11:49:08"
+  },
+  {
+    "ticket_id": "TKT_00084",
+    "customer_id": "CUST_00043",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 1.6,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-09-03T23:23:24"
+  },
+  {
+    "ticket_id": "TKT_00085",
+    "customer_id": "CUST_00005",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 5.8,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-11-21T08:48:44"
+  },
+  {
+    "ticket_id": "TKT_00086",
+    "customer_id": "CUST_00200",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 12.6,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-02-11T22:22:21"
+  },
+  {
+    "ticket_id": "TKT_00087",
+    "customer_id": "CUST_00124",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 16.0,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-06-16T05:52:11"
+  },
+  {
+    "ticket_id": "TKT_00088",
+    "customer_id": "CUST_00093",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 10.4,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-07-02T14:08:18"
+  },
+  {
+    "ticket_id": "TKT_00089",
+    "customer_id": "CUST_00069",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "MEDIUM",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 46.5,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-01-08T11:59:33"
+  },
+  {
+    "ticket_id": "TKT_00090",
+    "customer_id": "CUST_00044",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": true,
+      "resolution_time_hours": 1.3,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-10-14T19:03:17"
+  },
+  {
+    "ticket_id": "TKT_00091",
+    "customer_id": "CUST_00155",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 3.3,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-03T18:53:40"
+  },
+  {
+    "ticket_id": "TKT_00092",
+    "customer_id": "CUST_00064",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 5.6,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-09-04T09:10:38"
+  },
+  {
+    "ticket_id": "TKT_00093",
+    "customer_id": "CUST_00094",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 4.2,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-10-01T12:44:07"
+  },
+  {
+    "ticket_id": "TKT_00094",
+    "customer_id": "CUST_00063",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "MEDIUM",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 31.8,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-10-16T10:53:15"
+  },
+  {
+    "ticket_id": "TKT_00095",
+    "customer_id": "CUST_00042",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 2.4,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-12-11T20:57:00"
+  },
+  {
+    "ticket_id": "TKT_00096",
+    "customer_id": "CUST_00105",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 2.0,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-06-17T02:25:55"
+  },
+  {
+    "ticket_id": "TKT_00097",
+    "customer_id": "CUST_00172",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": true,
+      "resolution_time_hours": 11.8,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-08-30T20:28:05"
+  },
+  {
+    "ticket_id": "TKT_00098",
+    "customer_id": "CUST_00094",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": false,
+      "resolution_time_hours": 7.6,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-09-28T15:52:47"
+  },
+  {
+    "ticket_id": "TKT_00099",
+    "customer_id": "CUST_00003",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "MEDIUM",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 41.5,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-08-02T16:53:25"
+  },
+  {
+    "ticket_id": "TKT_00100",
+    "customer_id": "CUST_00023",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 8.3,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-06-18T08:50:27"
+  },
+  {
+    "ticket_id": "TKT_00101",
+    "customer_id": "CUST_00083",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "LOW",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 65.6,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-06-25T14:25:18"
+  },
+  {
+    "ticket_id": "TKT_00102",
+    "customer_id": "CUST_00105",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "CRITICAL",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 2.0,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-07-29T16:18:58"
+  },
+  {
+    "ticket_id": "TKT_00103",
+    "customer_id": "CUST_00119",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": false,
+      "resolution_time_hours": 3.0,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-07-04T12:06:36"
+  },
+  {
+    "ticket_id": "TKT_00104",
+    "customer_id": "CUST_00172",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 3.3,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-06-03T02:32:07"
+  },
+  {
+    "ticket_id": "TKT_00105",
+    "customer_id": "CUST_00155",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": false,
+      "resolution_time_hours": 8.9,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-07-20T07:32:27"
+  },
+  {
+    "ticket_id": "TKT_00106",
+    "customer_id": "CUST_00158",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "LOW",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": true,
+      "resolution_time_hours": 44.9,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-08-06T08:46:06"
+  },
+  {
+    "ticket_id": "TKT_00107",
+    "customer_id": "CUST_00194",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "CRITICAL",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 2.5,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-01-11T03:04:41"
+  },
+  {
+    "ticket_id": "TKT_00108",
+    "customer_id": "CUST_00172",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": true,
+      "resolution_time_hours": 1.2,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-08-14T23:24:44"
+  },
+  {
+    "ticket_id": "TKT_00109",
+    "customer_id": "CUST_00023",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 7.4,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-07-12T09:01:16"
+  },
+  {
+    "ticket_id": "TKT_00110",
+    "customer_id": "CUST_00126",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 5.3,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-06-25T21:24:16"
+  },
+  {
+    "ticket_id": "TKT_00111",
+    "customer_id": "CUST_00128",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": true,
+      "resolution_time_hours": 6.7,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-10-12T10:48:57"
+  },
+  {
+    "ticket_id": "TKT_00112",
+    "customer_id": "CUST_00185",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "LOW",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 29.7,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-10-13T01:48:04"
+  },
+  {
+    "ticket_id": "TKT_00113",
+    "customer_id": "CUST_00028",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "MEDIUM",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 17.4,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-09-23T09:02:48"
+  },
+  {
+    "ticket_id": "TKT_00114",
+    "customer_id": "CUST_00081",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": false,
+      "resolution_time_hours": 2.6,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-22T18:36:12"
+  },
+  {
+    "ticket_id": "TKT_00115",
+    "customer_id": "CUST_00026",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "MEDIUM",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 44.8,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-09-26T08:59:17"
+  },
+  {
+    "ticket_id": "TKT_00116",
+    "customer_id": "CUST_00080",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "MEDIUM",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 22.5,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-09-01T04:43:46"
+  },
+  {
+    "ticket_id": "TKT_00117",
+    "customer_id": "CUST_00179",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "MEDIUM",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 46.0,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-03-19T22:47:53"
+  },
+  {
+    "ticket_id": "TKT_00118",
+    "customer_id": "CUST_00191",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 14.6,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-08-13T04:55:51"
+  },
+  {
+    "ticket_id": "TKT_00119",
+    "customer_id": "CUST_00068",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 3.6,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-08-27T23:11:35"
+  },
+  {
+    "ticket_id": "TKT_00120",
+    "customer_id": "CUST_00173",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 9.5,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-07-24T16:11:44"
+  },
+  {
+    "ticket_id": "TKT_00121",
+    "customer_id": "CUST_00096",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 9.9,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-11-14T04:08:54"
+  },
+  {
+    "ticket_id": "TKT_00122",
+    "customer_id": "CUST_00161",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "MEDIUM",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 30.9,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-10-23T06:18:50"
+  },
+  {
+    "ticket_id": "TKT_00123",
+    "customer_id": "CUST_00200",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "MEDIUM",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 39.8,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-10-15T11:31:06"
+  },
+  {
+    "ticket_id": "TKT_00124",
+    "customer_id": "CUST_00098",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": true,
+      "resolution_time_hours": 13.8,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-07-21T18:45:42"
+  },
+  {
+    "ticket_id": "TKT_00125",
+    "customer_id": "CUST_00001",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 5.6,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-11-17T05:06:24"
+  },
+  {
+    "ticket_id": "TKT_00126",
+    "customer_id": "CUST_00124",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 10.1,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-07-02T22:06:20"
+  },
+  {
+    "ticket_id": "TKT_00127",
+    "customer_id": "CUST_00199",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "MEDIUM",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 26.3,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-07-13T20:15:08"
+  },
+  {
+    "ticket_id": "TKT_00128",
+    "customer_id": "CUST_00138",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "LOW",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": true,
+      "resolution_time_hours": 76.2,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-04-21T05:29:38"
+  },
+  {
+    "ticket_id": "TKT_00129",
+    "customer_id": "CUST_00068",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 1.9,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-09-18T07:35:10"
+  },
+  {
+    "ticket_id": "TKT_00130",
+    "customer_id": "CUST_00080",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 10.5,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-06-15T00:48:01"
+  },
+  {
+    "ticket_id": "TKT_00131",
+    "customer_id": "CUST_00064",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": true,
+      "resolution_time_hours": 13.9,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-07-17T12:39:18"
+  },
+  {
+    "ticket_id": "TKT_00132",
+    "customer_id": "CUST_00138",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": false,
+      "resolution_time_hours": 7.0,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-06-28T10:23:40"
+  },
+  {
+    "ticket_id": "TKT_00133",
+    "customer_id": "CUST_00200",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "MEDIUM",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 33.8,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-08-09T16:30:18"
+  },
+  {
+    "ticket_id": "TKT_00134",
+    "customer_id": "CUST_00015",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "LOW",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 54.5,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-07-19T22:51:10"
+  },
+  {
+    "ticket_id": "TKT_00135",
+    "customer_id": "CUST_00159",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "LOW",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 75.5,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-07-06T00:12:08"
+  },
+  {
+    "ticket_id": "TKT_00136",
+    "customer_id": "CUST_00021",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 1.4,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-12-06T04:41:33"
+  },
+  {
+    "ticket_id": "TKT_00137",
+    "customer_id": "CUST_00098",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 8.6,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-31T23:31:01"
+  },
+  {
+    "ticket_id": "TKT_00138",
+    "customer_id": "CUST_00088",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 2.2,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-08-10T17:21:41"
+  },
+  {
+    "ticket_id": "TKT_00139",
+    "customer_id": "CUST_00088",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 2.1,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-20T14:10:46"
+  },
+  {
+    "ticket_id": "TKT_00140",
+    "customer_id": "CUST_00194",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "LOW",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 25.7,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-03-24T14:08:24"
+  },
+  {
+    "ticket_id": "TKT_00141",
+    "customer_id": "CUST_00128",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 15.2,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-07-11T13:02:34"
+  },
+  {
+    "ticket_id": "TKT_00142",
+    "customer_id": "CUST_00124",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 1.7,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-29T12:33:32"
+  },
+  {
+    "ticket_id": "TKT_00143",
+    "customer_id": "CUST_00044",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": false,
+      "resolution_time_hours": 2.4,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-07-11T09:11:04"
+  },
+  {
+    "ticket_id": "TKT_00144",
+    "customer_id": "CUST_00092",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 1.8,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-10-12T00:41:24"
+  },
+  {
+    "ticket_id": "TKT_00145",
+    "customer_id": "CUST_00056",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "LOW",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 76.9,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-07-10T11:14:01"
+  },
+  {
+    "ticket_id": "TKT_00146",
+    "customer_id": "CUST_00044",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 2.2,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-07-10T16:49:39"
+  },
+  {
+    "ticket_id": "TKT_00147",
+    "customer_id": "CUST_00130",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 9.2,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-10-25T04:35:16"
+  },
+  {
+    "ticket_id": "TKT_00148",
+    "customer_id": "CUST_00128",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 10.9,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-10-04T15:45:30"
+  },
+  {
+    "ticket_id": "TKT_00149",
+    "customer_id": "CUST_00173",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 3.0,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-10-06T22:18:05"
+  },
+  {
+    "ticket_id": "TKT_00150",
+    "customer_id": "CUST_00044",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 8.3,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-06-22T13:52:12"
+  },
+  {
+    "ticket_id": "TKT_00151",
+    "customer_id": "CUST_00156",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "LOW",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 79.4,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-06-03T00:27:49"
+  },
+  {
+    "ticket_id": "TKT_00152",
+    "customer_id": "CUST_00110",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "LOW",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 68.8,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-03-10T18:27:47"
+  },
+  {
+    "ticket_id": "TKT_00153",
+    "customer_id": "CUST_00105",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 9.2,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-09-29T10:12:05"
+  },
+  {
+    "ticket_id": "TKT_00154",
+    "customer_id": "CUST_00025",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "MEDIUM",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 46.1,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-08-13T20:22:20"
+  },
+  {
+    "ticket_id": "TKT_00155",
+    "customer_id": "CUST_00094",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 6.0,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-10-18T17:15:33"
+  },
+  {
+    "ticket_id": "TKT_00156",
+    "customer_id": "CUST_00092",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": false,
+      "resolution_time_hours": 3.8,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-09-20T13:25:00"
+  },
+  {
+    "ticket_id": "TKT_00157",
+    "customer_id": "CUST_00119",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": true,
+      "resolution_time_hours": 1.5,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-06-16T01:16:10"
+  },
+  {
+    "ticket_id": "TKT_00158",
+    "customer_id": "CUST_00033",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "LOW",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 38.0,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-09-08T09:31:18"
+  },
+  {
+    "ticket_id": "TKT_00159",
+    "customer_id": "CUST_00055",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "MEDIUM",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 35.0,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-11-27T04:20:56"
+  },
+  {
+    "ticket_id": "TKT_00160",
+    "customer_id": "CUST_00064",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 6.4,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-16T06:18:55"
+  },
+  {
+    "ticket_id": "TKT_00161",
+    "customer_id": "CUST_00021",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "LOW",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 80.0,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-06-06T08:29:00"
+  },
+  {
+    "ticket_id": "TKT_00162",
+    "customer_id": "CUST_00043",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 6.6,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-06-16T03:19:12"
+  },
+  {
+    "ticket_id": "TKT_00163",
+    "customer_id": "CUST_00130",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": true,
+      "resolution_time_hours": 13.1,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-07-05T06:59:06"
+  },
+  {
+    "ticket_id": "TKT_00164",
+    "customer_id": "CUST_00162",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "LOW",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 44.0,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-09-01T04:45:16"
+  },
+  {
+    "ticket_id": "TKT_00165",
+    "customer_id": "CUST_00151",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "MEDIUM",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 28.2,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-12-22T22:16:47"
+  },
+  {
+    "ticket_id": "TKT_00166",
+    "customer_id": "CUST_00184",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "MEDIUM",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 27.2,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-06-01T09:53:52"
+  },
+  {
+    "ticket_id": "TKT_00167",
+    "customer_id": "CUST_00138",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 2.3,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-07-21T07:15:09"
+  },
+  {
+    "ticket_id": "TKT_00168",
+    "customer_id": "CUST_00074",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "MEDIUM",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 27.5,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-10-12T12:23:55"
+  },
+  {
+    "ticket_id": "TKT_00169",
+    "customer_id": "CUST_00194",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "MEDIUM",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 16.8,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-08-09T17:04:53"
+  },
+  {
+    "ticket_id": "TKT_00170",
+    "customer_id": "CUST_00131",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "LOW",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 60.1,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-10-11T20:32:42"
+  },
+  {
+    "ticket_id": "TKT_00171",
+    "customer_id": "CUST_00149",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 13.6,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-09-21T00:00:08"
+  },
+  {
+    "ticket_id": "TKT_00172",
+    "customer_id": "CUST_00155",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 2.5,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-09-23T01:51:17"
+  },
+  {
+    "ticket_id": "TKT_00173",
+    "customer_id": "CUST_00149",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "LOW",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 36.2,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-03-08T11:42:41"
+  },
+  {
+    "ticket_id": "TKT_00174",
+    "customer_id": "CUST_00147",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 3.4,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-11-12T09:55:48"
+  },
+  {
+    "ticket_id": "TKT_00175",
+    "customer_id": "CUST_00173",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": true,
+      "resolution_time_hours": 9.6,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-06-03T10:28:59"
+  },
+  {
+    "ticket_id": "TKT_00176",
+    "customer_id": "CUST_00098",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 7.9,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-08-14T00:38:41"
+  },
+  {
+    "ticket_id": "TKT_00177",
+    "customer_id": "CUST_00128",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 3.9,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-09-14T02:53:43"
+  },
+  {
+    "ticket_id": "TKT_00178",
+    "customer_id": "CUST_00155",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 15.5,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-09-20T04:13:14"
+  },
+  {
+    "ticket_id": "TKT_00179",
+    "customer_id": "CUST_00184",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "MEDIUM",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 40.1,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-03-17T22:26:59"
+  },
+  {
+    "ticket_id": "TKT_00180",
+    "customer_id": "CUST_00016",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "LOW",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 57.9,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-09-20T15:36:08"
+  },
+  {
+    "ticket_id": "TKT_00181",
+    "customer_id": "CUST_00170",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 10.1,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-12-26T23:53:18"
+  },
+  {
+    "ticket_id": "TKT_00182",
+    "customer_id": "CUST_00179",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "LOW",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 54.7,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-07-28T19:03:56"
+  },
+  {
+    "ticket_id": "TKT_00183",
+    "customer_id": "CUST_00068",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": false,
+      "resolution_time_hours": 3.0,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-09-03T03:48:43"
+  },
+  {
+    "ticket_id": "TKT_00184",
+    "customer_id": "CUST_00172",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": false,
+      "resolution_time_hours": 15.8,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-10-23T00:37:44"
+  },
+  {
+    "ticket_id": "TKT_00185",
+    "customer_id": "CUST_00191",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 3.7,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-08-28T20:39:45"
+  },
+  {
+    "ticket_id": "TKT_00186",
+    "customer_id": "CUST_00121",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "LOW",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 50.8,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-04-23T14:02:01"
+  },
+  {
+    "ticket_id": "TKT_00187",
+    "customer_id": "CUST_00191",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": false,
+      "resolution_time_hours": 2.1,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-08-06T13:47:40"
+  },
+  {
+    "ticket_id": "TKT_00188",
+    "customer_id": "CUST_00191",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 11.3,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-09-30T03:52:14"
+  },
+  {
+    "ticket_id": "TKT_00189",
+    "customer_id": "CUST_00064",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": true,
+      "resolution_time_hours": 8.7,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-22T03:32:35"
+  },
+  {
+    "ticket_id": "TKT_00190",
+    "customer_id": "CUST_00191",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 15.9,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-10-14T21:58:46"
+  },
+  {
+    "ticket_id": "TKT_00191",
+    "customer_id": "CUST_00098",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 10.7,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-07-24T03:32:53"
+  },
+  {
+    "ticket_id": "TKT_00192",
+    "customer_id": "CUST_00061",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "LOW",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 46.6,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-10-12T10:46:13"
+  },
+  {
+    "ticket_id": "TKT_00193",
+    "customer_id": "CUST_00129",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "MEDIUM",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 16.1,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-12-03T04:48:01"
+  },
+  {
+    "ticket_id": "TKT_00194",
+    "customer_id": "CUST_00098",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 2.8,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-09-12T15:52:01"
+  },
+  {
+    "ticket_id": "TKT_00195",
+    "customer_id": "CUST_00053",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "LOW",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 67.8,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-06-26T23:43:33"
+  },
+  {
+    "ticket_id": "TKT_00196",
+    "customer_id": "CUST_00107",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "MEDIUM",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 19.8,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-08-06T14:40:35"
+  },
+  {
+    "ticket_id": "TKT_00197",
+    "customer_id": "CUST_00172",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 1.7,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-26T18:57:47"
+  },
+  {
+    "ticket_id": "TKT_00198",
+    "customer_id": "CUST_00124",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 4.2,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-06-12T16:28:28"
+  },
+  {
+    "ticket_id": "TKT_00199",
+    "customer_id": "CUST_00191",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 13.7,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-09-26T12:56:42"
+  },
+  {
+    "ticket_id": "TKT_00200",
+    "customer_id": "CUST_00043",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 8.2,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-10-17T09:52:19"
+  },
+  {
+    "ticket_id": "TKT_00201",
+    "customer_id": "CUST_00153",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "LOW",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 76.8,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-12-16T21:46:30"
+  },
+  {
+    "ticket_id": "TKT_00202",
+    "customer_id": "CUST_00063",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "LOW",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 61.2,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-06-06T14:41:33"
+  },
+  {
+    "ticket_id": "TKT_00203",
+    "customer_id": "CUST_00162",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 6.9,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-08-02T20:32:49"
+  },
+  {
+    "ticket_id": "TKT_00204",
+    "customer_id": "CUST_00011",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "MEDIUM",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 28.7,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-09-08T20:53:50"
+  },
+  {
+    "ticket_id": "TKT_00205",
+    "customer_id": "CUST_00064",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 12.9,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-07-03T02:53:17"
+  },
+  {
+    "ticket_id": "TKT_00206",
+    "customer_id": "CUST_00119",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "MEDIUM",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 47.9,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-01-28T14:32:39"
+  },
+  {
+    "ticket_id": "TKT_00207",
+    "customer_id": "CUST_00044",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": false,
+      "resolution_time_hours": 14.4,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-07T00:48:05"
+  },
+  {
+    "ticket_id": "TKT_00208",
+    "customer_id": "CUST_00106",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "LOW",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 63.2,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-08-16T07:36:14"
+  },
+  {
+    "ticket_id": "TKT_00209",
+    "customer_id": "CUST_00091",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "LOW",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 25.3,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-10-26T01:23:22"
+  },
+  {
+    "ticket_id": "TKT_00210",
+    "customer_id": "CUST_00008",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "MEDIUM",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 22.8,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-10-11T00:19:34"
+  },
+  {
+    "ticket_id": "TKT_00211",
+    "customer_id": "CUST_00096",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "LOW",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 56.9,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-08-27T02:30:33"
+  },
+  {
+    "ticket_id": "TKT_00212",
+    "customer_id": "CUST_00173",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "LOW",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 74.5,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-10-14T09:57:20"
+  },
+  {
+    "ticket_id": "TKT_00213",
+    "customer_id": "CUST_00043",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 2.8,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-06-02T18:11:57"
+  },
+  {
+    "ticket_id": "TKT_00214",
+    "customer_id": "CUST_00155",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 3.4,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-09-15T22:16:28"
+  },
+  {
+    "ticket_id": "TKT_00215",
+    "customer_id": "CUST_00081",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": false,
+      "resolution_time_hours": 14.5,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-06-29T09:39:20"
+  },
+  {
+    "ticket_id": "TKT_00216",
+    "customer_id": "CUST_00196",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 6.7,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-04-22T20:24:33"
+  },
+  {
+    "ticket_id": "TKT_00217",
+    "customer_id": "CUST_00130",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 2.5,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-06-25T16:40:20"
+  },
+  {
+    "ticket_id": "TKT_00218",
+    "customer_id": "CUST_00112",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "LOW",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 90.3,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-08-03T20:55:42"
+  },
+  {
+    "ticket_id": "TKT_00219",
+    "customer_id": "CUST_00142",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "LOW",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 89.3,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-10-07T23:47:42"
+  },
+  {
+    "ticket_id": "TKT_00220",
+    "customer_id": "CUST_00068",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 12.8,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-08-27T23:53:56"
+  },
+  {
+    "ticket_id": "TKT_00221",
+    "customer_id": "CUST_00064",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 1.9,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-02T20:46:00"
+  },
+  {
+    "ticket_id": "TKT_00222",
+    "customer_id": "CUST_00046",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 3.1,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-07-27T16:52:56"
+  },
+  {
+    "ticket_id": "TKT_00223",
+    "customer_id": "CUST_00061",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "LOW",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 86.7,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-12-14T19:57:10"
+  },
+  {
+    "ticket_id": "TKT_00224",
+    "customer_id": "CUST_00128",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 12.6,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-06-26T17:50:11"
+  },
+  {
+    "ticket_id": "TKT_00225",
+    "customer_id": "CUST_00138",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 1.3,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-06-17T05:58:42"
+  },
+  {
+    "ticket_id": "TKT_00226",
+    "customer_id": "CUST_00086",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "LOW",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 92.3,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-08-18T00:09:21"
+  },
+  {
+    "ticket_id": "TKT_00227",
+    "customer_id": "CUST_00098",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 4.9,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-09-24T03:04:11"
+  },
+  {
+    "ticket_id": "TKT_00228",
+    "customer_id": "CUST_00069",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "CRITICAL",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 3.2,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-09-25T22:19:09"
+  },
+  {
+    "ticket_id": "TKT_00229",
+    "customer_id": "CUST_00138",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 6.7,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-10-12T23:28:07"
+  },
+  {
+    "ticket_id": "TKT_00230",
+    "customer_id": "CUST_00178",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "LOW",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 94.5,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-11-09T16:57:04"
+  },
+  {
+    "ticket_id": "TKT_00231",
+    "customer_id": "CUST_00013",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "CRITICAL",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 1.3,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-01-28T15:34:45"
+  },
+  {
+    "ticket_id": "TKT_00232",
+    "customer_id": "CUST_00100",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 3.7,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-09-30T17:28:54"
+  },
+  {
+    "ticket_id": "TKT_00233",
+    "customer_id": "CUST_00017",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "LOW",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 78.1,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-09-22T02:11:45"
+  },
+  {
+    "ticket_id": "TKT_00234",
+    "customer_id": "CUST_00149",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "LOW",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 33.0,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-08-12T13:42:13"
+  },
+  {
+    "ticket_id": "TKT_00235",
+    "customer_id": "CUST_00195",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 11.4,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-06-24T23:41:59"
+  },
+  {
+    "ticket_id": "TKT_00236",
+    "customer_id": "CUST_00197",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "LOW",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 46.4,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-03-28T15:24:19"
+  },
+  {
+    "ticket_id": "TKT_00237",
+    "customer_id": "CUST_00137",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 8.3,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-10-05T14:09:43"
+  },
+  {
+    "ticket_id": "TKT_00238",
+    "customer_id": "CUST_00130",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": true,
+      "resolution_time_hours": 3.2,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-07-03T08:03:39"
+  },
+  {
+    "ticket_id": "TKT_00239",
+    "customer_id": "CUST_00100",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 9.9,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-09-25T05:32:04"
+  },
+  {
+    "ticket_id": "TKT_00240",
+    "customer_id": "CUST_00182",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "MEDIUM",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 32.6,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-08-05T09:42:48"
+  },
+  {
+    "ticket_id": "TKT_00241",
+    "customer_id": "CUST_00066",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "MEDIUM",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 24.3,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-12-19T07:16:18"
+  },
+  {
+    "ticket_id": "TKT_00242",
+    "customer_id": "CUST_00149",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 4.4,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-05-28T13:23:01"
+  },
+  {
+    "ticket_id": "TKT_00243",
+    "customer_id": "CUST_00031",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "MEDIUM",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 21.8,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-01-03T06:24:51"
+  },
+  {
+    "ticket_id": "TKT_00244",
+    "customer_id": "CUST_00171",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 13.3,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-01-20T23:01:23"
+  },
+  {
+    "ticket_id": "TKT_00245",
+    "customer_id": "CUST_00021",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "MEDIUM",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 38.7,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-12-17T09:41:07"
+  },
+  {
+    "ticket_id": "TKT_00246",
+    "customer_id": "CUST_00064",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 6.8,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-08-25T13:41:22"
+  },
+  {
+    "ticket_id": "TKT_00247",
+    "customer_id": "CUST_00092",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 2.1,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-11T05:57:55"
+  },
+  {
+    "ticket_id": "TKT_00248",
+    "customer_id": "CUST_00164",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 2.3,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-04-17T23:40:34"
+  },
+  {
+    "ticket_id": "TKT_00249",
+    "customer_id": "CUST_00113",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "MEDIUM",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 28.6,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-12-05T08:14:09"
+  },
+  {
+    "ticket_id": "TKT_00250",
+    "customer_id": "CUST_00157",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 9.7,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-08-12T10:10:11"
+  },
+  {
+    "ticket_id": "TKT_00251",
+    "customer_id": "CUST_00199",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": false,
+      "resolution_time_hours": 15.2,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-09-08T01:10:04"
+  },
+  {
+    "ticket_id": "TKT_00252",
+    "customer_id": "CUST_00054",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 7.6,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-02-19T20:56:34"
+  },
+  {
+    "ticket_id": "TKT_00253",
+    "customer_id": "CUST_00173",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 5.6,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-16T18:08:13"
+  },
+  {
+    "ticket_id": "TKT_00254",
+    "customer_id": "CUST_00163",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "MEDIUM",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 45.3,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-10-16T14:20:38"
+  },
+  {
+    "ticket_id": "TKT_00255",
+    "customer_id": "CUST_00128",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 3.6,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-06-17T04:07:44"
+  },
+  {
+    "ticket_id": "TKT_00256",
+    "customer_id": "CUST_00069",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "MEDIUM",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 21.3,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-12-07T14:34:42"
+  },
+  {
+    "ticket_id": "TKT_00257",
+    "customer_id": "CUST_00083",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "LOW",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 34.1,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-08-09T20:13:59"
+  },
+  {
+    "ticket_id": "TKT_00258",
+    "customer_id": "CUST_00088",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 10.6,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-06-05T14:55:11"
+  },
+  {
+    "ticket_id": "TKT_00259",
+    "customer_id": "CUST_00180",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "LOW",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 92.7,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-07-24T15:56:58"
+  },
+  {
+    "ticket_id": "TKT_00260",
+    "customer_id": "CUST_00110",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "MEDIUM",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 26.5,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-07-31T05:52:42"
+  },
+  {
+    "ticket_id": "TKT_00261",
+    "customer_id": "CUST_00159",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 12.0,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-09-03T17:01:41"
+  },
+  {
+    "ticket_id": "TKT_00262",
+    "customer_id": "CUST_00064",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 2.1,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-10-20T21:24:51"
+  },
+  {
+    "ticket_id": "TKT_00263",
+    "customer_id": "CUST_00088",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 6.7,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-23T19:38:31"
+  },
+  {
+    "ticket_id": "TKT_00264",
+    "customer_id": "CUST_00100",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "MEDIUM",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 45.0,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-01-12T14:45:32"
+  },
+  {
+    "ticket_id": "TKT_00265",
+    "customer_id": "CUST_00093",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 7.1,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-10-25T12:51:54"
+  },
+  {
+    "ticket_id": "TKT_00266",
+    "customer_id": "CUST_00047",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "LOW",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 31.3,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-03-01T05:52:34"
+  },
+  {
+    "ticket_id": "TKT_00267",
+    "customer_id": "CUST_00066",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 15.6,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-10-20T05:18:51"
+  },
+  {
+    "ticket_id": "TKT_00268",
+    "customer_id": "CUST_00130",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 6.4,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-10-20T12:35:26"
+  },
+  {
+    "ticket_id": "TKT_00269",
+    "customer_id": "CUST_00163",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 2.7,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-08-16T02:03:12"
+  },
+  {
+    "ticket_id": "TKT_00270",
+    "customer_id": "CUST_00093",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 2.0,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-10-21T13:53:54"
+  },
+  {
+    "ticket_id": "TKT_00271",
+    "customer_id": "CUST_00124",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 14.4,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-23T22:03:22"
+  },
+  {
+    "ticket_id": "TKT_00272",
+    "customer_id": "CUST_00060",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "MEDIUM",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 37.4,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-07-06T00:23:15"
+  },
+  {
+    "ticket_id": "TKT_00273",
+    "customer_id": "CUST_00169",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 7.5,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-05-10T17:41:14"
+  },
+  {
+    "ticket_id": "TKT_00274",
+    "customer_id": "CUST_00059",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "MEDIUM",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 13.7,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-06-30T10:24:08"
+  },
+  {
+    "ticket_id": "TKT_00275",
+    "customer_id": "CUST_00191",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": true,
+      "resolution_time_hours": 1.5,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-09-16T23:45:05"
+  },
+  {
+    "ticket_id": "TKT_00276",
+    "customer_id": "CUST_00134",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "LOW",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 42.7,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-06-15T00:15:34"
+  },
+  {
+    "ticket_id": "TKT_00277",
+    "customer_id": "CUST_00195",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "LOW",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 66.4,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-09-12T22:13:45"
+  },
+  {
+    "ticket_id": "TKT_00278",
+    "customer_id": "CUST_00166",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "LOW",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 63.9,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2025-06-11T17:05:46"
+  },
+  {
+    "ticket_id": "TKT_00279",
+    "customer_id": "CUST_00105",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": true,
+      "resolution_time_hours": 3.9,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-08-31T10:46:18"
+  },
+  {
+    "ticket_id": "TKT_00280",
+    "customer_id": "CUST_00153",
+    "ticket_details": {
+      "category": "ACCOUNT_ACCESS",
+      "severity": "LOW",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 37.4,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-09-16T15:26:18"
+  },
+  {
+    "ticket_id": "TKT_00281",
+    "customer_id": "CUST_00098",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "MEDIUM",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "CLOSED",
+      "is_escalated": false,
+      "resolution_time_hours": 40.0,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-04-13T23:57:52"
+  },
+  {
+    "ticket_id": "TKT_00282",
+    "customer_id": "CUST_00196",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 1.3,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-12-01T17:40:18"
+  },
+  {
+    "ticket_id": "TKT_00283",
+    "customer_id": "CUST_00093",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 2.8,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-06-27T20:20:01"
+  },
+  {
+    "ticket_id": "TKT_00284",
+    "customer_id": "CUST_00105",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 8.9,
+      "satisfaction_score": 2
+    },
+    "timestamp": "2026-07-23T23:42:58"
+  },
+  {
+    "ticket_id": "TKT_00285",
+    "customer_id": "CUST_00053",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "LOW",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 71.4,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2025-08-31T01:11:46"
+  },
+  {
+    "ticket_id": "TKT_00286",
+    "customer_id": "CUST_00147",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "MEDIUM",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": true,
+      "resolution_time_hours": 16.7,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-10-16T11:59:27"
+  },
+  {
+    "ticket_id": "TKT_00287",
+    "customer_id": "CUST_00079",
+    "ticket_details": {
+      "category": "RETURN_REQUEST",
+      "severity": "MEDIUM",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 32.5,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-08-31T17:53:30"
+  },
+  {
+    "ticket_id": "TKT_00288",
+    "customer_id": "CUST_00071",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "HIGH",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 6.1,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-07-24T16:08:46"
+  },
+  {
+    "ticket_id": "TKT_00289",
+    "customer_id": "CUST_00105",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 1.5,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-27T02:41:42"
+  },
+  {
+    "ticket_id": "TKT_00290",
+    "customer_id": "CUST_00100",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 12.1,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-07-04T10:40:57"
+  },
+  {
+    "ticket_id": "TKT_00291",
+    "customer_id": "CUST_00191",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "IN_PROGRESS",
+      "is_escalated": false,
+      "resolution_time_hours": 2.8,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-06-01T06:59:53"
+  },
+  {
+    "ticket_id": "TKT_00292",
+    "customer_id": "CUST_00179",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "LOW",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 74.5,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2025-06-20T18:42:06"
+  },
+  {
+    "ticket_id": "TKT_00293",
+    "customer_id": "CUST_00106",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "CRITICAL",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 1.8,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-08-27T04:24:49"
+  },
+  {
+    "ticket_id": "TKT_00294",
+    "customer_id": "CUST_00155",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 3.1,
+      "satisfaction_score": 3
+    },
+    "timestamp": "2026-08-15T14:39:25"
+  },
+  {
+    "ticket_id": "TKT_00295",
+    "customer_id": "CUST_00153",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "MEDIUM",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 28.2,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-04-23T03:28:16"
+  },
+  {
+    "ticket_id": "TKT_00296",
+    "customer_id": "CUST_00169",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "MEDIUM",
+      "contact_channel": "EMAIL"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 15.9,
+      "satisfaction_score": 4
+    },
+    "timestamp": "2026-05-22T13:56:21"
+  },
+  {
+    "ticket_id": "TKT_00297",
+    "customer_id": "CUST_00068",
+    "ticket_details": {
+      "category": "PROMO_CODE_ISSUE",
+      "severity": "LOW",
+      "contact_channel": "IN_STORE"
+    },
+    "resolution": {
+      "ticket_status": "RESOLVED",
+      "is_escalated": false,
+      "resolution_time_hours": 67.6,
+      "satisfaction_score": 5
+    },
+    "timestamp": "2026-10-09T13:13:33"
+  },
+  {
+    "ticket_id": "TKT_00298",
+    "customer_id": "CUST_00138",
+    "ticket_details": {
+      "category": "BILLING_DISPUTE",
+      "severity": "HIGH",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 10.2,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-10-11T15:00:50"
+  },
+  {
+    "ticket_id": "TKT_00299",
+    "customer_id": "CUST_00068",
+    "ticket_details": {
+      "category": "PRODUCT_DEFECT",
+      "severity": "CRITICAL",
+      "contact_channel": "CHAT"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": true,
+      "resolution_time_hours": 3.2,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-09-30T12:44:49"
+  },
+  {
+    "ticket_id": "TKT_00300",
+    "customer_id": "CUST_00124",
+    "ticket_details": {
+      "category": "SHIPPING_DELAY",
+      "severity": "CRITICAL",
+      "contact_channel": "PHONE"
+    },
+    "resolution": {
+      "ticket_status": "OPEN",
+      "is_escalated": false,
+      "resolution_time_hours": 1.4,
+      "satisfaction_score": 1
+    },
+    "timestamp": "2026-08-17T10:10:38"
+  }
+]

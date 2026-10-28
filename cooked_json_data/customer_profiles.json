@@ -1,0 +1,7202 @@
+[
+  {
+    "customer_id": "CUST_00001",
+    "profile": {
+      "first_name": "Linda",
+      "last_name": "Smith",
+      "age": 25,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "linda.smith769@outlook.com",
+      "phone": "+1-450-328-3286",
+      "address": {
+        "state": "GA",
+        "zip_code": "68878"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 6827,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-09-10T18:24:34",
+      "updated_at": "2026-09-27T01:33:19"
+    }
+  },
+  {
+    "customer_id": "CUST_00002",
+    "profile": {
+      "first_name": "James",
+      "last_name": "Garcia",
+      "age": 18,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "james.garcia724@icloud.com",
+      "phone": "+1-548-384-3547",
+      "address": {
+        "state": "UT",
+        "zip_code": "59615"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 40,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2022-05-15T23:53:58",
+      "updated_at": "2026-04-12T09:06:04"
+    }
+  },
+  {
+    "customer_id": "CUST_00003",
+    "profile": {
+      "first_name": "Christopher",
+      "last_name": "Lee",
+      "age": 37,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "christopher.lee643@outlook.com",
+      "phone": "+1-791-296-2139",
+      "address": {
+        "state": "OH",
+        "zip_code": "97841"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 136,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-05-21T08:22:06",
+      "updated_at": "2024-12-16T09:42:54"
+    }
+  },
+  {
+    "customer_id": "CUST_00004",
+    "profile": {
+      "first_name": "Joshua",
+      "last_name": "Lee",
+      "age": 45,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "joshua.lee185@retailmail.com",
+      "phone": "+1-946-350-3677",
+      "address": {
+        "state": "WA",
+        "zip_code": "45093"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 635,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-12-13T15:03:43",
+      "updated_at": "2024-02-01T11:50:44"
+    }
+  },
+  {
+    "customer_id": "CUST_00005",
+    "profile": {
+      "first_name": "Andrew",
+      "last_name": "Thompson",
+      "age": 32,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "andrew.thompson332@yahoo.com",
+      "phone": "+1-871-611-7482",
+      "address": {
+        "state": "IL",
+        "zip_code": "76784"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 6042,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-05-25T21:27:37",
+      "updated_at": "2026-03-03T01:33:47"
+    }
+  },
+  {
+    "customer_id": "CUST_00006",
+    "profile": {
+      "first_name": "Patricia",
+      "last_name": "Brown",
+      "age": 31,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "patricia.brown166@yahoo.com",
+      "phone": "+1-896-532-2040",
+      "address": {
+        "state": "LA",
+        "zip_code": "94012"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 174,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-12-22T21:35:48",
+      "updated_at": "2025-11-15T21:36:04"
+    }
+  },
+  {
+    "customer_id": "CUST_00007",
+    "profile": {
+      "first_name": "Christopher",
+      "last_name": "Wilson",
+      "age": 36,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "christopher.wilson171@icloud.com",
+      "phone": "+1-203-839-5315",
+      "address": {
+        "state": "WI",
+        "zip_code": "52487"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 24010,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-05-17T21:58:09",
+      "updated_at": "2025-09-01T19:28:36"
+    }
+  },
+  {
+    "customer_id": "CUST_00008",
+    "profile": {
+      "first_name": "Linda",
+      "last_name": "Lopez",
+      "age": 22,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "linda.lopez909@outlook.com",
+      "phone": "+1-445-159-4946",
+      "address": {
+        "state": "MO",
+        "zip_code": "31643"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 4171,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2023-02-03T21:33:41",
+      "updated_at": "2025-11-24T18:51:17"
+    }
+  },
+  {
+    "customer_id": "CUST_00009",
+    "profile": {
+      "first_name": "Joshua",
+      "last_name": "Wilson",
+      "age": 22,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "joshua.wilson997@yahoo.com",
+      "phone": "+1-752-873-4295",
+      "address": {
+        "state": "CA",
+        "zip_code": "19305"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 7798,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-12-16T22:35:53",
+      "updated_at": "2026-06-18T01:14:08"
+    }
+  },
+  {
+    "customer_id": "CUST_00010",
+    "profile": {
+      "first_name": "Joseph",
+      "last_name": "Williams",
+      "age": 45,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "joseph.williams937@gmail.com",
+      "phone": "+1-538-172-9423",
+      "address": {
+        "state": "OH",
+        "zip_code": "22363"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 49,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-01-25T23:11:14",
+      "updated_at": "2026-01-29T16:53:47"
+    }
+  },
+  {
+    "customer_id": "CUST_00011",
+    "profile": {
+      "first_name": "Daniel",
+      "last_name": "Wilson",
+      "age": 33,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "daniel.wilson430@icloud.com",
+      "phone": "+1-946-155-2612",
+      "address": {
+        "state": "KY",
+        "zip_code": "82132"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 50,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-02-16T02:55:07",
+      "updated_at": "2024-06-12T05:28:15"
+    }
+  },
+  {
+    "customer_id": "CUST_00012",
+    "profile": {
+      "first_name": "Paul",
+      "last_name": "Smith",
+      "age": 18,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "paul.smith105@yahoo.com",
+      "phone": "+1-370-516-8956",
+      "address": {
+        "state": "IL",
+        "zip_code": "34890"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1107,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2024-06-05T05:43:27",
+      "updated_at": "2026-03-24T08:35:10"
+    }
+  },
+  {
+    "customer_id": "CUST_00013",
+    "profile": {
+      "first_name": "Patricia",
+      "last_name": "Jackson",
+      "age": 24,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "patricia.jackson763@retailmail.com",
+      "phone": "+1-262-865-6138",
+      "address": {
+        "state": "WA",
+        "zip_code": "25713"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 482,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2022-07-31T03:31:45",
+      "updated_at": "2025-06-14T01:16:39"
+    }
+  },
+  {
+    "customer_id": "CUST_00014",
+    "profile": {
+      "first_name": "Jessica",
+      "last_name": "Jackson",
+      "age": 29,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "jessica.jackson618@gmail.com",
+      "phone": "+1-834-183-7868",
+      "address": {
+        "state": "MA",
+        "zip_code": "51441"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 648,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-05-14T15:55:54",
+      "updated_at": "2025-08-24T07:40:46"
+    }
+  },
+  {
+    "customer_id": "CUST_00015",
+    "profile": {
+      "first_name": "Sandra",
+      "last_name": "Martin",
+      "age": 42,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "sandra.martin586@gmail.com",
+      "phone": "+1-275-650-4492",
+      "address": {
+        "state": "UT",
+        "zip_code": "96951"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 712,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-01-25T07:19:59",
+      "updated_at": "2026-10-14T09:28:36"
+    }
+  },
+  {
+    "customer_id": "CUST_00016",
+    "profile": {
+      "first_name": "Thomas",
+      "last_name": "Brown",
+      "age": 43,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "thomas.brown921@gmail.com",
+      "phone": "+1-960-666-3546",
+      "address": {
+        "state": "CO",
+        "zip_code": "65518"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 424,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-02-20T04:57:27",
+      "updated_at": "2024-05-09T02:52:39"
+    }
+  },
+  {
+    "customer_id": "CUST_00017",
+    "profile": {
+      "first_name": "Robert",
+      "last_name": "Smith",
+      "age": 24,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "robert.smith351@yahoo.com",
+      "phone": "+1-852-368-3647",
+      "address": {
+        "state": "NY",
+        "zip_code": "50404"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 4987,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-04-06T02:40:23",
+      "updated_at": "2025-02-01T18:16:59"
+    }
+  },
+  {
+    "customer_id": "CUST_00018",
+    "profile": {
+      "first_name": "Daniel",
+      "last_name": "Miller",
+      "age": 32,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "daniel.miller708@yahoo.com",
+      "phone": "+1-882-205-6794",
+      "address": {
+        "state": "PA",
+        "zip_code": "53540"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 5372,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-07-05T01:58:53",
+      "updated_at": "2025-04-05T13:25:52"
+    }
+  },
+  {
+    "customer_id": "CUST_00019",
+    "profile": {
+      "first_name": "Sarah",
+      "last_name": "Garcia",
+      "age": 39,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "sarah.garcia816@gmail.com",
+      "phone": "+1-591-993-1634",
+      "address": {
+        "state": "OK",
+        "zip_code": "19099"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 4286,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-05-22T23:46:37",
+      "updated_at": "2026-02-01T23:01:23"
+    }
+  },
+  {
+    "customer_id": "CUST_00020",
+    "profile": {
+      "first_name": "Steven",
+      "last_name": "Gonzalez",
+      "age": 55,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "steven.gonzalez705@retailmail.com",
+      "phone": "+1-539-128-2889",
+      "address": {
+        "state": "WA",
+        "zip_code": "85574"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 3557,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-09-01T13:28:33",
+      "updated_at": "2026-07-11T11:25:08"
+    }
+  },
+  {
+    "customer_id": "CUST_00021",
+    "profile": {
+      "first_name": "Robert",
+      "last_name": "Thompson",
+      "age": 52,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "robert.thompson456@gmail.com",
+      "phone": "+1-732-925-9821",
+      "address": {
+        "state": "IN",
+        "zip_code": "50538"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1865,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-01-23T04:44:13",
+      "updated_at": "2026-02-14T07:07:14"
+    }
+  },
+  {
+    "customer_id": "CUST_00022",
+    "profile": {
+      "first_name": "Charles",
+      "last_name": "Gonzalez",
+      "age": 29,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "charles.gonzalez723@outlook.com",
+      "phone": "+1-767-230-4143",
+      "address": {
+        "state": "OH",
+        "zip_code": "66346"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1687,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2022-01-02T06:16:08",
+      "updated_at": "2024-08-03T08:49:39"
+    }
+  },
+  {
+    "customer_id": "CUST_00023",
+    "profile": {
+      "first_name": "Charles",
+      "last_name": "Anderson",
+      "age": 51,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "charles.anderson462@icloud.com",
+      "phone": "+1-891-318-9375",
+      "address": {
+        "state": "IL",
+        "zip_code": "13201"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 594,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-08-22T10:33:10",
+      "updated_at": "2025-08-06T09:45:49"
+    }
+  },
+  {
+    "customer_id": "CUST_00024",
+    "profile": {
+      "first_name": "Donald",
+      "last_name": "Martin",
+      "age": 24,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "donald.martin880@gmail.com",
+      "phone": "+1-666-524-4185",
+      "address": {
+        "state": "KY",
+        "zip_code": "77889"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 5805,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-08-13T21:11:53",
+      "updated_at": "2026-01-30T20:41:33"
+    }
+  },
+  {
+    "customer_id": "CUST_00025",
+    "profile": {
+      "first_name": "Emily",
+      "last_name": "Davis",
+      "age": 50,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "emily.davis949@gmail.com",
+      "phone": "+1-667-236-8612",
+      "address": {
+        "state": "AL",
+        "zip_code": "72216"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1421,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2025-10-17T09:43:42",
+      "updated_at": "2026-09-30T20:18:50"
+    }
+  },
+  {
+    "customer_id": "CUST_00026",
+    "profile": {
+      "first_name": "Jessica",
+      "last_name": "Lee",
+      "age": 34,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "jessica.lee293@retailmail.com",
+      "phone": "+1-696-741-4919",
+      "address": {
+        "state": "SC",
+        "zip_code": "30028"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 361,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-04-14T14:44:57",
+      "updated_at": "2024-04-07T20:48:07"
+    }
+  },
+  {
+    "customer_id": "CUST_00027",
+    "profile": {
+      "first_name": "John",
+      "last_name": "Wilson",
+      "age": 41,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "john.wilson427@outlook.com",
+      "phone": "+1-755-577-7812",
+      "address": {
+        "state": "LA",
+        "zip_code": "61116"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 436,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": false,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2022-01-19T07:38:36",
+      "updated_at": "2025-01-16T04:40:51"
+    }
+  },
+  {
+    "customer_id": "CUST_00028",
+    "profile": {
+      "first_name": "Paul",
+      "last_name": "White",
+      "age": 26,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "paul.white762@retailmail.com",
+      "phone": "+1-817-325-8999",
+      "address": {
+        "state": "UT",
+        "zip_code": "61645"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 303,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-12-23T03:08:07",
+      "updated_at": "2026-02-10T16:42:45"
+    }
+  },
+  {
+    "customer_id": "CUST_00029",
+    "profile": {
+      "first_name": "Mary",
+      "last_name": "Williams",
+      "age": 35,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "mary.williams668@icloud.com",
+      "phone": "+1-338-987-8564",
+      "address": {
+        "state": "CA",
+        "zip_code": "80702"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 26,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-02-23T18:43:42",
+      "updated_at": "2024-06-30T00:24:50"
+    }
+  },
+  {
+    "customer_id": "CUST_00030",
+    "profile": {
+      "first_name": "Joseph",
+      "last_name": "Lee",
+      "age": 45,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "joseph.lee80@gmail.com",
+      "phone": "+1-972-131-5051",
+      "address": {
+        "state": "LA",
+        "zip_code": "58351"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 85,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-12-15T19:26:49",
+      "updated_at": "2026-09-13T10:55:58"
+    }
+  },
+  {
+    "customer_id": "CUST_00031",
+    "profile": {
+      "first_name": "Joshua",
+      "last_name": "White",
+      "age": 37,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "joshua.white745@gmail.com",
+      "phone": "+1-996-938-3683",
+      "address": {
+        "state": "OK",
+        "zip_code": "99687"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 11966,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-01-25T12:09:45",
+      "updated_at": "2024-07-01T19:19:06"
+    }
+  },
+  {
+    "customer_id": "CUST_00032",
+    "profile": {
+      "first_name": "Robert",
+      "last_name": "Lopez",
+      "age": 37,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "robert.lopez555@icloud.com",
+      "phone": "+1-877-479-2129",
+      "address": {
+        "state": "AZ",
+        "zip_code": "33086"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1568,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-11-29T08:39:01",
+      "updated_at": "2026-08-31T01:14:40"
+    }
+  },
+  {
+    "customer_id": "CUST_00033",
+    "profile": {
+      "first_name": "Michelle",
+      "last_name": "Moore",
+      "age": 36,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "michelle.moore803@icloud.com",
+      "phone": "+1-676-546-5397",
+      "address": {
+        "state": "PA",
+        "zip_code": "73904"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 108,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-03-31T04:01:36",
+      "updated_at": "2026-06-13T22:11:26"
+    }
+  },
+  {
+    "customer_id": "CUST_00034",
+    "profile": {
+      "first_name": "Thomas",
+      "last_name": "Hernandez",
+      "age": 61,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "thomas.hernandez296@retailmail.com",
+      "phone": "+1-918-382-1166",
+      "address": {
+        "state": "TX",
+        "zip_code": "48566"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 953,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2026-03-05T22:17:28",
+      "updated_at": "2026-08-26T23:34:50"
+    }
+  },
+  {
+    "customer_id": "CUST_00035",
+    "profile": {
+      "first_name": "Jessica",
+      "last_name": "Martinez",
+      "age": 49,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "jessica.martinez689@retailmail.com",
+      "phone": "+1-577-584-9698",
+      "address": {
+        "state": "OH",
+        "zip_code": "38361"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 378,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-01-07T10:38:51",
+      "updated_at": "2026-03-06T11:15:39"
+    }
+  },
+  {
+    "customer_id": "CUST_00036",
+    "profile": {
+      "first_name": "Sarah",
+      "last_name": "White",
+      "age": 35,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "sarah.white613@retailmail.com",
+      "phone": "+1-811-389-2647",
+      "address": {
+        "state": "CO",
+        "zip_code": "74340"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 2840,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-06-19T09:45:16",
+      "updated_at": "2024-12-13T01:02:28"
+    }
+  },
+  {
+    "customer_id": "CUST_00037",
+    "profile": {
+      "first_name": "Andrew",
+      "last_name": "Martinez",
+      "age": 35,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "andrew.martinez490@icloud.com",
+      "phone": "+1-651-448-4020",
+      "address": {
+        "state": "TX",
+        "zip_code": "42530"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 11881,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-04-09T12:58:40",
+      "updated_at": "2026-09-20T14:32:46"
+    }
+  },
+  {
+    "customer_id": "CUST_00038",
+    "profile": {
+      "first_name": "Anthony",
+      "last_name": "Martin",
+      "age": 57,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "anthony.martin620@retailmail.com",
+      "phone": "+1-431-894-9561",
+      "address": {
+        "state": "CO",
+        "zip_code": "37659"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 135,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2022-11-05T07:23:28",
+      "updated_at": "2026-02-02T04:17:29"
+    }
+  },
+  {
+    "customer_id": "CUST_00039",
+    "profile": {
+      "first_name": "William",
+      "last_name": "Davis",
+      "age": 31,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "william.davis187@retailmail.com",
+      "phone": "+1-276-260-1043",
+      "address": {
+        "state": "AZ",
+        "zip_code": "25043"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1615,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-04-01T22:37:21",
+      "updated_at": "2026-10-05T03:34:19"
+    }
+  },
+  {
+    "customer_id": "CUST_00040",
+    "profile": {
+      "first_name": "Elizabeth",
+      "last_name": "Rodriguez",
+      "age": 24,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "elizabeth.rodriguez856@yahoo.com",
+      "phone": "+1-273-161-3718",
+      "address": {
+        "state": "MA",
+        "zip_code": "20543"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 6899,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-06-04T13:12:37",
+      "updated_at": "2026-01-02T00:14:49"
+    }
+  },
+  {
+    "customer_id": "CUST_00041",
+    "profile": {
+      "first_name": "Margaret",
+      "last_name": "White",
+      "age": 26,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "margaret.white340@retailmail.com",
+      "phone": "+1-456-126-2496",
+      "address": {
+        "state": "UT",
+        "zip_code": "46458"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 92,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2026-01-01T19:05:02",
+      "updated_at": "2026-07-22T08:10:38"
+    }
+  },
+  {
+    "customer_id": "CUST_00042",
+    "profile": {
+      "first_name": "Margaret",
+      "last_name": "Lee",
+      "age": 18,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "margaret.lee843@icloud.com",
+      "phone": "+1-293-581-6700",
+      "address": {
+        "state": "MA",
+        "zip_code": "21542"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1144,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-05-29T03:53:02",
+      "updated_at": "2026-07-30T10:25:40"
+    }
+  },
+  {
+    "customer_id": "CUST_00043",
+    "profile": {
+      "first_name": "Charles",
+      "last_name": "Brown",
+      "age": 25,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "charles.brown801@icloud.com",
+      "phone": "+1-726-944-1018",
+      "address": {
+        "state": "UT",
+        "zip_code": "47752"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1397,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-04-09T17:09:23",
+      "updated_at": "2026-08-10T21:32:55"
+    }
+  },
+  {
+    "customer_id": "CUST_00044",
+    "profile": {
+      "first_name": "Linda",
+      "last_name": "Smith",
+      "age": 32,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "linda.smith655@retailmail.com",
+      "phone": "+1-445-826-3594",
+      "address": {
+        "state": "IN",
+        "zip_code": "45838"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 212,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-04-24T08:55:08",
+      "updated_at": "2025-06-06T13:42:15"
+    }
+  },
+  {
+    "customer_id": "CUST_00045",
+    "profile": {
+      "first_name": "Donald",
+      "last_name": "Davis",
+      "age": 18,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "donald.davis477@retailmail.com",
+      "phone": "+1-348-492-4122",
+      "address": {
+        "state": "AL",
+        "zip_code": "49132"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 24044,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-04-10T01:50:14",
+      "updated_at": "2024-04-14T01:28:37"
+    }
+  },
+  {
+    "customer_id": "CUST_00046",
+    "profile": {
+      "first_name": "Mark",
+      "last_name": "Moore",
+      "age": 34,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "mark.moore505@outlook.com",
+      "phone": "+1-540-665-9903",
+      "address": {
+        "state": "SC",
+        "zip_code": "59968"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 197,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2022-05-16T14:34:42",
+      "updated_at": "2025-01-29T03:31:29"
+    }
+  },
+  {
+    "customer_id": "CUST_00047",
+    "profile": {
+      "first_name": "Ashley",
+      "last_name": "Johnson",
+      "age": 23,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "ashley.johnson139@retailmail.com",
+      "phone": "+1-804-439-2644",
+      "address": {
+        "state": "CO",
+        "zip_code": "20527"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 4691,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-04-03T09:31:51",
+      "updated_at": "2025-09-11T08:00:30"
+    }
+  },
+  {
+    "customer_id": "CUST_00048",
+    "profile": {
+      "first_name": "Matthew",
+      "last_name": "Hernandez",
+      "age": 40,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "matthew.hernandez651@icloud.com",
+      "phone": "+1-754-136-2121",
+      "address": {
+        "state": "SC",
+        "zip_code": "49251"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 462,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-11-09T06:21:46",
+      "updated_at": "2024-09-28T11:53:53"
+    }
+  },
+  {
+    "customer_id": "CUST_00049",
+    "profile": {
+      "first_name": "Robert",
+      "last_name": "Hernandez",
+      "age": 36,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "robert.hernandez825@gmail.com",
+      "phone": "+1-500-467-7141",
+      "address": {
+        "state": "GA",
+        "zip_code": "70443"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1806,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-01-19T05:34:15",
+      "updated_at": "2026-03-02T07:57:02"
+    }
+  },
+  {
+    "customer_id": "CUST_00050",
+    "profile": {
+      "first_name": "Sandra",
+      "last_name": "Rodriguez",
+      "age": 47,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "sandra.rodriguez692@gmail.com",
+      "phone": "+1-676-394-9955",
+      "address": {
+        "state": "OH",
+        "zip_code": "60422"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 436,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-11-20T08:08:48",
+      "updated_at": "2026-10-14T14:57:01"
+    }
+  },
+  {
+    "customer_id": "CUST_00051",
+    "profile": {
+      "first_name": "Michael",
+      "last_name": "Davis",
+      "age": 27,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "michael.davis400@retailmail.com",
+      "phone": "+1-567-688-5847",
+      "address": {
+        "state": "WI",
+        "zip_code": "56179"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 15176,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2026-03-24T06:40:15",
+      "updated_at": "2026-07-13T10:11:37"
+    }
+  },
+  {
+    "customer_id": "CUST_00052",
+    "profile": {
+      "first_name": "Michelle",
+      "last_name": "Rodriguez",
+      "age": 65,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "michelle.rodriguez704@yahoo.com",
+      "phone": "+1-843-199-1645",
+      "address": {
+        "state": "IL",
+        "zip_code": "80701"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 448,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-07-14T22:09:22",
+      "updated_at": "2025-11-28T08:19:27"
+    }
+  },
+  {
+    "customer_id": "CUST_00053",
+    "profile": {
+      "first_name": "Kimberly",
+      "last_name": "Taylor",
+      "age": 29,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "kimberly.taylor945@outlook.com",
+      "phone": "+1-368-363-8894",
+      "address": {
+        "state": "TX",
+        "zip_code": "61717"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 8456,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-05-19T17:08:55",
+      "updated_at": "2026-07-26T14:12:31"
+    }
+  },
+  {
+    "customer_id": "CUST_00054",
+    "profile": {
+      "first_name": "Paul",
+      "last_name": "Brown",
+      "age": 57,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "paul.brown475@outlook.com",
+      "phone": "+1-888-866-5295",
+      "address": {
+        "state": "CO",
+        "zip_code": "18285"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1801,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": false,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2024-10-16T01:55:14",
+      "updated_at": "2026-09-26T23:31:38"
+    }
+  },
+  {
+    "customer_id": "CUST_00055",
+    "profile": {
+      "first_name": "Karen",
+      "last_name": "Lee",
+      "age": 31,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "karen.lee428@gmail.com",
+      "phone": "+1-343-146-1609",
+      "address": {
+        "state": "CT",
+        "zip_code": "64379"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 335,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2025-07-26T04:21:21",
+      "updated_at": "2026-10-25T09:10:24"
+    }
+  },
+  {
+    "customer_id": "CUST_00056",
+    "profile": {
+      "first_name": "Ashley",
+      "last_name": "Martin",
+      "age": 36,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "ashley.martin427@outlook.com",
+      "phone": "+1-233-806-7070",
+      "address": {
+        "state": "NC",
+        "zip_code": "34878"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 495,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-01-19T08:39:37",
+      "updated_at": "2025-03-07T09:23:44"
+    }
+  },
+  {
+    "customer_id": "CUST_00057",
+    "profile": {
+      "first_name": "Sandra",
+      "last_name": "Williams",
+      "age": 19,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "sandra.williams688@yahoo.com",
+      "phone": "+1-857-754-1349",
+      "address": {
+        "state": "KY",
+        "zip_code": "88116"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 1,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2024-10-17T19:10:32",
+      "updated_at": "2026-06-11T06:27:07"
+    }
+  },
+  {
+    "customer_id": "CUST_00058",
+    "profile": {
+      "first_name": "Elizabeth",
+      "last_name": "Jones",
+      "age": 64,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "elizabeth.jones563@outlook.com",
+      "phone": "+1-378-212-1422",
+      "address": {
+        "state": "AL",
+        "zip_code": "18330"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 243,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-07-31T21:05:39",
+      "updated_at": "2026-09-13T12:02:21"
+    }
+  },
+  {
+    "customer_id": "CUST_00059",
+    "profile": {
+      "first_name": "Nancy",
+      "last_name": "Taylor",
+      "age": 54,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "nancy.taylor617@gmail.com",
+      "phone": "+1-662-615-4629",
+      "address": {
+        "state": "TN",
+        "zip_code": "68138"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 10408,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-06-01T18:45:11",
+      "updated_at": "2026-04-28T21:04:09"
+    }
+  },
+  {
+    "customer_id": "CUST_00060",
+    "profile": {
+      "first_name": "Charles",
+      "last_name": "Martin",
+      "age": 41,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "charles.martin161@gmail.com",
+      "phone": "+1-329-381-9984",
+      "address": {
+        "state": "AZ",
+        "zip_code": "69186"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 3871,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-12-22T11:19:52",
+      "updated_at": "2026-08-08T05:44:55"
+    }
+  },
+  {
+    "customer_id": "CUST_00061",
+    "profile": {
+      "first_name": "Lisa",
+      "last_name": "Anderson",
+      "age": 30,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "lisa.anderson418@icloud.com",
+      "phone": "+1-947-197-6120",
+      "address": {
+        "state": "MD",
+        "zip_code": "83608"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1650,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": false,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-03-03T18:33:48",
+      "updated_at": "2025-06-12T20:05:28"
+    }
+  },
+  {
+    "customer_id": "CUST_00062",
+    "profile": {
+      "first_name": "Linda",
+      "last_name": "Wilson",
+      "age": 26,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "linda.wilson372@icloud.com",
+      "phone": "+1-938-152-5712",
+      "address": {
+        "state": "FL",
+        "zip_code": "46512"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1675,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-12-23T18:23:28",
+      "updated_at": "2026-10-11T09:17:37"
+    }
+  },
+  {
+    "customer_id": "CUST_00063",
+    "profile": {
+      "first_name": "Margaret",
+      "last_name": "Moore",
+      "age": 26,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "margaret.moore795@retailmail.com",
+      "phone": "+1-828-791-1430",
+      "address": {
+        "state": "TX",
+        "zip_code": "28595"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1796,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-03-22T01:36:19",
+      "updated_at": "2025-08-17T19:35:09"
+    }
+  },
+  {
+    "customer_id": "CUST_00064",
+    "profile": {
+      "first_name": "Jennifer",
+      "last_name": "White",
+      "age": 21,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "jennifer.white553@yahoo.com",
+      "phone": "+1-585-529-8432",
+      "address": {
+        "state": "MN",
+        "zip_code": "20693"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 139,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-04-29T08:52:43",
+      "updated_at": "2023-12-29T21:32:41"
+    }
+  },
+  {
+    "customer_id": "CUST_00065",
+    "profile": {
+      "first_name": "Margaret",
+      "last_name": "Thomas",
+      "age": 44,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "margaret.thomas631@icloud.com",
+      "phone": "+1-624-379-4531",
+      "address": {
+        "state": "MI",
+        "zip_code": "37686"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 3124,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-06-20T04:50:20",
+      "updated_at": "2022-07-14T02:01:46"
+    }
+  },
+  {
+    "customer_id": "CUST_00066",
+    "profile": {
+      "first_name": "Christopher",
+      "last_name": "Hernandez",
+      "age": 43,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "christopher.hernandez132@gmail.com",
+      "phone": "+1-709-864-8055",
+      "address": {
+        "state": "CA",
+        "zip_code": "70260"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 471,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-05-18T15:46:20",
+      "updated_at": "2025-06-20T12:20:36"
+    }
+  },
+  {
+    "customer_id": "CUST_00067",
+    "profile": {
+      "first_name": "Charles",
+      "last_name": "Jackson",
+      "age": 18,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "charles.jackson449@retailmail.com",
+      "phone": "+1-614-826-7843",
+      "address": {
+        "state": "MD",
+        "zip_code": "62487"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 268,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-11-25T21:43:39",
+      "updated_at": "2023-12-08T21:13:23"
+    }
+  },
+  {
+    "customer_id": "CUST_00068",
+    "profile": {
+      "first_name": "Betty",
+      "last_name": "Martinez",
+      "age": 52,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "betty.martinez773@outlook.com",
+      "phone": "+1-426-441-3754",
+      "address": {
+        "state": "IL",
+        "zip_code": "43550"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 101,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-04-04T20:33:08",
+      "updated_at": "2024-04-05T21:17:36"
+    }
+  },
+  {
+    "customer_id": "CUST_00069",
+    "profile": {
+      "first_name": "Joshua",
+      "last_name": "Jones",
+      "age": 22,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "joshua.jones788@gmail.com",
+      "phone": "+1-381-891-9095",
+      "address": {
+        "state": "TX",
+        "zip_code": "71462"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1405,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-09-09T05:01:29",
+      "updated_at": "2025-05-01T17:07:28"
+    }
+  },
+  {
+    "customer_id": "CUST_00070",
+    "profile": {
+      "first_name": "Sarah",
+      "last_name": "Jackson",
+      "age": 30,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "sarah.jackson67@outlook.com",
+      "phone": "+1-719-175-6085",
+      "address": {
+        "state": "MD",
+        "zip_code": "82655"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 584,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2026-04-25T09:43:01",
+      "updated_at": "2026-07-09T01:32:06"
+    }
+  },
+  {
+    "customer_id": "CUST_00071",
+    "profile": {
+      "first_name": "Andrew",
+      "last_name": "Lee",
+      "age": 40,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "andrew.lee202@outlook.com",
+      "phone": "+1-819-587-9214",
+      "address": {
+        "state": "VA",
+        "zip_code": "58870"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 469,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2025-09-22T01:37:21",
+      "updated_at": "2026-08-29T09:02:18"
+    }
+  },
+  {
+    "customer_id": "CUST_00072",
+    "profile": {
+      "first_name": "Matthew",
+      "last_name": "Wilson",
+      "age": 37,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "matthew.wilson803@outlook.com",
+      "phone": "+1-895-712-1857",
+      "address": {
+        "state": "MD",
+        "zip_code": "96980"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 3158,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-04-13T04:38:52",
+      "updated_at": "2024-09-12T01:17:07"
+    }
+  },
+  {
+    "customer_id": "CUST_00073",
+    "profile": {
+      "first_name": "Karen",
+      "last_name": "Lee",
+      "age": 22,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "karen.lee725@icloud.com",
+      "phone": "+1-332-709-2388",
+      "address": {
+        "state": "IN",
+        "zip_code": "57425"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 9,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2022-10-18T08:21:29",
+      "updated_at": "2025-07-17T21:54:32"
+    }
+  },
+  {
+    "customer_id": "CUST_00074",
+    "profile": {
+      "first_name": "Karen",
+      "last_name": "Garcia",
+      "age": 49,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "karen.garcia983@yahoo.com",
+      "phone": "+1-549-884-8967",
+      "address": {
+        "state": "CT",
+        "zip_code": "91006"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 67,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2026-06-24T21:02:39",
+      "updated_at": "2026-07-02T04:57:36"
+    }
+  },
+  {
+    "customer_id": "CUST_00075",
+    "profile": {
+      "first_name": "Matthew",
+      "last_name": "Jones",
+      "age": 46,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "matthew.jones176@yahoo.com",
+      "phone": "+1-909-889-3712",
+      "address": {
+        "state": "CT",
+        "zip_code": "35430"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 5013,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-01-14T01:41:44",
+      "updated_at": "2025-05-08T19:29:41"
+    }
+  },
+  {
+    "customer_id": "CUST_00076",
+    "profile": {
+      "first_name": "Mark",
+      "last_name": "Anderson",
+      "age": 38,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "mark.anderson797@outlook.com",
+      "phone": "+1-996-491-9239",
+      "address": {
+        "state": "SC",
+        "zip_code": "77621"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 755,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2026-02-02T03:26:11",
+      "updated_at": "2026-06-26T07:23:02"
+    }
+  },
+  {
+    "customer_id": "CUST_00077",
+    "profile": {
+      "first_name": "Jennifer",
+      "last_name": "Garcia",
+      "age": 53,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "jennifer.garcia289@icloud.com",
+      "phone": "+1-725-250-8167",
+      "address": {
+        "state": "CA",
+        "zip_code": "51770"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 476,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2022-09-11T12:56:32",
+      "updated_at": "2024-04-15T22:41:59"
+    }
+  },
+  {
+    "customer_id": "CUST_00078",
+    "profile": {
+      "first_name": "Lisa",
+      "last_name": "Jones",
+      "age": 25,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "lisa.jones150@gmail.com",
+      "phone": "+1-493-949-8740",
+      "address": {
+        "state": "FL",
+        "zip_code": "47762"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 986,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-11-02T00:22:58",
+      "updated_at": "2024-06-21T06:52:41"
+    }
+  },
+  {
+    "customer_id": "CUST_00079",
+    "profile": {
+      "first_name": "Linda",
+      "last_name": "Johnson",
+      "age": 42,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "linda.johnson254@icloud.com",
+      "phone": "+1-854-912-8489",
+      "address": {
+        "state": "PA",
+        "zip_code": "97080"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 342,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-01-01T03:52:14",
+      "updated_at": "2025-07-07T00:18:46"
+    }
+  },
+  {
+    "customer_id": "CUST_00080",
+    "profile": {
+      "first_name": "Kimberly",
+      "last_name": "Lopez",
+      "age": 24,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "kimberly.lopez79@retailmail.com",
+      "phone": "+1-757-619-9316",
+      "address": {
+        "state": "VA",
+        "zip_code": "41604"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1845,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-01-14T10:50:56",
+      "updated_at": "2026-09-18T21:55:38"
+    }
+  },
+  {
+    "customer_id": "CUST_00081",
+    "profile": {
+      "first_name": "Donna",
+      "last_name": "White",
+      "age": 38,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "donna.white784@outlook.com",
+      "phone": "+1-336-145-6772",
+      "address": {
+        "state": "OH",
+        "zip_code": "15741"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 908,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-11-22T23:03:46",
+      "updated_at": "2025-12-07T07:46:36"
+    }
+  },
+  {
+    "customer_id": "CUST_00082",
+    "profile": {
+      "first_name": "Charles",
+      "last_name": "Martinez",
+      "age": 29,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "charles.martinez537@icloud.com",
+      "phone": "+1-756-584-5150",
+      "address": {
+        "state": "AZ",
+        "zip_code": "62431"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 380,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-01-22T17:31:44",
+      "updated_at": "2026-06-17T11:10:26"
+    }
+  },
+  {
+    "customer_id": "CUST_00083",
+    "profile": {
+      "first_name": "Matthew",
+      "last_name": "Hernandez",
+      "age": 18,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "matthew.hernandez201@icloud.com",
+      "phone": "+1-908-609-7018",
+      "address": {
+        "state": "MN",
+        "zip_code": "48750"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 18043,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-11-15T18:15:17",
+      "updated_at": "2023-03-20T03:26:24"
+    }
+  },
+  {
+    "customer_id": "CUST_00084",
+    "profile": {
+      "first_name": "Joshua",
+      "last_name": "Thompson",
+      "age": 33,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "joshua.thompson446@yahoo.com",
+      "phone": "+1-906-554-6759",
+      "address": {
+        "state": "VA",
+        "zip_code": "77251"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1891,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-08-22T03:28:29",
+      "updated_at": "2025-06-29T19:01:25"
+    }
+  },
+  {
+    "customer_id": "CUST_00085",
+    "profile": {
+      "first_name": "Mary",
+      "last_name": "Jones",
+      "age": 53,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "mary.jones879@retailmail.com",
+      "phone": "+1-894-900-8179",
+      "address": {
+        "state": "MD",
+        "zip_code": "28047"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 271,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-03-01T19:19:41",
+      "updated_at": "2026-02-09T14:57:22"
+    }
+  },
+  {
+    "customer_id": "CUST_00086",
+    "profile": {
+      "first_name": "Betty",
+      "last_name": "Hernandez",
+      "age": 43,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "betty.hernandez675@outlook.com",
+      "phone": "+1-455-216-1424",
+      "address": {
+        "state": "SC",
+        "zip_code": "74382"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 3639,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-10-29T15:31:48",
+      "updated_at": "2026-06-06T03:57:53"
+    }
+  },
+  {
+    "customer_id": "CUST_00087",
+    "profile": {
+      "first_name": "David",
+      "last_name": "Williams",
+      "age": 67,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "david.williams472@yahoo.com",
+      "phone": "+1-930-555-2438",
+      "address": {
+        "state": "FL",
+        "zip_code": "36342"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 3137,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-06-25T21:09:59",
+      "updated_at": "2025-01-07T10:34:18"
+    }
+  },
+  {
+    "customer_id": "CUST_00088",
+    "profile": {
+      "first_name": "Ashley",
+      "last_name": "Smith",
+      "age": 29,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "ashley.smith379@retailmail.com",
+      "phone": "+1-786-477-8657",
+      "address": {
+        "state": "LA",
+        "zip_code": "63665"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 6709,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2026-01-27T03:51:26",
+      "updated_at": "2026-08-19T07:41:45"
+    }
+  },
+  {
+    "customer_id": "CUST_00089",
+    "profile": {
+      "first_name": "David",
+      "last_name": "Hernandez",
+      "age": 49,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "david.hernandez667@gmail.com",
+      "phone": "+1-660-577-9476",
+      "address": {
+        "state": "MI",
+        "zip_code": "31581"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 82,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-01-21T18:07:27",
+      "updated_at": "2025-04-05T14:22:18"
+    }
+  },
+  {
+    "customer_id": "CUST_00090",
+    "profile": {
+      "first_name": "Joseph",
+      "last_name": "Lopez",
+      "age": 22,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "joseph.lopez980@retailmail.com",
+      "phone": "+1-490-966-2292",
+      "address": {
+        "state": "PA",
+        "zip_code": "96341"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 319,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-06-08T22:24:14",
+      "updated_at": "2025-12-14T06:37:18"
+    }
+  },
+  {
+    "customer_id": "CUST_00091",
+    "profile": {
+      "first_name": "Lisa",
+      "last_name": "Jackson",
+      "age": 37,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "lisa.jackson52@gmail.com",
+      "phone": "+1-283-146-5336",
+      "address": {
+        "state": "MA",
+        "zip_code": "19564"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1910,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-01-31T19:25:12",
+      "updated_at": "2025-10-23T15:38:48"
+    }
+  },
+  {
+    "customer_id": "CUST_00092",
+    "profile": {
+      "first_name": "William",
+      "last_name": "Anderson",
+      "age": 24,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "william.anderson435@icloud.com",
+      "phone": "+1-675-308-6573",
+      "address": {
+        "state": "NJ",
+        "zip_code": "41685"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1455,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-02-25T05:28:46",
+      "updated_at": "2026-04-01T05:24:17"
+    }
+  },
+  {
+    "customer_id": "CUST_00093",
+    "profile": {
+      "first_name": "Sarah",
+      "last_name": "Anderson",
+      "age": 43,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "sarah.anderson263@yahoo.com",
+      "phone": "+1-299-151-5754",
+      "address": {
+        "state": "TN",
+        "zip_code": "50441"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 24297,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-05-11T01:25:53",
+      "updated_at": "2025-06-23T02:07:01"
+    }
+  },
+  {
+    "customer_id": "CUST_00094",
+    "profile": {
+      "first_name": "Jennifer",
+      "last_name": "Gonzalez",
+      "age": 27,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "jennifer.gonzalez527@icloud.com",
+      "phone": "+1-446-320-6781",
+      "address": {
+        "state": "CT",
+        "zip_code": "44664"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 372,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-11-30T23:33:48",
+      "updated_at": "2024-09-30T09:42:54"
+    }
+  },
+  {
+    "customer_id": "CUST_00095",
+    "profile": {
+      "first_name": "Betty",
+      "last_name": "Lopez",
+      "age": 33,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "betty.lopez56@icloud.com",
+      "phone": "+1-252-683-4189",
+      "address": {
+        "state": "KY",
+        "zip_code": "54444"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 285,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-10-28T09:05:38",
+      "updated_at": "2024-07-01T06:53:19"
+    }
+  },
+  {
+    "customer_id": "CUST_00096",
+    "profile": {
+      "first_name": "Elizabeth",
+      "last_name": "Miller",
+      "age": 46,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "elizabeth.miller626@retailmail.com",
+      "phone": "+1-611-612-1659",
+      "address": {
+        "state": "PA",
+        "zip_code": "61505"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 315,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-03-11T06:49:33",
+      "updated_at": "2024-08-01T18:16:43"
+    }
+  },
+  {
+    "customer_id": "CUST_00097",
+    "profile": {
+      "first_name": "Donna",
+      "last_name": "Hernandez",
+      "age": 45,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "donna.hernandez529@retailmail.com",
+      "phone": "+1-745-601-5911",
+      "address": {
+        "state": "CO",
+        "zip_code": "85821"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1682,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-03-24T18:57:21",
+      "updated_at": "2026-04-07T06:58:01"
+    }
+  },
+  {
+    "customer_id": "CUST_00098",
+    "profile": {
+      "first_name": "Patricia",
+      "last_name": "Jackson",
+      "age": 37,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "patricia.jackson501@yahoo.com",
+      "phone": "+1-736-744-7229",
+      "address": {
+        "state": "SC",
+        "zip_code": "36724"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 210,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-07-25T02:31:20",
+      "updated_at": "2025-11-19T17:24:19"
+    }
+  },
+  {
+    "customer_id": "CUST_00099",
+    "profile": {
+      "first_name": "Michelle",
+      "last_name": "Thomas",
+      "age": 28,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "michelle.thomas903@gmail.com",
+      "phone": "+1-922-241-9498",
+      "address": {
+        "state": "GA",
+        "zip_code": "46569"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 285,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-04-01T08:16:22",
+      "updated_at": "2026-04-23T11:48:55"
+    }
+  },
+  {
+    "customer_id": "CUST_00100",
+    "profile": {
+      "first_name": "Joseph",
+      "last_name": "Martinez",
+      "age": 50,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "joseph.martinez799@outlook.com",
+      "phone": "+1-921-312-9011",
+      "address": {
+        "state": "LA",
+        "zip_code": "29198"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 148,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-03-25T16:03:00",
+      "updated_at": "2026-01-26T02:40:04"
+    }
+  },
+  {
+    "customer_id": "CUST_00101",
+    "profile": {
+      "first_name": "Christopher",
+      "last_name": "Thompson",
+      "age": 40,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "christopher.thompson90@outlook.com",
+      "phone": "+1-652-771-5201",
+      "address": {
+        "state": "CO",
+        "zip_code": "40518"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 2430,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-01-24T06:58:55",
+      "updated_at": "2024-04-12T03:39:15"
+    }
+  },
+  {
+    "customer_id": "CUST_00102",
+    "profile": {
+      "first_name": "Anthony",
+      "last_name": "Hernandez",
+      "age": 56,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "anthony.hernandez744@icloud.com",
+      "phone": "+1-302-797-3252",
+      "address": {
+        "state": "MI",
+        "zip_code": "94659"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 30,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-09-12T16:30:54",
+      "updated_at": "2024-12-01T21:47:10"
+    }
+  },
+  {
+    "customer_id": "CUST_00103",
+    "profile": {
+      "first_name": "Andrew",
+      "last_name": "Davis",
+      "age": 56,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "andrew.davis557@gmail.com",
+      "phone": "+1-379-527-3880",
+      "address": {
+        "state": "UT",
+        "zip_code": "53914"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 17324,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-01-29T19:00:36",
+      "updated_at": "2024-08-13T20:44:45"
+    }
+  },
+  {
+    "customer_id": "CUST_00104",
+    "profile": {
+      "first_name": "Paul",
+      "last_name": "Taylor",
+      "age": 40,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "paul.taylor515@yahoo.com",
+      "phone": "+1-716-579-5470",
+      "address": {
+        "state": "MD",
+        "zip_code": "98395"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 387,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-11-13T08:54:21",
+      "updated_at": "2026-07-20T13:53:00"
+    }
+  },
+  {
+    "customer_id": "CUST_00105",
+    "profile": {
+      "first_name": "Barbara",
+      "last_name": "Martin",
+      "age": 32,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "barbara.martin886@icloud.com",
+      "phone": "+1-637-627-6372",
+      "address": {
+        "state": "NC",
+        "zip_code": "95679"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 184,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-10-21T02:38:38",
+      "updated_at": "2025-06-12T15:19:20"
+    }
+  },
+  {
+    "customer_id": "CUST_00106",
+    "profile": {
+      "first_name": "Patricia",
+      "last_name": "Perez",
+      "age": 29,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "patricia.perez131@icloud.com",
+      "phone": "+1-514-263-7642",
+      "address": {
+        "state": "GA",
+        "zip_code": "27507"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1479,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2025-02-15T22:03:34",
+      "updated_at": "2026-06-08T07:30:29"
+    }
+  },
+  {
+    "customer_id": "CUST_00107",
+    "profile": {
+      "first_name": "Sandra",
+      "last_name": "White",
+      "age": 36,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "sandra.white630@outlook.com",
+      "phone": "+1-625-818-9998",
+      "address": {
+        "state": "TX",
+        "zip_code": "83946"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 11676,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-10-19T23:56:36",
+      "updated_at": "2026-05-13T02:52:25"
+    }
+  },
+  {
+    "customer_id": "CUST_00108",
+    "profile": {
+      "first_name": "Emily",
+      "last_name": "Taylor",
+      "age": 18,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "emily.taylor217@retailmail.com",
+      "phone": "+1-749-253-3695",
+      "address": {
+        "state": "MA",
+        "zip_code": "27294"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 262,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-10-16T01:35:48",
+      "updated_at": "2026-08-26T03:09:11"
+    }
+  },
+  {
+    "customer_id": "CUST_00109",
+    "profile": {
+      "first_name": "Sandra",
+      "last_name": "Jackson",
+      "age": 19,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "sandra.jackson69@retailmail.com",
+      "phone": "+1-673-788-6049",
+      "address": {
+        "state": "NY",
+        "zip_code": "47629"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 5349,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-08-03T10:26:25",
+      "updated_at": "2026-10-13T08:18:05"
+    }
+  },
+  {
+    "customer_id": "CUST_00110",
+    "profile": {
+      "first_name": "David",
+      "last_name": "Lee",
+      "age": 48,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "david.lee756@icloud.com",
+      "phone": "+1-583-491-8348",
+      "address": {
+        "state": "MO",
+        "zip_code": "61518"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 6332,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-12-16T11:36:09",
+      "updated_at": "2025-03-18T15:05:06"
+    }
+  },
+  {
+    "customer_id": "CUST_00111",
+    "profile": {
+      "first_name": "Joseph",
+      "last_name": "Smith",
+      "age": 30,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "joseph.smith784@gmail.com",
+      "phone": "+1-505-574-9920",
+      "address": {
+        "state": "OH",
+        "zip_code": "18819"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 706,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-07-26T12:50:41",
+      "updated_at": "2025-08-07T16:30:12"
+    }
+  },
+  {
+    "customer_id": "CUST_00112",
+    "profile": {
+      "first_name": "Robert",
+      "last_name": "Anderson",
+      "age": 41,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "robert.anderson622@gmail.com",
+      "phone": "+1-450-858-1724",
+      "address": {
+        "state": "MD",
+        "zip_code": "88370"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1877,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-12-29T12:20:53",
+      "updated_at": "2026-06-11T11:17:53"
+    }
+  },
+  {
+    "customer_id": "CUST_00113",
+    "profile": {
+      "first_name": "Jessica",
+      "last_name": "Martinez",
+      "age": 33,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "jessica.martinez907@yahoo.com",
+      "phone": "+1-876-633-4621",
+      "address": {
+        "state": "KY",
+        "zip_code": "78742"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1152,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-12-06T01:25:50",
+      "updated_at": "2026-04-19T17:42:40"
+    }
+  },
+  {
+    "customer_id": "CUST_00114",
+    "profile": {
+      "first_name": "Anthony",
+      "last_name": "Jones",
+      "age": 49,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "anthony.jones317@icloud.com",
+      "phone": "+1-388-872-9813",
+      "address": {
+        "state": "WA",
+        "zip_code": "41831"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1022,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2025-07-06T03:27:48",
+      "updated_at": "2026-05-25T15:43:57"
+    }
+  },
+  {
+    "customer_id": "CUST_00115",
+    "profile": {
+      "first_name": "Lisa",
+      "last_name": "Lee",
+      "age": 39,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "lisa.lee90@icloud.com",
+      "phone": "+1-579-194-9775",
+      "address": {
+        "state": "OK",
+        "zip_code": "53642"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 4483,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-11-06T05:55:29",
+      "updated_at": "2025-11-19T23:02:10"
+    }
+  },
+  {
+    "customer_id": "CUST_00116",
+    "profile": {
+      "first_name": "Susan",
+      "last_name": "Miller",
+      "age": 44,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "susan.miller995@gmail.com",
+      "phone": "+1-964-872-8846",
+      "address": {
+        "state": "MI",
+        "zip_code": "44283"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 19784,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-03-28T16:11:48",
+      "updated_at": "2026-03-25T19:44:06"
+    }
+  },
+  {
+    "customer_id": "CUST_00117",
+    "profile": {
+      "first_name": "Ashley",
+      "last_name": "Anderson",
+      "age": 28,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "ashley.anderson110@icloud.com",
+      "phone": "+1-979-959-6246",
+      "address": {
+        "state": "OH",
+        "zip_code": "53236"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 15537,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-07-21T08:52:40",
+      "updated_at": "2026-03-07T15:39:39"
+    }
+  },
+  {
+    "customer_id": "CUST_00118",
+    "profile": {
+      "first_name": "Andrew",
+      "last_name": "Davis",
+      "age": 44,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "andrew.davis521@retailmail.com",
+      "phone": "+1-870-801-6530",
+      "address": {
+        "state": "PA",
+        "zip_code": "81058"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 328,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2023-06-10T21:21:59",
+      "updated_at": "2024-01-14T07:23:54"
+    }
+  },
+  {
+    "customer_id": "CUST_00119",
+    "profile": {
+      "first_name": "Kimberly",
+      "last_name": "Johnson",
+      "age": 40,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "kimberly.johnson869@gmail.com",
+      "phone": "+1-884-149-1104",
+      "address": {
+        "state": "CA",
+        "zip_code": "10866"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1589,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2026-02-10T06:18:47",
+      "updated_at": "2026-10-24T07:17:18"
+    }
+  },
+  {
+    "customer_id": "CUST_00120",
+    "profile": {
+      "first_name": "Anthony",
+      "last_name": "Smith",
+      "age": 29,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "anthony.smith27@retailmail.com",
+      "phone": "+1-939-381-9777",
+      "address": {
+        "state": "GA",
+        "zip_code": "35156"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 16271,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-10-27T05:41:02",
+      "updated_at": "2025-01-18T20:11:19"
+    }
+  },
+  {
+    "customer_id": "CUST_00121",
+    "profile": {
+      "first_name": "Sarah",
+      "last_name": "Gonzalez",
+      "age": 38,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "sarah.gonzalez90@outlook.com",
+      "phone": "+1-615-570-4984",
+      "address": {
+        "state": "NY",
+        "zip_code": "93459"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 8309,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-03-17T19:48:05",
+      "updated_at": "2026-05-21T02:54:10"
+    }
+  },
+  {
+    "customer_id": "CUST_00122",
+    "profile": {
+      "first_name": "Jennifer",
+      "last_name": "Thomas",
+      "age": 52,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "jennifer.thomas875@icloud.com",
+      "phone": "+1-860-903-6427",
+      "address": {
+        "state": "UT",
+        "zip_code": "19744"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1901,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2026-01-17T07:52:16",
+      "updated_at": "2026-05-02T14:39:36"
+    }
+  },
+  {
+    "customer_id": "CUST_00123",
+    "profile": {
+      "first_name": "Paul",
+      "last_name": "Jackson",
+      "age": 37,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "paul.jackson683@gmail.com",
+      "phone": "+1-383-970-6152",
+      "address": {
+        "state": "WA",
+        "zip_code": "28343"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 404,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2025-04-24T01:37:11",
+      "updated_at": "2026-10-01T22:27:58"
+    }
+  },
+  {
+    "customer_id": "CUST_00124",
+    "profile": {
+      "first_name": "Steven",
+      "last_name": "White",
+      "age": 41,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "steven.white364@gmail.com",
+      "phone": "+1-300-547-4803",
+      "address": {
+        "state": "GA",
+        "zip_code": "56636"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 6530,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-04-29T04:44:24",
+      "updated_at": "2026-03-30T02:28:07"
+    }
+  },
+  {
+    "customer_id": "CUST_00125",
+    "profile": {
+      "first_name": "Margaret",
+      "last_name": "Garcia",
+      "age": 33,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "margaret.garcia706@retailmail.com",
+      "phone": "+1-876-489-2404",
+      "address": {
+        "state": "TX",
+        "zip_code": "10680"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 4525,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-09-10T21:14:25",
+      "updated_at": "2025-06-18T01:10:47"
+    }
+  },
+  {
+    "customer_id": "CUST_00126",
+    "profile": {
+      "first_name": "Nancy",
+      "last_name": "Rodriguez",
+      "age": 43,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "nancy.rodriguez114@yahoo.com",
+      "phone": "+1-289-291-8061",
+      "address": {
+        "state": "CA",
+        "zip_code": "48253"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1347,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-10-04T23:16:42",
+      "updated_at": "2026-08-06T20:09:07"
+    }
+  },
+  {
+    "customer_id": "CUST_00127",
+    "profile": {
+      "first_name": "Jennifer",
+      "last_name": "White",
+      "age": 31,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "jennifer.white932@retailmail.com",
+      "phone": "+1-448-685-9537",
+      "address": {
+        "state": "GA",
+        "zip_code": "91924"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 253,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-08-27T23:40:21",
+      "updated_at": "2024-03-10T23:23:06"
+    }
+  },
+  {
+    "customer_id": "CUST_00128",
+    "profile": {
+      "first_name": "Michelle",
+      "last_name": "Miller",
+      "age": 40,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "michelle.miller478@gmail.com",
+      "phone": "+1-338-411-1110",
+      "address": {
+        "state": "WI",
+        "zip_code": "36326"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 23696,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-02-27T22:10:35",
+      "updated_at": "2024-06-08T15:12:56"
+    }
+  },
+  {
+    "customer_id": "CUST_00129",
+    "profile": {
+      "first_name": "Barbara",
+      "last_name": "Gonzalez",
+      "age": 37,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "barbara.gonzalez336@outlook.com",
+      "phone": "+1-952-811-9044",
+      "address": {
+        "state": "AL",
+        "zip_code": "70505"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 14869,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-07-14T00:20:43",
+      "updated_at": "2026-06-07T00:26:03"
+    }
+  },
+  {
+    "customer_id": "CUST_00130",
+    "profile": {
+      "first_name": "Christopher",
+      "last_name": "Thompson",
+      "age": 26,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "christopher.thompson80@icloud.com",
+      "phone": "+1-889-611-3280",
+      "address": {
+        "state": "MO",
+        "zip_code": "76402"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1916,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2026-01-28T22:19:44",
+      "updated_at": "2026-09-12T01:14:11"
+    }
+  },
+  {
+    "customer_id": "CUST_00131",
+    "profile": {
+      "first_name": "Paul",
+      "last_name": "Johnson",
+      "age": 40,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "paul.johnson819@outlook.com",
+      "phone": "+1-918-931-9796",
+      "address": {
+        "state": "FL",
+        "zip_code": "11382"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 701,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-05-26T13:39:30",
+      "updated_at": "2026-02-08T03:04:07"
+    }
+  },
+  {
+    "customer_id": "CUST_00132",
+    "profile": {
+      "first_name": "Joseph",
+      "last_name": "Taylor",
+      "age": 33,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "joseph.taylor774@retailmail.com",
+      "phone": "+1-771-694-4621",
+      "address": {
+        "state": "AZ",
+        "zip_code": "21253"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 737,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2026-02-08T22:01:17",
+      "updated_at": "2026-03-21T12:29:31"
+    }
+  },
+  {
+    "customer_id": "CUST_00133",
+    "profile": {
+      "first_name": "Daniel",
+      "last_name": "Martinez",
+      "age": 50,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "daniel.martinez361@icloud.com",
+      "phone": "+1-411-633-8912",
+      "address": {
+        "state": "UT",
+        "zip_code": "41970"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 264,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-12-06T18:40:20",
+      "updated_at": "2025-10-23T16:15:22"
+    }
+  },
+  {
+    "customer_id": "CUST_00134",
+    "profile": {
+      "first_name": "Emily",
+      "last_name": "Garcia",
+      "age": 46,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "emily.garcia348@retailmail.com",
+      "phone": "+1-636-573-4798",
+      "address": {
+        "state": "WA",
+        "zip_code": "10583"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 7773,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-10-28T18:44:33",
+      "updated_at": "2026-06-15T18:28:33"
+    }
+  },
+  {
+    "customer_id": "CUST_00135",
+    "profile": {
+      "first_name": "Susan",
+      "last_name": "Rodriguez",
+      "age": 30,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "susan.rodriguez780@gmail.com",
+      "phone": "+1-791-204-9796",
+      "address": {
+        "state": "VA",
+        "zip_code": "56135"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 432,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-05-04T14:12:09",
+      "updated_at": "2026-08-03T12:45:48"
+    }
+  },
+  {
+    "customer_id": "CUST_00136",
+    "profile": {
+      "first_name": "Michelle",
+      "last_name": "Garcia",
+      "age": 46,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "michelle.garcia843@outlook.com",
+      "phone": "+1-829-704-2388",
+      "address": {
+        "state": "AZ",
+        "zip_code": "34347"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1496,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-07-23T10:10:04",
+      "updated_at": "2025-11-07T12:12:01"
+    }
+  },
+  {
+    "customer_id": "CUST_00137",
+    "profile": {
+      "first_name": "Barbara",
+      "last_name": "Moore",
+      "age": 32,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "barbara.moore180@icloud.com",
+      "phone": "+1-495-243-4065",
+      "address": {
+        "state": "AZ",
+        "zip_code": "68176"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 250,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2026-03-18T19:37:37",
+      "updated_at": "2026-08-24T17:02:07"
+    }
+  },
+  {
+    "customer_id": "CUST_00138",
+    "profile": {
+      "first_name": "Jennifer",
+      "last_name": "Jackson",
+      "age": 37,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "jennifer.jackson41@yahoo.com",
+      "phone": "+1-499-133-5503",
+      "address": {
+        "state": "NC",
+        "zip_code": "81186"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 421,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-12-18T17:37:25",
+      "updated_at": "2025-05-26T09:57:04"
+    }
+  },
+  {
+    "customer_id": "CUST_00139",
+    "profile": {
+      "first_name": "Paul",
+      "last_name": "Johnson",
+      "age": 44,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "paul.johnson788@icloud.com",
+      "phone": "+1-759-323-7965",
+      "address": {
+        "state": "OH",
+        "zip_code": "87060"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 352,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-12-31T16:56:11",
+      "updated_at": "2026-04-19T14:34:48"
+    }
+  },
+  {
+    "customer_id": "CUST_00140",
+    "profile": {
+      "first_name": "Michelle",
+      "last_name": "Lee",
+      "age": 19,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "michelle.lee448@yahoo.com",
+      "phone": "+1-830-242-4385",
+      "address": {
+        "state": "OK",
+        "zip_code": "77425"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 7564,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-06-28T04:25:28",
+      "updated_at": "2025-09-20T15:32:58"
+    }
+  },
+  {
+    "customer_id": "CUST_00141",
+    "profile": {
+      "first_name": "David",
+      "last_name": "Wilson",
+      "age": 40,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "david.wilson950@gmail.com",
+      "phone": "+1-483-987-3078",
+      "address": {
+        "state": "MA",
+        "zip_code": "19898"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 7190,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-04-14T21:00:10",
+      "updated_at": "2026-01-18T08:26:00"
+    }
+  },
+  {
+    "customer_id": "CUST_00142",
+    "profile": {
+      "first_name": "Betty",
+      "last_name": "Taylor",
+      "age": 40,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "betty.taylor777@outlook.com",
+      "phone": "+1-911-998-7046",
+      "address": {
+        "state": "OH",
+        "zip_code": "66314"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 933,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-01-17T23:01:21",
+      "updated_at": "2025-03-08T03:35:31"
+    }
+  },
+  {
+    "customer_id": "CUST_00143",
+    "profile": {
+      "first_name": "Sarah",
+      "last_name": "Hernandez",
+      "age": 25,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "sarah.hernandez858@outlook.com",
+      "phone": "+1-545-660-3139",
+      "address": {
+        "state": "CA",
+        "zip_code": "66072"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 914,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-05-06T20:06:17",
+      "updated_at": "2025-03-22T08:26:14"
+    }
+  },
+  {
+    "customer_id": "CUST_00144",
+    "profile": {
+      "first_name": "Karen",
+      "last_name": "Garcia",
+      "age": 36,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "karen.garcia905@outlook.com",
+      "phone": "+1-295-770-6905",
+      "address": {
+        "state": "SC",
+        "zip_code": "22475"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 0,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-12-29T11:01:48",
+      "updated_at": "2025-10-26T05:55:09"
+    }
+  },
+  {
+    "customer_id": "CUST_00145",
+    "profile": {
+      "first_name": "Donald",
+      "last_name": "Williams",
+      "age": 29,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "donald.williams145@retailmail.com",
+      "phone": "+1-431-631-8291",
+      "address": {
+        "state": "VA",
+        "zip_code": "49223"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 70,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": false,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2022-11-15T05:31:25",
+      "updated_at": "2023-04-24T13:09:20"
+    }
+  },
+  {
+    "customer_id": "CUST_00146",
+    "profile": {
+      "first_name": "David",
+      "last_name": "Lee",
+      "age": 18,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "david.lee703@yahoo.com",
+      "phone": "+1-270-643-1138",
+      "address": {
+        "state": "TX",
+        "zip_code": "23168"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 786,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-10-06T10:31:54",
+      "updated_at": "2026-09-05T09:57:48"
+    }
+  },
+  {
+    "customer_id": "CUST_00147",
+    "profile": {
+      "first_name": "Donna",
+      "last_name": "White",
+      "age": 30,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "donna.white403@outlook.com",
+      "phone": "+1-639-422-3290",
+      "address": {
+        "state": "AL",
+        "zip_code": "61347"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 151,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-07-26T04:36:17",
+      "updated_at": "2025-06-10T08:10:34"
+    }
+  },
+  {
+    "customer_id": "CUST_00148",
+    "profile": {
+      "first_name": "Jessica",
+      "last_name": "Thomas",
+      "age": 29,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "jessica.thomas405@gmail.com",
+      "phone": "+1-446-611-2163",
+      "address": {
+        "state": "LA",
+        "zip_code": "71736"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 649,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2025-07-31T13:51:34",
+      "updated_at": "2026-05-11T09:38:29"
+    }
+  },
+  {
+    "customer_id": "CUST_00149",
+    "profile": {
+      "first_name": "Donna",
+      "last_name": "Williams",
+      "age": 28,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "donna.williams24@outlook.com",
+      "phone": "+1-420-140-1990",
+      "address": {
+        "state": "MI",
+        "zip_code": "20357"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 24754,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-04-20T08:40:44",
+      "updated_at": "2024-06-24T09:25:33"
+    }
+  },
+  {
+    "customer_id": "CUST_00150",
+    "profile": {
+      "first_name": "Elizabeth",
+      "last_name": "Moore",
+      "age": 41,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "elizabeth.moore344@icloud.com",
+      "phone": "+1-800-749-2083",
+      "address": {
+        "state": "MI",
+        "zip_code": "97304"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 379,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-11-09T13:51:17",
+      "updated_at": "2026-07-05T08:52:28"
+    }
+  },
+  {
+    "customer_id": "CUST_00151",
+    "profile": {
+      "first_name": "Linda",
+      "last_name": "Smith",
+      "age": 28,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "linda.smith734@yahoo.com",
+      "phone": "+1-918-111-3684",
+      "address": {
+        "state": "NJ",
+        "zip_code": "66272"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1057,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2023-01-02T18:56:49",
+      "updated_at": "2026-04-15T03:57:09"
+    }
+  },
+  {
+    "customer_id": "CUST_00152",
+    "profile": {
+      "first_name": "John",
+      "last_name": "Rodriguez",
+      "age": 46,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "john.rodriguez739@retailmail.com",
+      "phone": "+1-842-178-9128",
+      "address": {
+        "state": "NY",
+        "zip_code": "11610"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1000,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-12-25T07:53:48",
+      "updated_at": "2023-12-15T03:25:50"
+    }
+  },
+  {
+    "customer_id": "CUST_00153",
+    "profile": {
+      "first_name": "Donald",
+      "last_name": "Lopez",
+      "age": 51,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "donald.lopez402@yahoo.com",
+      "phone": "+1-383-978-1579",
+      "address": {
+        "state": "PA",
+        "zip_code": "39253"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1556,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-03-04T06:35:30",
+      "updated_at": "2025-06-05T00:23:10"
+    }
+  },
+  {
+    "customer_id": "CUST_00154",
+    "profile": {
+      "first_name": "Betty",
+      "last_name": "Williams",
+      "age": 26,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "betty.williams908@icloud.com",
+      "phone": "+1-489-892-6090",
+      "address": {
+        "state": "MD",
+        "zip_code": "74665"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 395,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-01-24T16:22:25",
+      "updated_at": "2026-01-14T08:48:51"
+    }
+  },
+  {
+    "customer_id": "CUST_00155",
+    "profile": {
+      "first_name": "Paul",
+      "last_name": "Davis",
+      "age": 24,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "paul.davis164@gmail.com",
+      "phone": "+1-619-124-4817",
+      "address": {
+        "state": "AZ",
+        "zip_code": "74491"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 622,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-11-19T23:00:02",
+      "updated_at": "2023-10-04T17:12:04"
+    }
+  },
+  {
+    "customer_id": "CUST_00156",
+    "profile": {
+      "first_name": "Sarah",
+      "last_name": "Williams",
+      "age": 23,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "sarah.williams54@yahoo.com",
+      "phone": "+1-732-522-7102",
+      "address": {
+        "state": "GA",
+        "zip_code": "48230"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1034,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-07-13T12:08:49",
+      "updated_at": "2026-03-25T22:49:15"
+    }
+  },
+  {
+    "customer_id": "CUST_00157",
+    "profile": {
+      "first_name": "Betty",
+      "last_name": "Thompson",
+      "age": 41,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "betty.thompson861@outlook.com",
+      "phone": "+1-525-563-5455",
+      "address": {
+        "state": "MA",
+        "zip_code": "50410"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 237,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2025-01-18T03:50:52",
+      "updated_at": "2026-09-08T11:57:56"
+    }
+  },
+  {
+    "customer_id": "CUST_00158",
+    "profile": {
+      "first_name": "Linda",
+      "last_name": "Williams",
+      "age": 33,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "linda.williams171@outlook.com",
+      "phone": "+1-921-813-1660",
+      "address": {
+        "state": "CA",
+        "zip_code": "63004"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 437,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2024-07-17T11:10:43",
+      "updated_at": "2025-08-25T14:53:58"
+    }
+  },
+  {
+    "customer_id": "CUST_00159",
+    "profile": {
+      "first_name": "Emily",
+      "last_name": "White",
+      "age": 37,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "emily.white573@yahoo.com",
+      "phone": "+1-296-573-2669",
+      "address": {
+        "state": "UT",
+        "zip_code": "19828"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 2178,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": false,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-09-19T02:26:01",
+      "updated_at": "2025-03-11T17:02:18"
+    }
+  },
+  {
+    "customer_id": "CUST_00160",
+    "profile": {
+      "first_name": "Richard",
+      "last_name": "Lee",
+      "age": 37,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "richard.lee464@yahoo.com",
+      "phone": "+1-294-967-6432",
+      "address": {
+        "state": "PA",
+        "zip_code": "56392"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 109,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2022-04-02T14:21:32",
+      "updated_at": "2025-07-04T16:44:03"
+    }
+  },
+  {
+    "customer_id": "CUST_00161",
+    "profile": {
+      "first_name": "Sarah",
+      "last_name": "Rodriguez",
+      "age": 18,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "sarah.rodriguez466@yahoo.com",
+      "phone": "+1-235-728-5026",
+      "address": {
+        "state": "WA",
+        "zip_code": "57069"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1482,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-02-14T01:48:10",
+      "updated_at": "2026-10-20T22:01:50"
+    }
+  },
+  {
+    "customer_id": "CUST_00162",
+    "profile": {
+      "first_name": "Ashley",
+      "last_name": "Lopez",
+      "age": 36,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "ashley.lopez944@retailmail.com",
+      "phone": "+1-714-429-7363",
+      "address": {
+        "state": "PA",
+        "zip_code": "23124"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 126,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2025-01-15T12:07:41",
+      "updated_at": "2026-09-03T03:06:07"
+    }
+  },
+  {
+    "customer_id": "CUST_00163",
+    "profile": {
+      "first_name": "Sarah",
+      "last_name": "Moore",
+      "age": 47,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "sarah.moore845@gmail.com",
+      "phone": "+1-982-324-7363",
+      "address": {
+        "state": "MD",
+        "zip_code": "34672"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 428,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-12-28T15:19:17",
+      "updated_at": "2026-03-14T13:06:35"
+    }
+  },
+  {
+    "customer_id": "CUST_00164",
+    "profile": {
+      "first_name": "Paul",
+      "last_name": "Martinez",
+      "age": 18,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "paul.martinez189@icloud.com",
+      "phone": "+1-238-192-1920",
+      "address": {
+        "state": "UT",
+        "zip_code": "52413"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 30,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-11-24T16:50:09",
+      "updated_at": "2026-06-04T13:31:19"
+    }
+  },
+  {
+    "customer_id": "CUST_00165",
+    "profile": {
+      "first_name": "Elizabeth",
+      "last_name": "Jackson",
+      "age": 46,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "elizabeth.jackson731@yahoo.com",
+      "phone": "+1-992-213-9622",
+      "address": {
+        "state": "PA",
+        "zip_code": "83659"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 7681,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": false,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2025-09-19T07:16:03",
+      "updated_at": "2026-10-02T17:20:02"
+    }
+  },
+  {
+    "customer_id": "CUST_00166",
+    "profile": {
+      "first_name": "Daniel",
+      "last_name": "Davis",
+      "age": 33,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "daniel.davis691@retailmail.com",
+      "phone": "+1-379-487-6026",
+      "address": {
+        "state": "UT",
+        "zip_code": "90134"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 3809,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-04-11T14:37:56",
+      "updated_at": "2023-10-29T07:37:55"
+    }
+  },
+  {
+    "customer_id": "CUST_00167",
+    "profile": {
+      "first_name": "Michael",
+      "last_name": "Thomas",
+      "age": 29,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "michael.thomas154@outlook.com",
+      "phone": "+1-963-179-4899",
+      "address": {
+        "state": "SC",
+        "zip_code": "18885"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 179,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2024-04-03T23:40:22",
+      "updated_at": "2025-02-23T17:16:10"
+    }
+  },
+  {
+    "customer_id": "CUST_00168",
+    "profile": {
+      "first_name": "Michael",
+      "last_name": "White",
+      "age": 50,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "michael.white11@gmail.com",
+      "phone": "+1-595-548-7875",
+      "address": {
+        "state": "TX",
+        "zip_code": "14379"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 17663,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-12-02T20:40:03",
+      "updated_at": "2024-08-11T12:56:30"
+    }
+  },
+  {
+    "customer_id": "CUST_00169",
+    "profile": {
+      "first_name": "Charles",
+      "last_name": "Rodriguez",
+      "age": 38,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "charles.rodriguez984@gmail.com",
+      "phone": "+1-275-450-3787",
+      "address": {
+        "state": "WI",
+        "zip_code": "66911"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 3286,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2022-04-07T07:01:14",
+      "updated_at": "2025-12-07T08:49:09"
+    }
+  },
+  {
+    "customer_id": "CUST_00170",
+    "profile": {
+      "first_name": "Michael",
+      "last_name": "Hernandez",
+      "age": 39,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "michael.hernandez220@yahoo.com",
+      "phone": "+1-619-813-9849",
+      "address": {
+        "state": "AZ",
+        "zip_code": "21485"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 150,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-06-19T08:10:35",
+      "updated_at": "2025-07-14T09:31:52"
+    }
+  },
+  {
+    "customer_id": "CUST_00171",
+    "profile": {
+      "first_name": "Donald",
+      "last_name": "Miller",
+      "age": 30,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "donald.miller109@gmail.com",
+      "phone": "+1-411-274-5781",
+      "address": {
+        "state": "VA",
+        "zip_code": "34455"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 22607,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-07-29T09:44:35",
+      "updated_at": "2025-02-24T18:23:26"
+    }
+  },
+  {
+    "customer_id": "CUST_00172",
+    "profile": {
+      "first_name": "Thomas",
+      "last_name": "Anderson",
+      "age": 36,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "thomas.anderson486@outlook.com",
+      "phone": "+1-431-957-5400",
+      "address": {
+        "state": "OR",
+        "zip_code": "60738"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1570,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-12-08T20:34:51",
+      "updated_at": "2026-04-16T20:21:21"
+    }
+  },
+  {
+    "customer_id": "CUST_00173",
+    "profile": {
+      "first_name": "Paul",
+      "last_name": "Perez",
+      "age": 18,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "paul.perez897@icloud.com",
+      "phone": "+1-786-341-8803",
+      "address": {
+        "state": "PA",
+        "zip_code": "31910"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 497,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-01-09T16:51:58",
+      "updated_at": "2026-03-30T22:54:32"
+    }
+  },
+  {
+    "customer_id": "CUST_00174",
+    "profile": {
+      "first_name": "Richard",
+      "last_name": "Jones",
+      "age": 49,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "richard.jones53@icloud.com",
+      "phone": "+1-280-799-8133",
+      "address": {
+        "state": "MO",
+        "zip_code": "52746"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 438,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2022-09-28T09:14:11",
+      "updated_at": "2024-05-23T06:37:17"
+    }
+  },
+  {
+    "customer_id": "CUST_00175",
+    "profile": {
+      "first_name": "Kimberly",
+      "last_name": "Anderson",
+      "age": 40,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "kimberly.anderson949@gmail.com",
+      "phone": "+1-917-738-9561",
+      "address": {
+        "state": "CT",
+        "zip_code": "63856"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 4163,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-06-07T20:37:45",
+      "updated_at": "2026-09-17T22:29:33"
+    }
+  },
+  {
+    "customer_id": "CUST_00176",
+    "profile": {
+      "first_name": "Ashley",
+      "last_name": "Jackson",
+      "age": 40,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "ashley.jackson633@icloud.com",
+      "phone": "+1-238-276-5512",
+      "address": {
+        "state": "UT",
+        "zip_code": "45203"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1262,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-01-09T03:11:47",
+      "updated_at": "2024-03-25T16:53:49"
+    }
+  },
+  {
+    "customer_id": "CUST_00177",
+    "profile": {
+      "first_name": "Lisa",
+      "last_name": "Martinez",
+      "age": 37,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "lisa.martinez328@outlook.com",
+      "phone": "+1-703-978-2609",
+      "address": {
+        "state": "UT",
+        "zip_code": "63368"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 23874,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-08-07T21:30:03",
+      "updated_at": "2025-06-24T01:53:21"
+    }
+  },
+  {
+    "customer_id": "CUST_00178",
+    "profile": {
+      "first_name": "Nancy",
+      "last_name": "Johnson",
+      "age": 45,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "nancy.johnson537@yahoo.com",
+      "phone": "+1-267-418-9303",
+      "address": {
+        "state": "MA",
+        "zip_code": "16626"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1238,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-06-29T01:01:08",
+      "updated_at": "2024-08-12T04:21:41"
+    }
+  },
+  {
+    "customer_id": "CUST_00179",
+    "profile": {
+      "first_name": "Sarah",
+      "last_name": "Lopez",
+      "age": 36,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "sarah.lopez853@icloud.com",
+      "phone": "+1-717-506-3029",
+      "address": {
+        "state": "WA",
+        "zip_code": "16507"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 833,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-10-08T20:06:37",
+      "updated_at": "2023-12-25T16:16:01"
+    }
+  },
+  {
+    "customer_id": "CUST_00180",
+    "profile": {
+      "first_name": "Susan",
+      "last_name": "Davis",
+      "age": 48,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "susan.davis672@yahoo.com",
+      "phone": "+1-893-311-5408",
+      "address": {
+        "state": "GA",
+        "zip_code": "43081"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1745,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-06-23T02:46:36",
+      "updated_at": "2026-01-11T22:58:22"
+    }
+  },
+  {
+    "customer_id": "CUST_00181",
+    "profile": {
+      "first_name": "Sarah",
+      "last_name": "Wilson",
+      "age": 31,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "sarah.wilson926@icloud.com",
+      "phone": "+1-557-570-5128",
+      "address": {
+        "state": "TN",
+        "zip_code": "18367"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 172,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-05-28T05:54:57",
+      "updated_at": "2025-09-03T21:54:17"
+    }
+  },
+  {
+    "customer_id": "CUST_00182",
+    "profile": {
+      "first_name": "Charles",
+      "last_name": "Rodriguez",
+      "age": 48,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "charles.rodriguez277@outlook.com",
+      "phone": "+1-392-253-9475",
+      "address": {
+        "state": "CO",
+        "zip_code": "75191"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 4421,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-03-11T17:54:00",
+      "updated_at": "2026-04-05T05:17:12"
+    }
+  },
+  {
+    "customer_id": "CUST_00183",
+    "profile": {
+      "first_name": "Anthony",
+      "last_name": "Gonzalez",
+      "age": 32,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "anthony.gonzalez407@gmail.com",
+      "phone": "+1-797-825-4111",
+      "address": {
+        "state": "TN",
+        "zip_code": "26769"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 379,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-07-17T18:28:06",
+      "updated_at": "2024-10-16T03:31:54"
+    }
+  },
+  {
+    "customer_id": "CUST_00184",
+    "profile": {
+      "first_name": "Emily",
+      "last_name": "Garcia",
+      "age": 19,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "emily.garcia979@outlook.com",
+      "phone": "+1-870-191-4641",
+      "address": {
+        "state": "NY",
+        "zip_code": "93151"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 298,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2025-12-11T20:29:55",
+      "updated_at": "2026-01-26T14:18:05"
+    }
+  },
+  {
+    "customer_id": "CUST_00185",
+    "profile": {
+      "first_name": "Michelle",
+      "last_name": "Williams",
+      "age": 18,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "michelle.williams493@yahoo.com",
+      "phone": "+1-712-222-7253",
+      "address": {
+        "state": "LA",
+        "zip_code": "20592"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1498,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-03-21T23:34:00",
+      "updated_at": "2024-07-25T11:11:48"
+    }
+  },
+  {
+    "customer_id": "CUST_00186",
+    "profile": {
+      "first_name": "Barbara",
+      "last_name": "Hernandez",
+      "age": 47,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "barbara.hernandez659@gmail.com",
+      "phone": "+1-204-562-5481",
+      "address": {
+        "state": "AZ",
+        "zip_code": "72573"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 196,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2025-09-09T11:52:00",
+      "updated_at": "2026-08-09T00:38:38"
+    }
+  },
+  {
+    "customer_id": "CUST_00187",
+    "profile": {
+      "first_name": "Robert",
+      "last_name": "Moore",
+      "age": 29,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "robert.moore214@outlook.com",
+      "phone": "+1-214-429-9700",
+      "address": {
+        "state": "OR",
+        "zip_code": "15992"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 152,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-08-09T01:35:45",
+      "updated_at": "2025-04-25T12:33:35"
+    }
+  },
+  {
+    "customer_id": "CUST_00188",
+    "profile": {
+      "first_name": "Sandra",
+      "last_name": "White",
+      "age": 22,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "sandra.white542@retailmail.com",
+      "phone": "+1-736-445-8105",
+      "address": {
+        "state": "AL",
+        "zip_code": "27197"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 3730,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2022-03-01T10:02:37",
+      "updated_at": "2024-02-09T02:08:44"
+    }
+  },
+  {
+    "customer_id": "CUST_00189",
+    "profile": {
+      "first_name": "Donna",
+      "last_name": "Taylor",
+      "age": 23,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "donna.taylor183@gmail.com",
+      "phone": "+1-575-828-1612",
+      "address": {
+        "state": "WA",
+        "zip_code": "26199"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 280,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-12-26T17:54:55",
+      "updated_at": "2024-10-04T04:26:04"
+    }
+  },
+  {
+    "customer_id": "CUST_00190",
+    "profile": {
+      "first_name": "Donald",
+      "last_name": "Thompson",
+      "age": 21,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "donald.thompson166@yahoo.com",
+      "phone": "+1-911-802-1152",
+      "address": {
+        "state": "MI",
+        "zip_code": "24943"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 401,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2026-05-09T10:31:34",
+      "updated_at": "2026-09-26T00:13:10"
+    }
+  },
+  {
+    "customer_id": "CUST_00191",
+    "profile": {
+      "first_name": "Ashley",
+      "last_name": "Miller",
+      "age": 28,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "ashley.miller633@yahoo.com",
+      "phone": "+1-996-369-9571",
+      "address": {
+        "state": "UT",
+        "zip_code": "24474"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 24190,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-01-09T12:09:36",
+      "updated_at": "2022-02-18T02:49:26"
+    }
+  },
+  {
+    "customer_id": "CUST_00192",
+    "profile": {
+      "first_name": "Jennifer",
+      "last_name": "Taylor",
+      "age": 44,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "jennifer.taylor86@gmail.com",
+      "phone": "+1-462-759-4787",
+      "address": {
+        "state": "AZ",
+        "zip_code": "25191"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 694,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2025-01-24T03:33:07",
+      "updated_at": "2026-10-08T18:23:10"
+    }
+  },
+  {
+    "customer_id": "CUST_00193",
+    "profile": {
+      "first_name": "James",
+      "last_name": "Jones",
+      "age": 33,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "james.jones689@yahoo.com",
+      "phone": "+1-536-466-8171",
+      "address": {
+        "state": "FL",
+        "zip_code": "27368"
+      }
+    },
+    "loyalty": {
+      "tier": "PLATINUM",
+      "points_balance": 9921,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2026-01-25T20:31:57",
+      "updated_at": "2026-07-08T15:25:57"
+    }
+  },
+  {
+    "customer_id": "CUST_00194",
+    "profile": {
+      "first_name": "Michael",
+      "last_name": "Wilson",
+      "age": 53,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "michael.wilson943@retailmail.com",
+      "phone": "+1-694-921-8178",
+      "address": {
+        "state": "CT",
+        "zip_code": "63907"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 225,
+      "signup_channel": "WEB"
+    },
+    "preferences": {
+      "preferred_channel": "SMS",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2026-02-09T21:01:46",
+      "updated_at": "2026-08-18T10:39:48"
+    }
+  },
+  {
+    "customer_id": "CUST_00195",
+    "profile": {
+      "first_name": "John",
+      "last_name": "Rodriguez",
+      "age": 23,
+      "gender": "PREFER_NOT_TO_SAY"
+    },
+    "contact": {
+      "email": "john.rodriguez680@outlook.com",
+      "phone": "+1-212-821-9598",
+      "address": {
+        "state": "VA",
+        "zip_code": "96993"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 7540,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2025-09-06T19:28:45",
+      "updated_at": "2026-03-18T21:17:24"
+    }
+  },
+  {
+    "customer_id": "CUST_00196",
+    "profile": {
+      "first_name": "Elizabeth",
+      "last_name": "Moore",
+      "age": 29,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "elizabeth.moore923@retailmail.com",
+      "phone": "+1-255-111-3571",
+      "address": {
+        "state": "MO",
+        "zip_code": "94320"
+      }
+    },
+    "loyalty": {
+      "tier": "SILVER",
+      "points_balance": 1275,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-05-14T04:53:56",
+      "updated_at": "2024-07-31T10:06:34"
+    }
+  },
+  {
+    "customer_id": "CUST_00197",
+    "profile": {
+      "first_name": "Jessica",
+      "last_name": "Williams",
+      "age": 30,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "jessica.williams480@icloud.com",
+      "phone": "+1-786-558-2442",
+      "address": {
+        "state": "CT",
+        "zip_code": "76628"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 6606,
+      "signup_channel": "MOBILE_APP"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": true
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2022-10-10T09:39:47",
+      "updated_at": "2026-02-21T09:29:00"
+    }
+  },
+  {
+    "customer_id": "CUST_00198",
+    "profile": {
+      "first_name": "Sandra",
+      "last_name": "Hernandez",
+      "age": 37,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "sandra.hernandez382@gmail.com",
+      "phone": "+1-428-964-8445",
+      "address": {
+        "state": "VA",
+        "zip_code": "93055"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 493,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2023-11-20T22:39:47",
+      "updated_at": "2023-11-24T08:34:16"
+    }
+  },
+  {
+    "customer_id": "CUST_00199",
+    "profile": {
+      "first_name": "Emily",
+      "last_name": "Taylor",
+      "age": 32,
+      "gender": "NON_BINARY"
+    },
+    "contact": {
+      "email": "emily.taylor392@gmail.com",
+      "phone": "+1-246-268-9067",
+      "address": {
+        "state": "FL",
+        "zip_code": "64325"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 23,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "EMAIL",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2023-08-16T02:34:57",
+      "updated_at": "2026-09-02T14:22:22"
+    }
+  },
+  {
+    "customer_id": "CUST_00200",
+    "profile": {
+      "first_name": "Linda",
+      "last_name": "Anderson",
+      "age": 18,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "linda.anderson478@retailmail.com",
+      "phone": "+1-716-237-9172",
+      "address": {
+        "state": "FL",
+        "zip_code": "60778"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 336,
+      "signup_channel": "SOCIAL_MEDIA"
+    },
+    "preferences": {
+      "preferred_channel": "IN_STORE",
+      "max_weekly_touchpoints": 1
+    },
+    "consent": {
+      "email": false,
+      "sms": false,
+      "push": false
+    },
+    "status": {
+      "is_active": false,
+      "created_at": "2023-06-24T12:18:08",
+      "updated_at": "2026-08-02T07:07:01"
+    }
+  }
+]
