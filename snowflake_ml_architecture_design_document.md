@@ -16,15 +16,27 @@
 
 ---
 
-## 2. Business Decisions & Real-Time Operational Scope
+## 2. Business Proposal: Retail Opportunity Areas (Customer & Marketing)
 
-1. **Primary Operational Focus: Real-Time Offer Propensity at Checkout & Cart Personalization**:
-   * Evaluates purchase propensity while the shopper is actively in-session (dwell time > 60s) or on the checkout/cart page.
-   * Harnesses the **Online Feature Store** to retrieve historical customer benchmarks ($< 3\text{ms}$) and dynamically recommend targeted incentives before cart abandonment occurs.
-2. **Decision 2: Governed Retention Attention**:
-   * Identifies at-risk customers by combining cost-sensitive churn risk with deterministic friction flags (`PURCHASE_VELOCITY_DROP < 0.40`, `OPEN_TICKETS >= 1`, `CSAT <= 2.5`).
-3. **Decision 3: Campaign & Channel Net Revenue Optimization**:
-   * Evaluates candidate channels (`EMAIL`, `SMS`, `PUSH`) directly in net dollars ($Y = \text{Spend} - \text{Discount}$), enforcing an automated **Human Approval Gate** for discounts $\ge 25\%$ or budgets $\ge \$20,000$.
+### 2.1 Industry Validation Proposal
+The merchandising, inventory, fulfilment, supplier and supply-chain areas are Snowflake Studio’s proposed extensions for industry validation. 
+
+Within the **Customer and Marketing** domain, recurring operational decisions include:
+1. **Decision 1 (Audience Eligibility)**: *Which customer audience is eligible and appropriate for a defined offer or engagement?*
+2. **Decision 2 (Governed Retention)**: *Which customers require retention attention based on governed evidence rather than an isolated model score?*
+3. **Decision 3 (Campaign & Channel Recommendation)**: *Which campaign or channel recommendation should be presented for human approval?*
+
+These decisions require customer and loyalty data, consent and eligibility status, transaction history, channel interactions, governed customer definitions, and relevant campaign rules. CRM, campaign management, and commerce applications remain responsible for approved activation and customer interaction.
+
+### 2.2 Seven Core Architectural Observations Addressed
+This architecture directly operationalizes the seven core architectural requirements:
+1. **Data Quality is Required**: Automated dbt schema and domain tests (`unique`, `not_null`, referential relationships, accepted range checks) enforce data integrity before data enters Silver or Gold.
+2. **Silver is Canonical Modeling (Not Star Schema)**: Normalized, reusable business entities (`CUSTOMER_ENTITY`, `CAMPAIGN_ENTITY`, `SUPPORT_TICKET_ENTITY`) and operational facts (`TRANSACTION_FACT`, `CLICKSTREAM_ACTIVITY_FACT`).
+3. **dbt for Transformations**: Implements dbt-snowflake for declarative SQL transformations and automated testing across the Medallion pipeline.
+4. **Dual Drift Monitoring (Data & Model)**: Automated background Snowflake tasks continuously evaluate both Input Feature Drift (PSI & KS-test on features) and Output Prediction/Performance Drift (PSI $\ge 0.25$ and rolling 30-day recall decay).
+5. **Feature Store is Gold Layer Artefact**: The Snowflake Feature Store (`snowflake.ml.feature_store`) is explicitly designated as the **Gold Layer Artefact**, feeding both offline training (`ASOF` joins) and real-time online inference.
+6. **Focus on Online Feature Store & Near Real-Time Inference**: Employs Snowflake Hybrid Tables for sub-3ms primary-key lookups co-located with Snowpark Container Services (SPCS).
+7. **Focus on Offer Propensity at Checkout & In-Session Personalization (with Latency Baseline)**: Prioritizes real-time cart personalization, with empirically baselined end-to-end client roundtrips at **$\approx 3.0\text{ ms}$ (P50) / $7.3\text{ ms}$ (P99)**, well within the $< 10\text{ms}$ SLA.
 
 ---
 
