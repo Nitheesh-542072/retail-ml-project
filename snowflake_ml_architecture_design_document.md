@@ -50,22 +50,26 @@ flowchart LR
     end
 
     subgraph S2 ["2. Silver Layer (Canonical Modeling via dbt)"]
-        STR -->|"dbt run + test"| DBT["dbt Transformation<br>& Data Quality Tests"]
+        STR -->|"dbt run + test"| DBT["dbt Transformation<br>and Data Quality Tests"]
         DBT --> SLV_ENT["Reusable Entities<br>(CUSTOMER, CAMPAIGN)"]
         DBT --> SLV_FCT["Operational Facts<br>(TRANSACTIONS, ACTIVITIES)"]
     end
 
     subgraph S3 ["3. Gold Layer (Feature Store Artefact)"]
-        SLV_ENT & SLV_FCT --> FS_OFF["Offline Feature Store<br>(Point-in-Time ASOF Joins)"]
-        SLV_ENT & SLV_FCT --> FS_ON["Online Feature Store<br>(Snowflake Hybrid Table)"]
+        SLV_ENT --> FS_OFF["Offline Feature Store<br>(Point-in-Time ASOF Joins)"]
+        SLV_FCT --> FS_OFF
+        SLV_ENT --> FS_ON["Online Feature Store<br>(Snowflake Hybrid Table)"]
+        SLV_FCT --> FS_ON
     end
 
-    subgraph S4 ["4. ML & Dual Drift Monitoring"]
+    subgraph S4 ["4. ML and Dual Drift Monitoring"]
         FS_OFF --> NB["Snowflake Native Notebook<br>(LightGBM Distributed Training)"]
         NB --> REG["Model Registry<br>(Production Tag)"]
-        REG & FS_ON --> SPCS["SPCS Real-Time REST<br>(Sub-10ms Checkout Scoring)"]
+        REG --> SPCS["SPCS Real-Time REST<br>(Sub-10ms Checkout Scoring)"]
+        FS_ON --> SPCS
         REG --> BATCH["Nightly Batch Scoring SQL"]
-        SPCS & BATCH --> MON["Dual Drift Monitor<br>(Data Drift & Model Drift)"]
+        SPCS --> MON["Dual Drift Monitor<br>(Data Drift and Model Drift)"]
+        BATCH --> MON
     end
 ```
 
@@ -141,7 +145,7 @@ The **Snowflake Feature Store (`snowflake.ml.feature_store`) is the Gold Layer A
 
 ```mermaid
 flowchart TD
-    subgraph SILVER ["Silver Layer: Canonical Entities & Facts (dbt Validated)"]
+    subgraph SILVER ["Silver Layer: Canonical Entities and Facts (dbt Validated)"]
         CUST["CUSTOMER_ENTITY"]
         TXN["TRANSACTION_FACT"]
         ACT["CLICKSTREAM_ACTIVITY_FACT"]
@@ -154,13 +158,20 @@ flowchart TD
     end
 
     subgraph SERVING ["Near Real-Time Checkout / Cart Personalization"]
-        CLI["Web / App / POS Checkout<br>{customer_id, cart_total, cart_category}"]
+        CLI["Web / App / POS Checkout<br>(Payload: customer_id, cart_total, cart_category)"]
         SPCS["SPCS FastAPI Microservice<br>(Sub-10ms Inference)"]
     end
 
-    CUST & TXN & ACT & TKT --> FS_OFF & FS_ON
+    CUST --> FS_OFF
+    TXN --> FS_OFF
+    ACT --> FS_OFF
+    TKT --> FS_OFF
+    CUST --> FS_ON
+    TXN --> FS_ON
+    ACT --> FS_ON
+    TKT --> FS_ON
     CLI -->|"POST /predict"| SPCS
-    SPCS -->|"1. Point Lookup (< 3ms)"| FS_ON
+    SPCS -->|"1. Point Lookup (under 3ms)"| FS_ON
     FS_ON -->|"2. Return Features"| SPCS
     SPCS -->|"3. Output Personalized Offer"| CLI
 ```
@@ -227,12 +238,12 @@ Automated Snowflake background tasks monitor the pipeline continuously without m
 ```mermaid
 flowchart TD
     subgraph MONITORING ["Automated Headless Monitoring Engine (Snowflake Tasks)"]
-        DATA_DRIFT["1. Data Drift Monitor (Input Features)<br>• Feature Null Rate Spikes<br>• KS-Test & PSI on Numeric Features (AOV, Spend)<br>• Category Frequency Shifts"]
-        MODEL_DRIFT["2. Model Drift Monitor (Outputs & Performance)<br>• Population Stability Index (PSI >= 0.25 on P(Redeem))<br>• Rolling 30D Recall & AUC vs Baseline Ground Truth<br>• MAE Drift on Net Spend Predictions"]
+        DATA_DRIFT["1. Data Drift Monitor (Input Features)<br>- Feature Null Rate Spikes<br>- KS-Test and PSI on Numeric Features (AOV, Spend)<br>- Category Frequency Shifts"]
+        MODEL_DRIFT["2. Model Drift Monitor (Outputs and Performance)<br>- Population Stability Index: PSI >= 0.25<br>- Rolling 30D Recall and AUC vs Baseline<br>- MAE Drift on Net Spend Predictions"]
     end
 
-    DATA_DRIFT -->|Alert / Data Quality Failure| TSK_ALERT["Trigger Data Quality Investigation Task"]
-    MODEL_DRIFT -->|Critical Drift (PSI >= 0.25)| TSK_RETRAIN["Trigger Automated Model Retraining Task<br>(SYSTEM$TASK)"]
+    DATA_DRIFT -->|"Alert: Data Quality Failure"| TSK_ALERT["Trigger Data Quality Investigation Task"]
+    MODEL_DRIFT -->|"Critical Drift: PSI >= 0.25"| TSK_RETRAIN["Trigger Automated Model Retraining Task"]
 ```
 
 1. **Data Drift Monitoring**:
