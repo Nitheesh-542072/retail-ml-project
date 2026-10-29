@@ -1,0 +1,602 @@
+[
+  {
+    "product_id": "PROD_1001",
+    "product_name": "Wireless Earbuds Pro",
+    "brand": "SoundWave",
+    "category": "ELECTRONICS",
+    "sub_category": "AUDIO",
+    "pricing": {
+      "base_price": 79.99,
+      "cost_price": 32.0,
+      "margin_rate": 0.5999
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2024-09-20T07:33:32",
+      "updated_at": "2024-12-15T18:55:13"
+    }
+  },
+  {
+    "product_id": "PROD_1002",
+    "product_name": "Bluetooth Speaker Mini",
+    "brand": "SoundWave",
+    "category": "ELECTRONICS",
+    "sub_category": "AUDIO",
+    "pricing": {
+      "base_price": 49.99,
+      "cost_price": 18.0,
+      "margin_rate": 0.6399
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2022-02-08T20:28:06",
+      "updated_at": "2024-06-12T08:08:27"
+    }
+  },
+  {
+    "product_id": "PROD_1003",
+    "product_name": "Smart Fitness Tracker",
+    "brand": "AuraTech",
+    "category": "ELECTRONICS",
+    "sub_category": "WEARABLES",
+    "pricing": {
+      "base_price": 89.99,
+      "cost_price": 36.0,
+      "margin_rate": 0.6
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2023-01-16T10:13:48",
+      "updated_at": "2023-12-29T04:07:46"
+    }
+  },
+  {
+    "product_id": "PROD_1004",
+    "product_name": "Noise Cancelling Headphones",
+    "brand": "SoundWave",
+    "category": "ELECTRONICS",
+    "sub_category": "AUDIO",
+    "pricing": {
+      "base_price": 149.99,
+      "cost_price": 58.0,
+      "margin_rate": 0.6133
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2022-08-05T18:21:03",
+      "updated_at": "2025-09-22T19:59:16"
+    }
+  },
+  {
+    "product_id": "PROD_1005",
+    "product_name": "USB-C Fast Charging Hub",
+    "brand": "AuraTech",
+    "category": "ELECTRONICS",
+    "sub_category": "ACCESSORIES",
+    "pricing": {
+      "base_price": 34.99,
+      "cost_price": 11.0,
+      "margin_rate": 0.6856
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2022-06-09T05:17:49",
+      "updated_at": "2023-03-06T07:55:33"
+    }
+  },
+  {
+    "product_id": "PROD_1006",
+    "product_name": "Magnetic Wireless Power Bank",
+    "brand": "AuraTech",
+    "category": "ELECTRONICS",
+    "sub_category": "ACCESSORIES",
+    "pricing": {
+      "base_price": 44.99,
+      "cost_price": 16.0,
+      "margin_rate": 0.6444
+    },
+    "flags": {
+      "is_clearance": true,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2024-07-06T07:09:23",
+      "updated_at": "2026-04-22T17:32:31"
+    }
+  },
+  {
+    "product_id": "PROD_2001",
+    "product_name": "Classic Cotton Crewneck",
+    "brand": "UrbanThread",
+    "category": "CLOTHING",
+    "sub_category": "TOPS",
+    "pricing": {
+      "base_price": 19.99,
+      "cost_price": 6.5,
+      "margin_rate": 0.6748
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2022-02-19T08:56:39",
+      "updated_at": "2022-05-22T22:47:09"
+    }
+  },
+  {
+    "product_id": "PROD_2002",
+    "product_name": "Slim Stretch Denim Jeans",
+    "brand": "DenimCo",
+    "category": "CLOTHING",
+    "sub_category": "BOTTOMS",
+    "pricing": {
+      "base_price": 49.99,
+      "cost_price": 17.5,
+      "margin_rate": 0.6499
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2022-05-26T13:12:42",
+      "updated_at": "2024-04-04T20:02:26"
+    }
+  },
+  {
+    "product_id": "PROD_2003",
+    "product_name": "Full-Zip Athletic Hoodie",
+    "brand": "ApexFit",
+    "category": "CLOTHING",
+    "sub_category": "TOPS",
+    "pricing": {
+      "base_price": 44.99,
+      "cost_price": 15.0,
+      "margin_rate": 0.6666
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2022-12-28T10:13:36",
+      "updated_at": "2025-02-20T11:14:14"
+    }
+  },
+  {
+    "product_id": "PROD_2004",
+    "product_name": "Breathable Running Shorts",
+    "brand": "ApexFit",
+    "category": "CLOTHING",
+    "sub_category": "BOTTOMS",
+    "pricing": {
+      "base_price": 24.99,
+      "cost_price": 8.0,
+      "margin_rate": 0.6799
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2024-07-24T04:53:06",
+      "updated_at": "2024-09-03T10:13:03"
+    }
+  },
+  {
+    "product_id": "PROD_2005",
+    "product_name": "Cargo Utility Joggers",
+    "brand": "UrbanThread",
+    "category": "CLOTHING",
+    "sub_category": "BOTTOMS",
+    "pricing": {
+      "base_price": 54.99,
+      "cost_price": 19.0,
+      "margin_rate": 0.6545
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2024-05-21T20:43:57",
+      "updated_at": "2025-03-26T17:56:14"
+    }
+  },
+  {
+    "product_id": "PROD_2006",
+    "product_name": "All-Weather Windbreaker",
+    "brand": "PeakTrail",
+    "category": "CLOTHING",
+    "sub_category": "OUTERWEAR",
+    "pricing": {
+      "base_price": 74.99,
+      "cost_price": 28.0,
+      "margin_rate": 0.6266
+    },
+    "flags": {
+      "is_clearance": true,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2025-01-17T07:08:45",
+      "updated_at": "2026-06-06T01:52:11"
+    }
+  },
+  {
+    "product_id": "PROD_3001",
+    "product_name": "Stainless Insulated Bottle 32oz",
+    "brand": "EcoLiving",
+    "category": "HOME_KITCHEN",
+    "sub_category": "DRINKWARE",
+    "pricing": {
+      "base_price": 24.99,
+      "cost_price": 7.5,
+      "margin_rate": 0.6999
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2024-12-25T11:17:24",
+      "updated_at": "2026-02-21T17:44:07"
+    }
+  },
+  {
+    "product_id": "PROD_3002",
+    "product_name": "Ceramic Pour-Over Mug Set",
+    "brand": "NordicHome",
+    "category": "HOME_KITCHEN",
+    "sub_category": "TABLEWARE",
+    "pricing": {
+      "base_price": 18.99,
+      "cost_price": 5.5,
+      "margin_rate": 0.7104
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2023-10-14T16:49:57",
+      "updated_at": "2024-09-21T03:27:16"
+    }
+  },
+  {
+    "product_id": "PROD_3003",
+    "product_name": "Non-Stick 10in Skillet",
+    "brand": "EcoLiving",
+    "category": "HOME_KITCHEN",
+    "sub_category": "COOKWARE",
+    "pricing": {
+      "base_price": 29.99,
+      "cost_price": 10.0,
+      "margin_rate": 0.6666
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2023-11-29T19:43:37",
+      "updated_at": "2026-06-02T05:08:38"
+    }
+  },
+  {
+    "product_id": "PROD_3004",
+    "product_name": "Enameled Cast Iron Dutch Oven",
+    "brand": "NordicHome",
+    "category": "HOME_KITCHEN",
+    "sub_category": "COOKWARE",
+    "pricing": {
+      "base_price": 89.99,
+      "cost_price": 34.0,
+      "margin_rate": 0.6222
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2023-03-09T03:42:04",
+      "updated_at": "2026-08-17T13:27:20"
+    }
+  },
+  {
+    "product_id": "PROD_3005",
+    "product_name": "Electric Gooseneck Kettle",
+    "brand": "NordicHome",
+    "category": "HOME_KITCHEN",
+    "sub_category": "APPLIANCES",
+    "pricing": {
+      "base_price": 59.99,
+      "cost_price": 22.0,
+      "margin_rate": 0.6333
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2022-01-11T02:17:28",
+      "updated_at": "2023-05-22T03:21:08"
+    }
+  },
+  {
+    "product_id": "PROD_4001",
+    "product_name": "Hydrating Vitamin C Serum",
+    "brand": "GlowLab",
+    "category": "BEAUTY",
+    "sub_category": "SKINCARE",
+    "pricing": {
+      "base_price": 24.99,
+      "cost_price": 6.0,
+      "margin_rate": 0.7599
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2024-12-20T12:31:23",
+      "updated_at": "2025-11-13T18:37:35"
+    }
+  },
+  {
+    "product_id": "PROD_4002",
+    "product_name": "Mineral Sunscreen SPF 50",
+    "brand": "GlowLab",
+    "category": "BEAUTY",
+    "sub_category": "SUNCARE",
+    "pricing": {
+      "base_price": 19.99,
+      "cost_price": 4.5,
+      "margin_rate": 0.7749
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2023-06-13T13:27:31",
+      "updated_at": "2024-08-18T05:15:11"
+    }
+  },
+  {
+    "product_id": "PROD_4003",
+    "product_name": "Nourishing Night Cream",
+    "brand": "GlowLab",
+    "category": "BEAUTY",
+    "sub_category": "SKINCARE",
+    "pricing": {
+      "base_price": 27.99,
+      "cost_price": 7.5,
+      "margin_rate": 0.732
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2022-08-30T12:41:45",
+      "updated_at": "2023-07-31T00:10:28"
+    }
+  },
+  {
+    "product_id": "PROD_4004",
+    "product_name": "Gentle Exfoliating Cleanser",
+    "brand": "GlowLab",
+    "category": "BEAUTY",
+    "sub_category": "SKINCARE",
+    "pricing": {
+      "base_price": 16.99,
+      "cost_price": 4.0,
+      "margin_rate": 0.7646
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2025-04-01T01:07:27",
+      "updated_at": "2025-12-18T11:42:04"
+    }
+  },
+  {
+    "product_id": "PROD_5001",
+    "product_name": "High-Density Yoga Mat 6mm",
+    "brand": "ApexFit",
+    "category": "SPORTS",
+    "sub_category": "FITNESS_GEAR",
+    "pricing": {
+      "base_price": 34.99,
+      "cost_price": 11.0,
+      "margin_rate": 0.6856
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2022-06-08T18:40:31",
+      "updated_at": "2023-03-23T22:18:24"
+    }
+  },
+  {
+    "product_id": "PROD_5002",
+    "product_name": "Resistance Bands 5-Pack",
+    "brand": "ApexFit",
+    "category": "SPORTS",
+    "sub_category": "FITNESS_GEAR",
+    "pricing": {
+      "base_price": 19.99,
+      "cost_price": 5.0,
+      "margin_rate": 0.7499
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2023-08-14T04:42:59",
+      "updated_at": "2024-01-11T10:33:51"
+    }
+  },
+  {
+    "product_id": "PROD_5003",
+    "product_name": "Adjustable Speed Jump Rope",
+    "brand": "ApexFit",
+    "category": "SPORTS",
+    "sub_category": "FITNESS_GEAR",
+    "pricing": {
+      "base_price": 12.99,
+      "cost_price": 3.2,
+      "margin_rate": 0.7537
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2023-07-12T15:43:16",
+      "updated_at": "2024-12-27T23:19:11"
+    }
+  },
+  {
+    "product_id": "PROD_5004",
+    "product_name": "Cast Iron Kettlebell 20lb",
+    "brand": "ApexFit",
+    "category": "SPORTS",
+    "sub_category": "FITNESS_GEAR",
+    "pricing": {
+      "base_price": 39.99,
+      "cost_price": 16.0,
+      "margin_rate": 0.5999
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2024-07-26T20:32:16",
+      "updated_at": "2025-09-10T18:35:25"
+    }
+  },
+  {
+    "product_id": "PROD_5005",
+    "product_name": "Lightweight Carbon Trekking Poles",
+    "brand": "PeakTrail",
+    "category": "SPORTS",
+    "sub_category": "OUTDOOR",
+    "pricing": {
+      "base_price": 49.99,
+      "cost_price": 18.0,
+      "margin_rate": 0.6399
+    },
+    "flags": {
+      "is_clearance": true,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2025-06-07T19:55:23",
+      "updated_at": "2025-07-11T13:53:52"
+    }
+  },
+  {
+    "product_id": "PROD_6001",
+    "product_name": "Road Runner Cushion Sneaker",
+    "brand": "StridePro",
+    "category": "FOOTWEAR",
+    "sub_category": "RUNNING",
+    "pricing": {
+      "base_price": 89.99,
+      "cost_price": 32.0,
+      "margin_rate": 0.6444
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2025-02-07T14:22:22",
+      "updated_at": "2026-01-30T10:40:23"
+    }
+  },
+  {
+    "product_id": "PROD_6002",
+    "product_name": "Waterproof Trail Hiking Boot",
+    "brand": "PeakTrail",
+    "category": "FOOTWEAR",
+    "sub_category": "OUTDOOR",
+    "pricing": {
+      "base_price": 119.99,
+      "cost_price": 44.0,
+      "margin_rate": 0.6333
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2024-04-13T00:01:56",
+      "updated_at": "2024-10-23T21:53:19"
+    }
+  },
+  {
+    "product_id": "PROD_6003",
+    "product_name": "Everyday Canvas Slip-On",
+    "brand": "StridePro",
+    "category": "FOOTWEAR",
+    "sub_category": "CASUAL",
+    "pricing": {
+      "base_price": 49.99,
+      "cost_price": 16.0,
+      "margin_rate": 0.6799
+    },
+    "flags": {
+      "is_clearance": false,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2023-08-12T00:47:04",
+      "updated_at": "2023-12-12T10:40:07"
+    }
+  },
+  {
+    "product_id": "PROD_6004",
+    "product_name": "Comfort Memory Foam Slide",
+    "brand": "StridePro",
+    "category": "FOOTWEAR",
+    "sub_category": "SANDALS",
+    "pricing": {
+      "base_price": 29.99,
+      "cost_price": 9.5,
+      "margin_rate": 0.6832
+    },
+    "flags": {
+      "is_clearance": true,
+      "is_active": true
+    },
+    "status": {
+      "created_at": "2024-05-07T13:33:59",
+      "updated_at": "2025-08-06T00:02:41"
+    }
+  }
+]

@@ -2,117 +2,45 @@
   {
     "customer_id": "CUST_00001",
     "profile": {
-      "first_name": "Linda",
-      "last_name": "Smith",
-      "age": 25,
-      "gender": "PREFER_NOT_TO_SAY"
+      "first_name": "Michelle",
+      "last_name": "Lopez",
+      "age": 40,
+      "gender": "F"
     },
     "contact": {
-      "email": "linda.smith769@outlook.com",
-      "phone": "+1-450-328-3286",
+      "email": "michelle.lopez601@yahoo.com",
+      "phone": "+1-921-171-1750",
       "address": {
-        "state": "GA",
-        "zip_code": "68878"
+        "state": "MN",
+        "zip_code": "44993"
       }
     },
     "loyalty": {
-      "tier": "GOLD",
-      "points_balance": 6827,
-      "signup_channel": "IN_STORE"
+      "tier": "SILVER",
+      "points_balance": 1937,
+      "signup_channel": "WEB"
     },
     "preferences": {
-      "preferred_channel": "MOBILE_APP",
+      "preferred_channel": "SMS",
       "max_weekly_touchpoints": 1
     },
     "consent": {
-      "email": true,
-      "sms": true,
-      "push": true
+      "email": false,
+      "sms": false,
+      "push": false
     },
     "status": {
-      "is_active": true,
-      "created_at": "2023-09-10T18:24:34",
-      "updated_at": "2026-09-27T01:33:19"
+      "is_active": false,
+      "created_at": "2025-02-24T02:41:36",
+      "updated_at": "2025-11-27T01:25:09"
     }
   },
   {
     "customer_id": "CUST_00002",
     "profile": {
-      "first_name": "James",
-      "last_name": "Garcia",
-      "age": 18,
-      "gender": "M"
-    },
-    "contact": {
-      "email": "james.garcia724@icloud.com",
-      "phone": "+1-548-384-3547",
-      "address": {
-        "state": "UT",
-        "zip_code": "59615"
-      }
-    },
-    "loyalty": {
-      "tier": "BRONZE",
-      "points_balance": 40,
-      "signup_channel": "SOCIAL_MEDIA"
-    },
-    "preferences": {
-      "preferred_channel": "EMAIL",
-      "max_weekly_touchpoints": 2
-    },
-    "consent": {
-      "email": true,
-      "sms": true,
-      "push": false
-    },
-    "status": {
-      "is_active": false,
-      "created_at": "2022-05-15T23:53:58",
-      "updated_at": "2026-04-12T09:06:04"
-    }
-  },
-  {
-    "customer_id": "CUST_00003",
-    "profile": {
-      "first_name": "Christopher",
-      "last_name": "Lee",
-      "age": 37,
-      "gender": "NON_BINARY"
-    },
-    "contact": {
-      "email": "christopher.lee643@outlook.com",
-      "phone": "+1-791-296-2139",
-      "address": {
-        "state": "OH",
-        "zip_code": "97841"
-      }
-    },
-    "loyalty": {
-      "tier": "BRONZE",
-      "points_balance": 136,
-      "signup_channel": "WEB"
-    },
-    "preferences": {
-      "preferred_channel": "MOBILE_APP",
-      "max_weekly_touchpoints": 2
-    },
-    "consent": {
-      "email": true,
-      "sms": true,
-      "push": true
-    },
-    "status": {
-      "is_active": true,
-      "created_at": "2023-05-21T08:22:06",
-      "updated_at": "2024-12-16T09:42:54"
-    }
-  },
-  {
-    "customer_id": "CUST_00004",
-    "profile": {
       "first_name": "Joshua",
       "last_name": "Lee",
-      "age": 45,
+      "age": 18,
       "gender": "NON_BINARY"
     },
     "contact": {
@@ -144,7 +72,7 @@
     }
   },
   {
-    "customer_id": "CUST_00005",
+    "customer_id": "CUST_00003",
     "profile": {
       "first_name": "Andrew",
       "last_name": "Thompson",
@@ -180,7 +108,7 @@
     }
   },
   {
-    "customer_id": "CUST_00006",
+    "customer_id": "CUST_00004",
     "profile": {
       "first_name": "Patricia",
       "last_name": "Brown",
@@ -216,7 +144,7 @@
     }
   },
   {
-    "customer_id": "CUST_00007",
+    "customer_id": "CUST_00005",
     "profile": {
       "first_name": "Christopher",
       "last_name": "Wilson",
@@ -252,7 +180,7 @@
     }
   },
   {
-    "customer_id": "CUST_00008",
+    "customer_id": "CUST_00006",
     "profile": {
       "first_name": "Linda",
       "last_name": "Lopez",
@@ -288,7 +216,7 @@
     }
   },
   {
-    "customer_id": "CUST_00009",
+    "customer_id": "CUST_00007",
     "profile": {
       "first_name": "Joshua",
       "last_name": "Wilson",
@@ -324,7 +252,7 @@
     }
   },
   {
-    "customer_id": "CUST_00010",
+    "customer_id": "CUST_00008",
     "profile": {
       "first_name": "Joseph",
       "last_name": "Williams",
@@ -360,7 +288,7 @@
     }
   },
   {
-    "customer_id": "CUST_00011",
+    "customer_id": "CUST_00009",
     "profile": {
       "first_name": "Daniel",
       "last_name": "Wilson",
@@ -396,7 +324,7 @@
     }
   },
   {
-    "customer_id": "CUST_00012",
+    "customer_id": "CUST_00010",
     "profile": {
       "first_name": "Paul",
       "last_name": "Smith",
@@ -432,7 +360,7 @@
     }
   },
   {
-    "customer_id": "CUST_00013",
+    "customer_id": "CUST_00011",
     "profile": {
       "first_name": "Patricia",
       "last_name": "Jackson",
@@ -468,7 +396,7 @@
     }
   },
   {
-    "customer_id": "CUST_00014",
+    "customer_id": "CUST_00012",
     "profile": {
       "first_name": "Jessica",
       "last_name": "Jackson",
@@ -504,7 +432,7 @@
     }
   },
   {
-    "customer_id": "CUST_00015",
+    "customer_id": "CUST_00013",
     "profile": {
       "first_name": "Sandra",
       "last_name": "Martin",
@@ -540,7 +468,7 @@
     }
   },
   {
-    "customer_id": "CUST_00016",
+    "customer_id": "CUST_00014",
     "profile": {
       "first_name": "Thomas",
       "last_name": "Brown",
@@ -576,7 +504,7 @@
     }
   },
   {
-    "customer_id": "CUST_00017",
+    "customer_id": "CUST_00015",
     "profile": {
       "first_name": "Robert",
       "last_name": "Smith",
@@ -612,7 +540,7 @@
     }
   },
   {
-    "customer_id": "CUST_00018",
+    "customer_id": "CUST_00016",
     "profile": {
       "first_name": "Daniel",
       "last_name": "Miller",
@@ -648,7 +576,7 @@
     }
   },
   {
-    "customer_id": "CUST_00019",
+    "customer_id": "CUST_00017",
     "profile": {
       "first_name": "Sarah",
       "last_name": "Garcia",
@@ -684,7 +612,7 @@
     }
   },
   {
-    "customer_id": "CUST_00020",
+    "customer_id": "CUST_00018",
     "profile": {
       "first_name": "Steven",
       "last_name": "Gonzalez",
@@ -720,7 +648,7 @@
     }
   },
   {
-    "customer_id": "CUST_00021",
+    "customer_id": "CUST_00019",
     "profile": {
       "first_name": "Robert",
       "last_name": "Thompson",
@@ -756,7 +684,7 @@
     }
   },
   {
-    "customer_id": "CUST_00022",
+    "customer_id": "CUST_00020",
     "profile": {
       "first_name": "Charles",
       "last_name": "Gonzalez",
@@ -792,7 +720,7 @@
     }
   },
   {
-    "customer_id": "CUST_00023",
+    "customer_id": "CUST_00021",
     "profile": {
       "first_name": "Charles",
       "last_name": "Anderson",
@@ -828,7 +756,7 @@
     }
   },
   {
-    "customer_id": "CUST_00024",
+    "customer_id": "CUST_00022",
     "profile": {
       "first_name": "Donald",
       "last_name": "Martin",
@@ -864,7 +792,7 @@
     }
   },
   {
-    "customer_id": "CUST_00025",
+    "customer_id": "CUST_00023",
     "profile": {
       "first_name": "Emily",
       "last_name": "Davis",
@@ -900,7 +828,7 @@
     }
   },
   {
-    "customer_id": "CUST_00026",
+    "customer_id": "CUST_00024",
     "profile": {
       "first_name": "Jessica",
       "last_name": "Lee",
@@ -936,7 +864,7 @@
     }
   },
   {
-    "customer_id": "CUST_00027",
+    "customer_id": "CUST_00025",
     "profile": {
       "first_name": "John",
       "last_name": "Wilson",
@@ -972,7 +900,7 @@
     }
   },
   {
-    "customer_id": "CUST_00028",
+    "customer_id": "CUST_00026",
     "profile": {
       "first_name": "Paul",
       "last_name": "White",
@@ -1008,7 +936,7 @@
     }
   },
   {
-    "customer_id": "CUST_00029",
+    "customer_id": "CUST_00027",
     "profile": {
       "first_name": "Mary",
       "last_name": "Williams",
@@ -1044,7 +972,7 @@
     }
   },
   {
-    "customer_id": "CUST_00030",
+    "customer_id": "CUST_00028",
     "profile": {
       "first_name": "Joseph",
       "last_name": "Lee",
@@ -1080,7 +1008,7 @@
     }
   },
   {
-    "customer_id": "CUST_00031",
+    "customer_id": "CUST_00029",
     "profile": {
       "first_name": "Joshua",
       "last_name": "White",
@@ -1116,7 +1044,7 @@
     }
   },
   {
-    "customer_id": "CUST_00032",
+    "customer_id": "CUST_00030",
     "profile": {
       "first_name": "Robert",
       "last_name": "Lopez",
@@ -1152,7 +1080,7 @@
     }
   },
   {
-    "customer_id": "CUST_00033",
+    "customer_id": "CUST_00031",
     "profile": {
       "first_name": "Michelle",
       "last_name": "Moore",
@@ -1188,7 +1116,7 @@
     }
   },
   {
-    "customer_id": "CUST_00034",
+    "customer_id": "CUST_00032",
     "profile": {
       "first_name": "Thomas",
       "last_name": "Hernandez",
@@ -1224,7 +1152,7 @@
     }
   },
   {
-    "customer_id": "CUST_00035",
+    "customer_id": "CUST_00033",
     "profile": {
       "first_name": "Jessica",
       "last_name": "Martinez",
@@ -1260,7 +1188,7 @@
     }
   },
   {
-    "customer_id": "CUST_00036",
+    "customer_id": "CUST_00034",
     "profile": {
       "first_name": "Sarah",
       "last_name": "White",
@@ -1296,7 +1224,7 @@
     }
   },
   {
-    "customer_id": "CUST_00037",
+    "customer_id": "CUST_00035",
     "profile": {
       "first_name": "Andrew",
       "last_name": "Martinez",
@@ -1332,7 +1260,7 @@
     }
   },
   {
-    "customer_id": "CUST_00038",
+    "customer_id": "CUST_00036",
     "profile": {
       "first_name": "Anthony",
       "last_name": "Martin",
@@ -1368,7 +1296,7 @@
     }
   },
   {
-    "customer_id": "CUST_00039",
+    "customer_id": "CUST_00037",
     "profile": {
       "first_name": "William",
       "last_name": "Davis",
@@ -1404,7 +1332,7 @@
     }
   },
   {
-    "customer_id": "CUST_00040",
+    "customer_id": "CUST_00038",
     "profile": {
       "first_name": "Elizabeth",
       "last_name": "Rodriguez",
@@ -1440,7 +1368,7 @@
     }
   },
   {
-    "customer_id": "CUST_00041",
+    "customer_id": "CUST_00039",
     "profile": {
       "first_name": "Margaret",
       "last_name": "White",
@@ -1476,7 +1404,7 @@
     }
   },
   {
-    "customer_id": "CUST_00042",
+    "customer_id": "CUST_00040",
     "profile": {
       "first_name": "Margaret",
       "last_name": "Lee",
@@ -1512,7 +1440,7 @@
     }
   },
   {
-    "customer_id": "CUST_00043",
+    "customer_id": "CUST_00041",
     "profile": {
       "first_name": "Charles",
       "last_name": "Brown",
@@ -1548,7 +1476,7 @@
     }
   },
   {
-    "customer_id": "CUST_00044",
+    "customer_id": "CUST_00042",
     "profile": {
       "first_name": "Linda",
       "last_name": "Smith",
@@ -1584,7 +1512,7 @@
     }
   },
   {
-    "customer_id": "CUST_00045",
+    "customer_id": "CUST_00043",
     "profile": {
       "first_name": "Donald",
       "last_name": "Davis",
@@ -1620,7 +1548,7 @@
     }
   },
   {
-    "customer_id": "CUST_00046",
+    "customer_id": "CUST_00044",
     "profile": {
       "first_name": "Mark",
       "last_name": "Moore",
@@ -1656,7 +1584,7 @@
     }
   },
   {
-    "customer_id": "CUST_00047",
+    "customer_id": "CUST_00045",
     "profile": {
       "first_name": "Ashley",
       "last_name": "Johnson",
@@ -1692,7 +1620,7 @@
     }
   },
   {
-    "customer_id": "CUST_00048",
+    "customer_id": "CUST_00046",
     "profile": {
       "first_name": "Matthew",
       "last_name": "Hernandez",
@@ -1728,7 +1656,7 @@
     }
   },
   {
-    "customer_id": "CUST_00049",
+    "customer_id": "CUST_00047",
     "profile": {
       "first_name": "Robert",
       "last_name": "Hernandez",
@@ -1764,7 +1692,7 @@
     }
   },
   {
-    "customer_id": "CUST_00050",
+    "customer_id": "CUST_00048",
     "profile": {
       "first_name": "Sandra",
       "last_name": "Rodriguez",
@@ -1800,7 +1728,7 @@
     }
   },
   {
-    "customer_id": "CUST_00051",
+    "customer_id": "CUST_00049",
     "profile": {
       "first_name": "Michael",
       "last_name": "Davis",
@@ -1836,7 +1764,7 @@
     }
   },
   {
-    "customer_id": "CUST_00052",
+    "customer_id": "CUST_00050",
     "profile": {
       "first_name": "Michelle",
       "last_name": "Rodriguez",
@@ -1872,7 +1800,7 @@
     }
   },
   {
-    "customer_id": "CUST_00053",
+    "customer_id": "CUST_00051",
     "profile": {
       "first_name": "Kimberly",
       "last_name": "Taylor",
@@ -1908,7 +1836,7 @@
     }
   },
   {
-    "customer_id": "CUST_00054",
+    "customer_id": "CUST_00052",
     "profile": {
       "first_name": "Paul",
       "last_name": "Brown",
@@ -1944,7 +1872,7 @@
     }
   },
   {
-    "customer_id": "CUST_00055",
+    "customer_id": "CUST_00053",
     "profile": {
       "first_name": "Karen",
       "last_name": "Lee",
@@ -1980,7 +1908,7 @@
     }
   },
   {
-    "customer_id": "CUST_00056",
+    "customer_id": "CUST_00054",
     "profile": {
       "first_name": "Ashley",
       "last_name": "Martin",
@@ -2016,7 +1944,7 @@
     }
   },
   {
-    "customer_id": "CUST_00057",
+    "customer_id": "CUST_00055",
     "profile": {
       "first_name": "Sandra",
       "last_name": "Williams",
@@ -2052,7 +1980,7 @@
     }
   },
   {
-    "customer_id": "CUST_00058",
+    "customer_id": "CUST_00056",
     "profile": {
       "first_name": "Elizabeth",
       "last_name": "Jones",
@@ -2088,7 +2016,7 @@
     }
   },
   {
-    "customer_id": "CUST_00059",
+    "customer_id": "CUST_00057",
     "profile": {
       "first_name": "Nancy",
       "last_name": "Taylor",
@@ -2124,7 +2052,7 @@
     }
   },
   {
-    "customer_id": "CUST_00060",
+    "customer_id": "CUST_00058",
     "profile": {
       "first_name": "Charles",
       "last_name": "Martin",
@@ -2160,7 +2088,7 @@
     }
   },
   {
-    "customer_id": "CUST_00061",
+    "customer_id": "CUST_00059",
     "profile": {
       "first_name": "Lisa",
       "last_name": "Anderson",
@@ -2196,7 +2124,7 @@
     }
   },
   {
-    "customer_id": "CUST_00062",
+    "customer_id": "CUST_00060",
     "profile": {
       "first_name": "Linda",
       "last_name": "Wilson",
@@ -2232,7 +2160,7 @@
     }
   },
   {
-    "customer_id": "CUST_00063",
+    "customer_id": "CUST_00061",
     "profile": {
       "first_name": "Margaret",
       "last_name": "Moore",
@@ -2268,7 +2196,7 @@
     }
   },
   {
-    "customer_id": "CUST_00064",
+    "customer_id": "CUST_00062",
     "profile": {
       "first_name": "Jennifer",
       "last_name": "White",
@@ -2304,7 +2232,7 @@
     }
   },
   {
-    "customer_id": "CUST_00065",
+    "customer_id": "CUST_00063",
     "profile": {
       "first_name": "Margaret",
       "last_name": "Thomas",
@@ -2340,7 +2268,7 @@
     }
   },
   {
-    "customer_id": "CUST_00066",
+    "customer_id": "CUST_00064",
     "profile": {
       "first_name": "Christopher",
       "last_name": "Hernandez",
@@ -2376,7 +2304,7 @@
     }
   },
   {
-    "customer_id": "CUST_00067",
+    "customer_id": "CUST_00065",
     "profile": {
       "first_name": "Charles",
       "last_name": "Jackson",
@@ -2412,7 +2340,7 @@
     }
   },
   {
-    "customer_id": "CUST_00068",
+    "customer_id": "CUST_00066",
     "profile": {
       "first_name": "Betty",
       "last_name": "Martinez",
@@ -2448,7 +2376,7 @@
     }
   },
   {
-    "customer_id": "CUST_00069",
+    "customer_id": "CUST_00067",
     "profile": {
       "first_name": "Joshua",
       "last_name": "Jones",
@@ -2484,7 +2412,7 @@
     }
   },
   {
-    "customer_id": "CUST_00070",
+    "customer_id": "CUST_00068",
     "profile": {
       "first_name": "Sarah",
       "last_name": "Jackson",
@@ -2520,7 +2448,7 @@
     }
   },
   {
-    "customer_id": "CUST_00071",
+    "customer_id": "CUST_00069",
     "profile": {
       "first_name": "Andrew",
       "last_name": "Lee",
@@ -2556,7 +2484,7 @@
     }
   },
   {
-    "customer_id": "CUST_00072",
+    "customer_id": "CUST_00070",
     "profile": {
       "first_name": "Matthew",
       "last_name": "Wilson",
@@ -2592,7 +2520,7 @@
     }
   },
   {
-    "customer_id": "CUST_00073",
+    "customer_id": "CUST_00071",
     "profile": {
       "first_name": "Karen",
       "last_name": "Lee",
@@ -2628,7 +2556,7 @@
     }
   },
   {
-    "customer_id": "CUST_00074",
+    "customer_id": "CUST_00072",
     "profile": {
       "first_name": "Karen",
       "last_name": "Garcia",
@@ -2664,7 +2592,7 @@
     }
   },
   {
-    "customer_id": "CUST_00075",
+    "customer_id": "CUST_00073",
     "profile": {
       "first_name": "Matthew",
       "last_name": "Jones",
@@ -2700,7 +2628,7 @@
     }
   },
   {
-    "customer_id": "CUST_00076",
+    "customer_id": "CUST_00074",
     "profile": {
       "first_name": "Mark",
       "last_name": "Anderson",
@@ -2736,7 +2664,7 @@
     }
   },
   {
-    "customer_id": "CUST_00077",
+    "customer_id": "CUST_00075",
     "profile": {
       "first_name": "Jennifer",
       "last_name": "Garcia",
@@ -2772,7 +2700,7 @@
     }
   },
   {
-    "customer_id": "CUST_00078",
+    "customer_id": "CUST_00076",
     "profile": {
       "first_name": "Lisa",
       "last_name": "Jones",
@@ -2808,7 +2736,7 @@
     }
   },
   {
-    "customer_id": "CUST_00079",
+    "customer_id": "CUST_00077",
     "profile": {
       "first_name": "Linda",
       "last_name": "Johnson",
@@ -2844,7 +2772,7 @@
     }
   },
   {
-    "customer_id": "CUST_00080",
+    "customer_id": "CUST_00078",
     "profile": {
       "first_name": "Kimberly",
       "last_name": "Lopez",
@@ -2880,7 +2808,7 @@
     }
   },
   {
-    "customer_id": "CUST_00081",
+    "customer_id": "CUST_00079",
     "profile": {
       "first_name": "Donna",
       "last_name": "White",
@@ -2916,7 +2844,7 @@
     }
   },
   {
-    "customer_id": "CUST_00082",
+    "customer_id": "CUST_00080",
     "profile": {
       "first_name": "Charles",
       "last_name": "Martinez",
@@ -2952,7 +2880,7 @@
     }
   },
   {
-    "customer_id": "CUST_00083",
+    "customer_id": "CUST_00081",
     "profile": {
       "first_name": "Matthew",
       "last_name": "Hernandez",
@@ -2988,7 +2916,7 @@
     }
   },
   {
-    "customer_id": "CUST_00084",
+    "customer_id": "CUST_00082",
     "profile": {
       "first_name": "Joshua",
       "last_name": "Thompson",
@@ -3024,7 +2952,7 @@
     }
   },
   {
-    "customer_id": "CUST_00085",
+    "customer_id": "CUST_00083",
     "profile": {
       "first_name": "Mary",
       "last_name": "Jones",
@@ -3060,7 +2988,7 @@
     }
   },
   {
-    "customer_id": "CUST_00086",
+    "customer_id": "CUST_00084",
     "profile": {
       "first_name": "Betty",
       "last_name": "Hernandez",
@@ -3096,7 +3024,7 @@
     }
   },
   {
-    "customer_id": "CUST_00087",
+    "customer_id": "CUST_00085",
     "profile": {
       "first_name": "David",
       "last_name": "Williams",
@@ -3132,7 +3060,7 @@
     }
   },
   {
-    "customer_id": "CUST_00088",
+    "customer_id": "CUST_00086",
     "profile": {
       "first_name": "Ashley",
       "last_name": "Smith",
@@ -3168,7 +3096,7 @@
     }
   },
   {
-    "customer_id": "CUST_00089",
+    "customer_id": "CUST_00087",
     "profile": {
       "first_name": "David",
       "last_name": "Hernandez",
@@ -3204,7 +3132,7 @@
     }
   },
   {
-    "customer_id": "CUST_00090",
+    "customer_id": "CUST_00088",
     "profile": {
       "first_name": "Joseph",
       "last_name": "Lopez",
@@ -3240,7 +3168,7 @@
     }
   },
   {
-    "customer_id": "CUST_00091",
+    "customer_id": "CUST_00089",
     "profile": {
       "first_name": "Lisa",
       "last_name": "Jackson",
@@ -3276,7 +3204,7 @@
     }
   },
   {
-    "customer_id": "CUST_00092",
+    "customer_id": "CUST_00090",
     "profile": {
       "first_name": "William",
       "last_name": "Anderson",
@@ -3312,7 +3240,7 @@
     }
   },
   {
-    "customer_id": "CUST_00093",
+    "customer_id": "CUST_00091",
     "profile": {
       "first_name": "Sarah",
       "last_name": "Anderson",
@@ -3348,7 +3276,7 @@
     }
   },
   {
-    "customer_id": "CUST_00094",
+    "customer_id": "CUST_00092",
     "profile": {
       "first_name": "Jennifer",
       "last_name": "Gonzalez",
@@ -3384,7 +3312,7 @@
     }
   },
   {
-    "customer_id": "CUST_00095",
+    "customer_id": "CUST_00093",
     "profile": {
       "first_name": "Betty",
       "last_name": "Lopez",
@@ -3420,7 +3348,7 @@
     }
   },
   {
-    "customer_id": "CUST_00096",
+    "customer_id": "CUST_00094",
     "profile": {
       "first_name": "Elizabeth",
       "last_name": "Miller",
@@ -3456,7 +3384,7 @@
     }
   },
   {
-    "customer_id": "CUST_00097",
+    "customer_id": "CUST_00095",
     "profile": {
       "first_name": "Donna",
       "last_name": "Hernandez",
@@ -3492,7 +3420,7 @@
     }
   },
   {
-    "customer_id": "CUST_00098",
+    "customer_id": "CUST_00096",
     "profile": {
       "first_name": "Patricia",
       "last_name": "Jackson",
@@ -3528,7 +3456,7 @@
     }
   },
   {
-    "customer_id": "CUST_00099",
+    "customer_id": "CUST_00097",
     "profile": {
       "first_name": "Michelle",
       "last_name": "Thomas",
@@ -3564,7 +3492,7 @@
     }
   },
   {
-    "customer_id": "CUST_00100",
+    "customer_id": "CUST_00098",
     "profile": {
       "first_name": "Joseph",
       "last_name": "Martinez",
@@ -3600,7 +3528,7 @@
     }
   },
   {
-    "customer_id": "CUST_00101",
+    "customer_id": "CUST_00099",
     "profile": {
       "first_name": "Christopher",
       "last_name": "Thompson",
@@ -3636,7 +3564,7 @@
     }
   },
   {
-    "customer_id": "CUST_00102",
+    "customer_id": "CUST_00100",
     "profile": {
       "first_name": "Anthony",
       "last_name": "Hernandez",
@@ -3672,7 +3600,7 @@
     }
   },
   {
-    "customer_id": "CUST_00103",
+    "customer_id": "CUST_00101",
     "profile": {
       "first_name": "Andrew",
       "last_name": "Davis",
@@ -3708,7 +3636,7 @@
     }
   },
   {
-    "customer_id": "CUST_00104",
+    "customer_id": "CUST_00102",
     "profile": {
       "first_name": "Paul",
       "last_name": "Taylor",
@@ -3744,7 +3672,7 @@
     }
   },
   {
-    "customer_id": "CUST_00105",
+    "customer_id": "CUST_00103",
     "profile": {
       "first_name": "Barbara",
       "last_name": "Martin",
@@ -3780,7 +3708,7 @@
     }
   },
   {
-    "customer_id": "CUST_00106",
+    "customer_id": "CUST_00104",
     "profile": {
       "first_name": "Patricia",
       "last_name": "Perez",
@@ -3816,7 +3744,7 @@
     }
   },
   {
-    "customer_id": "CUST_00107",
+    "customer_id": "CUST_00105",
     "profile": {
       "first_name": "Sandra",
       "last_name": "White",
@@ -3852,7 +3780,7 @@
     }
   },
   {
-    "customer_id": "CUST_00108",
+    "customer_id": "CUST_00106",
     "profile": {
       "first_name": "Emily",
       "last_name": "Taylor",
@@ -3888,7 +3816,7 @@
     }
   },
   {
-    "customer_id": "CUST_00109",
+    "customer_id": "CUST_00107",
     "profile": {
       "first_name": "Sandra",
       "last_name": "Jackson",
@@ -3924,7 +3852,7 @@
     }
   },
   {
-    "customer_id": "CUST_00110",
+    "customer_id": "CUST_00108",
     "profile": {
       "first_name": "David",
       "last_name": "Lee",
@@ -3960,7 +3888,7 @@
     }
   },
   {
-    "customer_id": "CUST_00111",
+    "customer_id": "CUST_00109",
     "profile": {
       "first_name": "Joseph",
       "last_name": "Smith",
@@ -3996,7 +3924,7 @@
     }
   },
   {
-    "customer_id": "CUST_00112",
+    "customer_id": "CUST_00110",
     "profile": {
       "first_name": "Robert",
       "last_name": "Anderson",
@@ -4032,7 +3960,7 @@
     }
   },
   {
-    "customer_id": "CUST_00113",
+    "customer_id": "CUST_00111",
     "profile": {
       "first_name": "Jessica",
       "last_name": "Martinez",
@@ -4068,7 +3996,7 @@
     }
   },
   {
-    "customer_id": "CUST_00114",
+    "customer_id": "CUST_00112",
     "profile": {
       "first_name": "Anthony",
       "last_name": "Jones",
@@ -4104,7 +4032,7 @@
     }
   },
   {
-    "customer_id": "CUST_00115",
+    "customer_id": "CUST_00113",
     "profile": {
       "first_name": "Lisa",
       "last_name": "Lee",
@@ -4140,7 +4068,7 @@
     }
   },
   {
-    "customer_id": "CUST_00116",
+    "customer_id": "CUST_00114",
     "profile": {
       "first_name": "Susan",
       "last_name": "Miller",
@@ -4176,7 +4104,7 @@
     }
   },
   {
-    "customer_id": "CUST_00117",
+    "customer_id": "CUST_00115",
     "profile": {
       "first_name": "Ashley",
       "last_name": "Anderson",
@@ -4212,7 +4140,7 @@
     }
   },
   {
-    "customer_id": "CUST_00118",
+    "customer_id": "CUST_00116",
     "profile": {
       "first_name": "Andrew",
       "last_name": "Davis",
@@ -4248,7 +4176,7 @@
     }
   },
   {
-    "customer_id": "CUST_00119",
+    "customer_id": "CUST_00117",
     "profile": {
       "first_name": "Kimberly",
       "last_name": "Johnson",
@@ -4284,7 +4212,7 @@
     }
   },
   {
-    "customer_id": "CUST_00120",
+    "customer_id": "CUST_00118",
     "profile": {
       "first_name": "Anthony",
       "last_name": "Smith",
@@ -4320,7 +4248,7 @@
     }
   },
   {
-    "customer_id": "CUST_00121",
+    "customer_id": "CUST_00119",
     "profile": {
       "first_name": "Sarah",
       "last_name": "Gonzalez",
@@ -4356,7 +4284,7 @@
     }
   },
   {
-    "customer_id": "CUST_00122",
+    "customer_id": "CUST_00120",
     "profile": {
       "first_name": "Jennifer",
       "last_name": "Thomas",
@@ -4392,7 +4320,7 @@
     }
   },
   {
-    "customer_id": "CUST_00123",
+    "customer_id": "CUST_00121",
     "profile": {
       "first_name": "Paul",
       "last_name": "Jackson",
@@ -4428,7 +4356,7 @@
     }
   },
   {
-    "customer_id": "CUST_00124",
+    "customer_id": "CUST_00122",
     "profile": {
       "first_name": "Steven",
       "last_name": "White",
@@ -4464,7 +4392,7 @@
     }
   },
   {
-    "customer_id": "CUST_00125",
+    "customer_id": "CUST_00123",
     "profile": {
       "first_name": "Margaret",
       "last_name": "Garcia",
@@ -4500,7 +4428,7 @@
     }
   },
   {
-    "customer_id": "CUST_00126",
+    "customer_id": "CUST_00124",
     "profile": {
       "first_name": "Nancy",
       "last_name": "Rodriguez",
@@ -4536,7 +4464,7 @@
     }
   },
   {
-    "customer_id": "CUST_00127",
+    "customer_id": "CUST_00125",
     "profile": {
       "first_name": "Jennifer",
       "last_name": "White",
@@ -4572,7 +4500,7 @@
     }
   },
   {
-    "customer_id": "CUST_00128",
+    "customer_id": "CUST_00126",
     "profile": {
       "first_name": "Michelle",
       "last_name": "Miller",
@@ -4608,7 +4536,7 @@
     }
   },
   {
-    "customer_id": "CUST_00129",
+    "customer_id": "CUST_00127",
     "profile": {
       "first_name": "Barbara",
       "last_name": "Gonzalez",
@@ -4644,7 +4572,7 @@
     }
   },
   {
-    "customer_id": "CUST_00130",
+    "customer_id": "CUST_00128",
     "profile": {
       "first_name": "Christopher",
       "last_name": "Thompson",
@@ -4680,7 +4608,7 @@
     }
   },
   {
-    "customer_id": "CUST_00131",
+    "customer_id": "CUST_00129",
     "profile": {
       "first_name": "Paul",
       "last_name": "Johnson",
@@ -4716,7 +4644,7 @@
     }
   },
   {
-    "customer_id": "CUST_00132",
+    "customer_id": "CUST_00130",
     "profile": {
       "first_name": "Joseph",
       "last_name": "Taylor",
@@ -4752,7 +4680,7 @@
     }
   },
   {
-    "customer_id": "CUST_00133",
+    "customer_id": "CUST_00131",
     "profile": {
       "first_name": "Daniel",
       "last_name": "Martinez",
@@ -4788,7 +4716,7 @@
     }
   },
   {
-    "customer_id": "CUST_00134",
+    "customer_id": "CUST_00132",
     "profile": {
       "first_name": "Emily",
       "last_name": "Garcia",
@@ -4824,7 +4752,7 @@
     }
   },
   {
-    "customer_id": "CUST_00135",
+    "customer_id": "CUST_00133",
     "profile": {
       "first_name": "Susan",
       "last_name": "Rodriguez",
@@ -4860,7 +4788,7 @@
     }
   },
   {
-    "customer_id": "CUST_00136",
+    "customer_id": "CUST_00134",
     "profile": {
       "first_name": "Michelle",
       "last_name": "Garcia",
@@ -4896,7 +4824,7 @@
     }
   },
   {
-    "customer_id": "CUST_00137",
+    "customer_id": "CUST_00135",
     "profile": {
       "first_name": "Barbara",
       "last_name": "Moore",
@@ -4932,7 +4860,7 @@
     }
   },
   {
-    "customer_id": "CUST_00138",
+    "customer_id": "CUST_00136",
     "profile": {
       "first_name": "Jennifer",
       "last_name": "Jackson",
@@ -4968,7 +4896,7 @@
     }
   },
   {
-    "customer_id": "CUST_00139",
+    "customer_id": "CUST_00137",
     "profile": {
       "first_name": "Paul",
       "last_name": "Johnson",
@@ -5004,7 +4932,7 @@
     }
   },
   {
-    "customer_id": "CUST_00140",
+    "customer_id": "CUST_00138",
     "profile": {
       "first_name": "Michelle",
       "last_name": "Lee",
@@ -5040,7 +4968,7 @@
     }
   },
   {
-    "customer_id": "CUST_00141",
+    "customer_id": "CUST_00139",
     "profile": {
       "first_name": "David",
       "last_name": "Wilson",
@@ -5076,7 +5004,7 @@
     }
   },
   {
-    "customer_id": "CUST_00142",
+    "customer_id": "CUST_00140",
     "profile": {
       "first_name": "Betty",
       "last_name": "Taylor",
@@ -5112,7 +5040,7 @@
     }
   },
   {
-    "customer_id": "CUST_00143",
+    "customer_id": "CUST_00141",
     "profile": {
       "first_name": "Sarah",
       "last_name": "Hernandez",
@@ -5148,7 +5076,7 @@
     }
   },
   {
-    "customer_id": "CUST_00144",
+    "customer_id": "CUST_00142",
     "profile": {
       "first_name": "Karen",
       "last_name": "Garcia",
@@ -5184,7 +5112,7 @@
     }
   },
   {
-    "customer_id": "CUST_00145",
+    "customer_id": "CUST_00143",
     "profile": {
       "first_name": "Donald",
       "last_name": "Williams",
@@ -5220,7 +5148,7 @@
     }
   },
   {
-    "customer_id": "CUST_00146",
+    "customer_id": "CUST_00144",
     "profile": {
       "first_name": "David",
       "last_name": "Lee",
@@ -5256,7 +5184,7 @@
     }
   },
   {
-    "customer_id": "CUST_00147",
+    "customer_id": "CUST_00145",
     "profile": {
       "first_name": "Donna",
       "last_name": "White",
@@ -5292,7 +5220,7 @@
     }
   },
   {
-    "customer_id": "CUST_00148",
+    "customer_id": "CUST_00146",
     "profile": {
       "first_name": "Jessica",
       "last_name": "Thomas",
@@ -5328,7 +5256,7 @@
     }
   },
   {
-    "customer_id": "CUST_00149",
+    "customer_id": "CUST_00147",
     "profile": {
       "first_name": "Donna",
       "last_name": "Williams",
@@ -5364,7 +5292,7 @@
     }
   },
   {
-    "customer_id": "CUST_00150",
+    "customer_id": "CUST_00148",
     "profile": {
       "first_name": "Elizabeth",
       "last_name": "Moore",
@@ -5400,7 +5328,7 @@
     }
   },
   {
-    "customer_id": "CUST_00151",
+    "customer_id": "CUST_00149",
     "profile": {
       "first_name": "Linda",
       "last_name": "Smith",
@@ -5436,7 +5364,7 @@
     }
   },
   {
-    "customer_id": "CUST_00152",
+    "customer_id": "CUST_00150",
     "profile": {
       "first_name": "John",
       "last_name": "Rodriguez",
@@ -5472,7 +5400,7 @@
     }
   },
   {
-    "customer_id": "CUST_00153",
+    "customer_id": "CUST_00151",
     "profile": {
       "first_name": "Donald",
       "last_name": "Lopez",
@@ -5508,7 +5436,7 @@
     }
   },
   {
-    "customer_id": "CUST_00154",
+    "customer_id": "CUST_00152",
     "profile": {
       "first_name": "Betty",
       "last_name": "Williams",
@@ -5544,7 +5472,7 @@
     }
   },
   {
-    "customer_id": "CUST_00155",
+    "customer_id": "CUST_00153",
     "profile": {
       "first_name": "Paul",
       "last_name": "Davis",
@@ -5580,7 +5508,7 @@
     }
   },
   {
-    "customer_id": "CUST_00156",
+    "customer_id": "CUST_00154",
     "profile": {
       "first_name": "Sarah",
       "last_name": "Williams",
@@ -5616,7 +5544,7 @@
     }
   },
   {
-    "customer_id": "CUST_00157",
+    "customer_id": "CUST_00155",
     "profile": {
       "first_name": "Betty",
       "last_name": "Thompson",
@@ -5652,7 +5580,7 @@
     }
   },
   {
-    "customer_id": "CUST_00158",
+    "customer_id": "CUST_00156",
     "profile": {
       "first_name": "Linda",
       "last_name": "Williams",
@@ -5688,7 +5616,7 @@
     }
   },
   {
-    "customer_id": "CUST_00159",
+    "customer_id": "CUST_00157",
     "profile": {
       "first_name": "Emily",
       "last_name": "White",
@@ -5724,7 +5652,7 @@
     }
   },
   {
-    "customer_id": "CUST_00160",
+    "customer_id": "CUST_00158",
     "profile": {
       "first_name": "Richard",
       "last_name": "Lee",
@@ -5760,7 +5688,7 @@
     }
   },
   {
-    "customer_id": "CUST_00161",
+    "customer_id": "CUST_00159",
     "profile": {
       "first_name": "Sarah",
       "last_name": "Rodriguez",
@@ -5796,7 +5724,7 @@
     }
   },
   {
-    "customer_id": "CUST_00162",
+    "customer_id": "CUST_00160",
     "profile": {
       "first_name": "Ashley",
       "last_name": "Lopez",
@@ -5832,7 +5760,7 @@
     }
   },
   {
-    "customer_id": "CUST_00163",
+    "customer_id": "CUST_00161",
     "profile": {
       "first_name": "Sarah",
       "last_name": "Moore",
@@ -5868,7 +5796,7 @@
     }
   },
   {
-    "customer_id": "CUST_00164",
+    "customer_id": "CUST_00162",
     "profile": {
       "first_name": "Paul",
       "last_name": "Martinez",
@@ -5904,7 +5832,7 @@
     }
   },
   {
-    "customer_id": "CUST_00165",
+    "customer_id": "CUST_00163",
     "profile": {
       "first_name": "Elizabeth",
       "last_name": "Jackson",
@@ -5940,7 +5868,7 @@
     }
   },
   {
-    "customer_id": "CUST_00166",
+    "customer_id": "CUST_00164",
     "profile": {
       "first_name": "Daniel",
       "last_name": "Davis",
@@ -5976,7 +5904,7 @@
     }
   },
   {
-    "customer_id": "CUST_00167",
+    "customer_id": "CUST_00165",
     "profile": {
       "first_name": "Michael",
       "last_name": "Thomas",
@@ -6012,7 +5940,7 @@
     }
   },
   {
-    "customer_id": "CUST_00168",
+    "customer_id": "CUST_00166",
     "profile": {
       "first_name": "Michael",
       "last_name": "White",
@@ -6048,7 +5976,7 @@
     }
   },
   {
-    "customer_id": "CUST_00169",
+    "customer_id": "CUST_00167",
     "profile": {
       "first_name": "Charles",
       "last_name": "Rodriguez",
@@ -6084,7 +6012,7 @@
     }
   },
   {
-    "customer_id": "CUST_00170",
+    "customer_id": "CUST_00168",
     "profile": {
       "first_name": "Michael",
       "last_name": "Hernandez",
@@ -6120,7 +6048,7 @@
     }
   },
   {
-    "customer_id": "CUST_00171",
+    "customer_id": "CUST_00169",
     "profile": {
       "first_name": "Donald",
       "last_name": "Miller",
@@ -6156,7 +6084,7 @@
     }
   },
   {
-    "customer_id": "CUST_00172",
+    "customer_id": "CUST_00170",
     "profile": {
       "first_name": "Thomas",
       "last_name": "Anderson",
@@ -6192,7 +6120,7 @@
     }
   },
   {
-    "customer_id": "CUST_00173",
+    "customer_id": "CUST_00171",
     "profile": {
       "first_name": "Paul",
       "last_name": "Perez",
@@ -6228,7 +6156,7 @@
     }
   },
   {
-    "customer_id": "CUST_00174",
+    "customer_id": "CUST_00172",
     "profile": {
       "first_name": "Richard",
       "last_name": "Jones",
@@ -6264,7 +6192,7 @@
     }
   },
   {
-    "customer_id": "CUST_00175",
+    "customer_id": "CUST_00173",
     "profile": {
       "first_name": "Kimberly",
       "last_name": "Anderson",
@@ -6300,7 +6228,7 @@
     }
   },
   {
-    "customer_id": "CUST_00176",
+    "customer_id": "CUST_00174",
     "profile": {
       "first_name": "Ashley",
       "last_name": "Jackson",
@@ -6336,7 +6264,7 @@
     }
   },
   {
-    "customer_id": "CUST_00177",
+    "customer_id": "CUST_00175",
     "profile": {
       "first_name": "Lisa",
       "last_name": "Martinez",
@@ -6372,7 +6300,7 @@
     }
   },
   {
-    "customer_id": "CUST_00178",
+    "customer_id": "CUST_00176",
     "profile": {
       "first_name": "Nancy",
       "last_name": "Johnson",
@@ -6408,7 +6336,7 @@
     }
   },
   {
-    "customer_id": "CUST_00179",
+    "customer_id": "CUST_00177",
     "profile": {
       "first_name": "Sarah",
       "last_name": "Lopez",
@@ -6444,7 +6372,7 @@
     }
   },
   {
-    "customer_id": "CUST_00180",
+    "customer_id": "CUST_00178",
     "profile": {
       "first_name": "Susan",
       "last_name": "Davis",
@@ -6480,7 +6408,7 @@
     }
   },
   {
-    "customer_id": "CUST_00181",
+    "customer_id": "CUST_00179",
     "profile": {
       "first_name": "Sarah",
       "last_name": "Wilson",
@@ -6516,7 +6444,7 @@
     }
   },
   {
-    "customer_id": "CUST_00182",
+    "customer_id": "CUST_00180",
     "profile": {
       "first_name": "Charles",
       "last_name": "Rodriguez",
@@ -6552,7 +6480,7 @@
     }
   },
   {
-    "customer_id": "CUST_00183",
+    "customer_id": "CUST_00181",
     "profile": {
       "first_name": "Anthony",
       "last_name": "Gonzalez",
@@ -6588,7 +6516,7 @@
     }
   },
   {
-    "customer_id": "CUST_00184",
+    "customer_id": "CUST_00182",
     "profile": {
       "first_name": "Emily",
       "last_name": "Garcia",
@@ -6624,7 +6552,7 @@
     }
   },
   {
-    "customer_id": "CUST_00185",
+    "customer_id": "CUST_00183",
     "profile": {
       "first_name": "Michelle",
       "last_name": "Williams",
@@ -6660,7 +6588,7 @@
     }
   },
   {
-    "customer_id": "CUST_00186",
+    "customer_id": "CUST_00184",
     "profile": {
       "first_name": "Barbara",
       "last_name": "Hernandez",
@@ -6696,7 +6624,7 @@
     }
   },
   {
-    "customer_id": "CUST_00187",
+    "customer_id": "CUST_00185",
     "profile": {
       "first_name": "Robert",
       "last_name": "Moore",
@@ -6732,7 +6660,7 @@
     }
   },
   {
-    "customer_id": "CUST_00188",
+    "customer_id": "CUST_00186",
     "profile": {
       "first_name": "Sandra",
       "last_name": "White",
@@ -6768,7 +6696,7 @@
     }
   },
   {
-    "customer_id": "CUST_00189",
+    "customer_id": "CUST_00187",
     "profile": {
       "first_name": "Donna",
       "last_name": "Taylor",
@@ -6804,7 +6732,7 @@
     }
   },
   {
-    "customer_id": "CUST_00190",
+    "customer_id": "CUST_00188",
     "profile": {
       "first_name": "Donald",
       "last_name": "Thompson",
@@ -6840,7 +6768,7 @@
     }
   },
   {
-    "customer_id": "CUST_00191",
+    "customer_id": "CUST_00189",
     "profile": {
       "first_name": "Ashley",
       "last_name": "Miller",
@@ -6876,7 +6804,7 @@
     }
   },
   {
-    "customer_id": "CUST_00192",
+    "customer_id": "CUST_00190",
     "profile": {
       "first_name": "Jennifer",
       "last_name": "Taylor",
@@ -6912,7 +6840,7 @@
     }
   },
   {
-    "customer_id": "CUST_00193",
+    "customer_id": "CUST_00191",
     "profile": {
       "first_name": "James",
       "last_name": "Jones",
@@ -6948,7 +6876,7 @@
     }
   },
   {
-    "customer_id": "CUST_00194",
+    "customer_id": "CUST_00192",
     "profile": {
       "first_name": "Michael",
       "last_name": "Wilson",
@@ -6984,7 +6912,7 @@
     }
   },
   {
-    "customer_id": "CUST_00195",
+    "customer_id": "CUST_00193",
     "profile": {
       "first_name": "John",
       "last_name": "Rodriguez",
@@ -7020,7 +6948,7 @@
     }
   },
   {
-    "customer_id": "CUST_00196",
+    "customer_id": "CUST_00194",
     "profile": {
       "first_name": "Elizabeth",
       "last_name": "Moore",
@@ -7056,7 +6984,7 @@
     }
   },
   {
-    "customer_id": "CUST_00197",
+    "customer_id": "CUST_00195",
     "profile": {
       "first_name": "Jessica",
       "last_name": "Williams",
@@ -7092,7 +7020,7 @@
     }
   },
   {
-    "customer_id": "CUST_00198",
+    "customer_id": "CUST_00196",
     "profile": {
       "first_name": "Sandra",
       "last_name": "Hernandez",
@@ -7128,7 +7056,7 @@
     }
   },
   {
-    "customer_id": "CUST_00199",
+    "customer_id": "CUST_00197",
     "profile": {
       "first_name": "Emily",
       "last_name": "Taylor",
@@ -7164,7 +7092,7 @@
     }
   },
   {
-    "customer_id": "CUST_00200",
+    "customer_id": "CUST_00198",
     "profile": {
       "first_name": "Linda",
       "last_name": "Anderson",
@@ -7197,6 +7125,78 @@
       "is_active": false,
       "created_at": "2023-06-24T12:18:08",
       "updated_at": "2026-08-02T07:07:01"
+    }
+  },
+  {
+    "customer_id": "CUST_00199",
+    "profile": {
+      "first_name": "Joshua",
+      "last_name": "Hernandez",
+      "age": 64,
+      "gender": "F"
+    },
+    "contact": {
+      "email": "joshua.hernandez526@icloud.com",
+      "phone": "+1-628-723-5067",
+      "address": {
+        "state": "OH",
+        "zip_code": "91810"
+      }
+    },
+    "loyalty": {
+      "tier": "BRONZE",
+      "points_balance": 365,
+      "signup_channel": "IN_STORE"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 2
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-09-02T06:53:06",
+      "updated_at": "2025-08-05T22:00:10"
+    }
+  },
+  {
+    "customer_id": "CUST_00200",
+    "profile": {
+      "first_name": "Daniel",
+      "last_name": "Perez",
+      "age": 29,
+      "gender": "M"
+    },
+    "contact": {
+      "email": "daniel.perez145@yahoo.com",
+      "phone": "+1-715-655-6281",
+      "address": {
+        "state": "IN",
+        "zip_code": "23955"
+      }
+    },
+    "loyalty": {
+      "tier": "GOLD",
+      "points_balance": 2207,
+      "signup_channel": "REFERRAL"
+    },
+    "preferences": {
+      "preferred_channel": "MOBILE_APP",
+      "max_weekly_touchpoints": 3
+    },
+    "consent": {
+      "email": true,
+      "sms": true,
+      "push": false
+    },
+    "status": {
+      "is_active": true,
+      "created_at": "2024-06-07T08:20:06",
+      "updated_at": "2026-03-25T12:02:24"
     }
   }
 ]

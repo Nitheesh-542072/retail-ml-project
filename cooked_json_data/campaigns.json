@@ -1,163 +1,170 @@
 [
   {
     "campaign_id": "CMP_001",
-    "campaign_name": "Mega Deal 2026",
-    "channel": "EMAIL",
+    "campaign_name": "Early Access Cashback 2026",
+    "channel": "IN_APP_BANNER",
     "offer": {
-      "type": "FIXED_AMOUNT_OFF",
-      "discount_percentage": null,
-      "min_spend_threshold": 25,
-      "budget_allocated": 14821.69
+      "type": "PERCENTAGE_DISCOUNT",
+      "promo_code": "PERC_CMP_001",
+      "discount_percentage": 40,
+      "min_spend_threshold": 100,
+      "budget_allocated": 19908.86
     },
     "rules": {
-      "target_segment": "INACTIVE_90D",
-      "exclude_open_support_cases": false,
+      "target_segment": "HIGH_SPENDERS",
+      "exclude_open_support_cases": true,
       "max_contact_frequency_7d": 2
     },
     "schedule": {
-      "start_date": "2026-07-30",
-      "end_date": "2026-08-29",
+      "start_date": "2026-07-23",
+      "end_date": "2026-08-06",
       "status": "COMPLETED"
     },
     "metadata": {
-      "created_by": "campaign_manager",
-      "created_at": "2026-03-11T22:19:38"
+      "created_by": "marketing_ops",
+      "created_at": "2026-04-17T22:39:12"
     }
   },
   {
     "campaign_id": "CMP_002",
-    "campaign_name": "Exclusive Deal 2026",
-    "channel": "SMS",
+    "campaign_name": "Flash Points Boost 2026",
+    "channel": "EMAIL",
     "offer": {
-      "type": "FIXED_AMOUNT_OFF",
+      "type": "BUY_ONE_GET_ONE",
+      "promo_code": "BUY__CMP_002",
       "discount_percentage": null,
-      "min_spend_threshold": 25,
-      "budget_allocated": 22888.89
+      "min_spend_threshold": 75,
+      "budget_allocated": 32502.51
     },
     "rules": {
-      "target_segment": "HIGH_SPENDERS",
+      "target_segment": "ALL_CUSTOMERS",
       "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 2
+      "max_contact_frequency_7d": 1
     },
     "schedule": {
-      "start_date": "2026-02-08",
-      "end_date": "2026-02-15",
+      "start_date": "2026-07-23",
+      "end_date": "2026-08-06",
       "status": "COMPLETED"
     },
     "metadata": {
-      "created_by": "growth_lead",
-      "created_at": "2025-11-13T14:56:35"
+      "created_by": "marketing_ops",
+      "created_at": "2026-04-15T02:21:06"
     }
   },
   {
     "campaign_id": "CMP_003",
-    "campaign_name": "Holiday Cashback 2026",
-    "channel": "SMS",
+    "campaign_name": "Early Access Cashback 2026",
+    "channel": "PUSH_NOTIFICATION",
     "offer": {
-      "type": "LOYALTY_POINTS_MULTIPLIER",
+      "type": "FREE_SHIPPING",
+      "promo_code": "FREE_CMP_003",
       "discount_percentage": null,
-      "min_spend_threshold": 100,
-      "budget_allocated": 11316.78
+      "min_spend_threshold": 0,
+      "budget_allocated": 33336.88
     },
     "rules": {
-      "target_segment": "PLATINUM_ONLY",
+      "target_segment": "ALL_CUSTOMERS",
       "exclude_open_support_cases": true,
       "max_contact_frequency_7d": 1
     },
     "schedule": {
-      "start_date": "2026-08-07",
-      "end_date": "2026-09-06",
+      "start_date": "2026-08-18",
+      "end_date": "2026-09-17",
       "status": "COMPLETED"
     },
     "metadata": {
       "created_by": "marketing_ops",
-      "created_at": "2026-03-24T09:36:20"
+      "created_at": "2026-06-02T17:08:21"
     }
   },
   {
     "campaign_id": "CMP_004",
-    "campaign_name": "Mega Points Boost 2026",
+    "campaign_name": "Holiday Points Boost 2026",
     "channel": "IN_APP_BANNER",
     "offer": {
-      "type": "BUY_ONE_GET_ONE",
+      "type": "LOYALTY_POINTS_MULTIPLIER",
+      "promo_code": "LOYA_CMP_004",
       "discount_percentage": null,
-      "min_spend_threshold": 25,
-      "budget_allocated": 14065.47
+      "min_spend_threshold": 50,
+      "budget_allocated": 20664.82
     },
     "rules": {
-      "target_segment": "NEW_SIGNUPS_30D",
+      "target_segment": "ALL_CUSTOMERS",
       "exclude_open_support_cases": true,
       "max_contact_frequency_7d": 1
     },
     "schedule": {
-      "start_date": "2026-06-28",
-      "end_date": "2026-07-28",
+      "start_date": "2026-05-30",
+      "end_date": "2026-06-13",
       "status": "COMPLETED"
     },
     "metadata": {
-      "created_by": "marketing_ops",
-      "created_at": "2026-04-24T02:02:16"
+      "created_by": "campaign_manager",
+      "created_at": "2026-03-13T14:03:49"
     }
   },
   {
     "campaign_id": "CMP_005",
-    "campaign_name": "Holiday Sale 2026",
+    "campaign_name": "Flash Cashback 2026",
     "channel": "PUSH_NOTIFICATION",
     "offer": {
-      "type": "PERCENTAGE_DISCOUNT",
-      "discount_percentage": 15,
-      "min_spend_threshold": 50,
-      "budget_allocated": 15368.09
+      "type": "FREE_SHIPPING",
+      "promo_code": "FREE_CMP_005",
+      "discount_percentage": null,
+      "min_spend_threshold": 100,
+      "budget_allocated": 29586.21
     },
     "rules": {
       "target_segment": "HIGH_SPENDERS",
-      "exclude_open_support_cases": true,
+      "exclude_open_support_cases": false,
       "max_contact_frequency_7d": 2
     },
     "schedule": {
-      "start_date": "2026-07-19",
-      "end_date": "2026-08-18",
+      "start_date": "2026-08-11",
+      "end_date": "2026-09-01",
       "status": "COMPLETED"
     },
     "metadata": {
-      "created_by": "campaign_manager",
-      "created_at": "2025-11-04T02:31:06"
+      "created_by": "marketing_ops",
+      "created_at": "2026-06-02T05:28:00"
     }
   },
   {
     "campaign_id": "CMP_006",
-    "campaign_name": "Early Access Rewards 2026",
-    "channel": "SMS",
+    "campaign_name": "Member Savings 2026",
+    "channel": "EMAIL",
     "offer": {
-      "type": "PERCENTAGE_DISCOUNT",
-      "discount_percentage": 15,
+      "type": "LOYALTY_POINTS_MULTIPLIER",
+      "promo_code": "LOYA_CMP_006",
+      "discount_percentage": null,
       "min_spend_threshold": 0,
-      "budget_allocated": 34565.35
+      "budget_allocated": 32309.05
     },
     "rules": {
-      "target_segment": "BRONZE_AND_ABOVE",
-      "exclude_open_support_cases": false,
-      "max_contact_frequency_7d": 2
+      "target_segment": "INACTIVE_90D",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 1
     },
     "schedule": {
-      "start_date": "2026-05-21",
-      "end_date": "2026-05-28",
+      "start_date": "2026-06-12",
+      "end_date": "2026-06-19",
       "status": "COMPLETED"
     },
     "metadata": {
-      "created_by": "marketing_ops",
-      "created_at": "2026-02-10T05:41:09"
+      "created_by": "campaign_manager",
+      "created_at": "2025-12-13T11:18:47"
     }
   },
   {
     "campaign_id": "CMP_007",
-    "campaign_name": "Mega Sale 2026",
-    "channel": "EMAIL",
+    "campaign_name": "Member Cashback 2026",
+    "channel": "PUSH_NOTIFICATION",
     "offer": {
-      "type": "LOYALTY_POINTS_MULTIPLIER",
+      "type": "BUY_ONE_GET_ONE",
+      "promo_code": "BUY__CMP_007",
       "discount_percentage": null,
-      "min_spend_threshold": 75,
-      "budget_allocated": 15502.88
+      "min_spend_threshold": 100,
+      "budget_allocated": 33589.78
     },
     "rules": {
       "target_segment": "HIGH_SPENDERS",
@@ -165,149 +172,77 @@
       "max_contact_frequency_7d": 2
     },
     "schedule": {
-      "start_date": "2026-01-03",
-      "end_date": "2026-01-10",
+      "start_date": "2026-02-05",
+      "end_date": "2026-02-19",
       "status": "COMPLETED"
     },
     "metadata": {
-      "created_by": "marketing_ops",
-      "created_at": "2025-12-18T04:08:21"
+      "created_by": "campaign_manager",
+      "created_at": "2026-01-17T19:28:22"
     }
   },
   {
     "campaign_id": "CMP_008",
-    "campaign_name": "Exclusive Points Boost 2026",
-    "channel": "IN_APP_BANNER",
+    "campaign_name": "Mega Points Boost 2026",
+    "channel": "EMAIL",
     "offer": {
-      "type": "FIXED_AMOUNT_OFF",
+      "type": "LOYALTY_POINTS_MULTIPLIER",
+      "promo_code": "LOYA_CMP_008",
       "discount_percentage": null,
-      "min_spend_threshold": 25,
-      "budget_allocated": 18549.57
+      "min_spend_threshold": 100,
+      "budget_allocated": 16141.51
     },
     "rules": {
-      "target_segment": "ALL_CUSTOMERS",
+      "target_segment": "HIGH_SPENDERS",
       "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 1
+      "max_contact_frequency_7d": 2
     },
     "schedule": {
-      "start_date": "2026-07-28",
-      "end_date": "2026-08-11",
+      "start_date": "2026-02-28",
+      "end_date": "2026-03-21",
       "status": "COMPLETED"
     },
     "metadata": {
-      "created_by": "campaign_manager",
-      "created_at": "2026-07-15T03:55:34"
+      "created_by": "marketing_ops",
+      "created_at": "2025-11-01T20:19:55"
     }
   },
   {
     "campaign_id": "CMP_009",
-    "campaign_name": "Exclusive Savings 2026",
-    "channel": "PUSH_NOTIFICATION",
+    "campaign_name": "Holiday Points Boost 2026",
+    "channel": "SMS",
     "offer": {
       "type": "FIXED_AMOUNT_OFF",
+      "promo_code": "FIXE_CMP_009",
       "discount_percentage": null,
       "min_spend_threshold": 100,
-      "budget_allocated": 7115.77
+      "budget_allocated": 29563.93
     },
     "rules": {
-      "target_segment": "SILVER_AND_ABOVE",
-      "exclude_open_support_cases": true,
+      "target_segment": "PLATINUM_ONLY",
+      "exclude_open_support_cases": false,
       "max_contact_frequency_7d": 2
     },
     "schedule": {
       "start_date": "2026-04-03",
-      "end_date": "2026-04-17",
+      "end_date": "2026-05-03",
       "status": "COMPLETED"
     },
     "metadata": {
-      "created_by": "campaign_manager",
-      "created_at": "2026-01-03T10:43:43"
+      "created_by": "growth_lead",
+      "created_at": "2026-01-29T21:59:42"
     }
   },
   {
     "campaign_id": "CMP_010",
-    "campaign_name": "Member Savings 2026",
-    "channel": "SMS",
-    "offer": {
-      "type": "LOYALTY_POINTS_MULTIPLIER",
-      "discount_percentage": null,
-      "min_spend_threshold": 0,
-      "budget_allocated": 11006.34
-    },
-    "rules": {
-      "target_segment": "GOLD_AND_ABOVE",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 2
-    },
-    "schedule": {
-      "start_date": "2026-06-02",
-      "end_date": "2026-06-09",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "campaign_manager",
-      "created_at": "2025-12-15T23:32:22"
-    }
-  },
-  {
-    "campaign_id": "CMP_011",
-    "campaign_name": "Exclusive Deal 2026",
+    "campaign_name": "Mega Sale 2026",
     "channel": "PUSH_NOTIFICATION",
     "offer": {
-      "type": "PERCENTAGE_DISCOUNT",
-      "discount_percentage": 20,
-      "min_spend_threshold": 25,
-      "budget_allocated": 12516.59
-    },
-    "rules": {
-      "target_segment": "BRONZE_AND_ABOVE",
-      "exclude_open_support_cases": false,
-      "max_contact_frequency_7d": 1
-    },
-    "schedule": {
-      "start_date": "2026-06-27",
-      "end_date": "2026-07-04",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "marketing_ops",
-      "created_at": "2026-05-26T01:40:04"
-    }
-  },
-  {
-    "campaign_id": "CMP_012",
-    "campaign_name": "Flash Savings 2026",
-    "channel": "SMS",
-    "offer": {
-      "type": "PERCENTAGE_DISCOUNT",
-      "discount_percentage": 25,
-      "min_spend_threshold": 100,
-      "budget_allocated": 34357.96
-    },
-    "rules": {
-      "target_segment": "NEW_SIGNUPS_30D",
-      "exclude_open_support_cases": false,
-      "max_contact_frequency_7d": 1
-    },
-    "schedule": {
-      "start_date": "2026-03-02",
-      "end_date": "2026-03-23",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "marketing_ops",
-      "created_at": "2025-11-25T18:46:44"
-    }
-  },
-  {
-    "campaign_id": "CMP_013",
-    "campaign_name": "Flash Rewards 2026",
-    "channel": "SMS",
-    "offer": {
-      "type": "PERCENTAGE_DISCOUNT",
-      "discount_percentage": 40,
-      "min_spend_threshold": 50,
-      "budget_allocated": 10005.3
+      "type": "FIXED_AMOUNT_OFF",
+      "promo_code": "FIXE_CMP_010",
+      "discount_percentage": null,
+      "min_spend_threshold": 0,
+      "budget_allocated": 5355.29
     },
     "rules": {
       "target_segment": "ALL_CUSTOMERS",
@@ -315,124 +250,129 @@
       "max_contact_frequency_7d": 2
     },
     "schedule": {
-      "start_date": "2026-02-22",
-      "end_date": "2026-03-15",
+      "start_date": "2026-04-11",
+      "end_date": "2026-04-18",
       "status": "COMPLETED"
     },
     "metadata": {
-      "created_by": "marketing_ops",
-      "created_at": "2026-02-08T03:16:56"
+      "created_by": "growth_lead",
+      "created_at": "2025-11-03T13:28:57"
     }
   },
   {
-    "campaign_id": "CMP_014",
-    "campaign_name": "Member Rewards 2026",
-    "channel": "IN_APP_BANNER",
+    "campaign_id": "CMP_011",
+    "campaign_name": "Mega Sale 2026",
+    "channel": "EMAIL",
     "offer": {
-      "type": "BUY_ONE_GET_ONE",
+      "type": "LOYALTY_POINTS_MULTIPLIER",
+      "promo_code": "LOYA_CMP_011",
       "discount_percentage": null,
-      "min_spend_threshold": 75,
-      "budget_allocated": 11498.62
+      "min_spend_threshold": 25,
+      "budget_allocated": 20863.48
     },
     "rules": {
-      "target_segment": "PLATINUM_ONLY",
+      "target_segment": "NEW_SIGNUPS_30D",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 2
+    },
+    "schedule": {
+      "start_date": "2026-09-10",
+      "end_date": "2026-10-01",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "growth_lead",
+      "created_at": "2026-07-08T18:23:13"
+    }
+  },
+  {
+    "campaign_id": "CMP_012",
+    "campaign_name": "Flash Deal 2026",
+    "channel": "PUSH_NOTIFICATION",
+    "offer": {
+      "type": "FIXED_AMOUNT_OFF",
+      "promo_code": "FIXE_CMP_012",
+      "discount_percentage": null,
+      "min_spend_threshold": 75,
+      "budget_allocated": 21956.03
+    },
+    "rules": {
+      "target_segment": "SILVER_AND_ABOVE",
       "exclude_open_support_cases": true,
       "max_contact_frequency_7d": 1
     },
     "schedule": {
-      "start_date": "2026-10-12",
-      "end_date": "2026-11-11",
-      "status": "ACTIVE"
+      "start_date": "2026-04-27",
+      "end_date": "2026-05-11",
+      "status": "COMPLETED"
     },
     "metadata": {
-      "created_by": "marketing_ops",
-      "created_at": "2025-12-04T00:16:48"
+      "created_by": "campaign_manager",
+      "created_at": "2025-12-03T15:37:38"
+    }
+  },
+  {
+    "campaign_id": "CMP_013",
+    "campaign_name": "Mega Rewards 2026",
+    "channel": "EMAIL",
+    "offer": {
+      "type": "FREE_SHIPPING",
+      "promo_code": "FREE_CMP_013",
+      "discount_percentage": null,
+      "min_spend_threshold": 25,
+      "budget_allocated": 31855.05
+    },
+    "rules": {
+      "target_segment": "GOLD_AND_ABOVE",
+      "exclude_open_support_cases": false,
+      "max_contact_frequency_7d": 1
+    },
+    "schedule": {
+      "start_date": "2026-03-11",
+      "end_date": "2026-04-01",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "campaign_manager",
+      "created_at": "2026-02-20T12:02:54"
+    }
+  },
+  {
+    "campaign_id": "CMP_014",
+    "campaign_name": "Early Access Deal 2026",
+    "channel": "SMS",
+    "offer": {
+      "type": "FIXED_AMOUNT_OFF",
+      "promo_code": "FIXE_CMP_014",
+      "discount_percentage": null,
+      "min_spend_threshold": 75,
+      "budget_allocated": 31176.28
+    },
+    "rules": {
+      "target_segment": "HIGH_SPENDERS",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 2
+    },
+    "schedule": {
+      "start_date": "2026-01-13",
+      "end_date": "2026-02-03",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "campaign_manager",
+      "created_at": "2025-12-08T23:09:42"
     }
   },
   {
     "campaign_id": "CMP_015",
     "campaign_name": "Holiday Points Boost 2026",
-    "channel": "EMAIL",
-    "offer": {
-      "type": "LOYALTY_POINTS_MULTIPLIER",
-      "discount_percentage": null,
-      "min_spend_threshold": 50,
-      "budget_allocated": 18424.82
-    },
-    "rules": {
-      "target_segment": "GOLD_AND_ABOVE",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 1
-    },
-    "schedule": {
-      "start_date": "2026-07-17",
-      "end_date": "2026-07-31",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "campaign_manager",
-      "created_at": "2026-06-05T19:50:13"
-    }
-  },
-  {
-    "campaign_id": "CMP_016",
-    "campaign_name": "Flash Rewards 2026",
-    "channel": "PUSH_NOTIFICATION",
-    "offer": {
-      "type": "FIXED_AMOUNT_OFF",
-      "discount_percentage": null,
-      "min_spend_threshold": 25,
-      "budget_allocated": 29126.64
-    },
-    "rules": {
-      "target_segment": "BRONZE_AND_ABOVE",
-      "exclude_open_support_cases": false,
-      "max_contact_frequency_7d": 1
-    },
-    "schedule": {
-      "start_date": "2026-08-16",
-      "end_date": "2026-09-06",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "campaign_manager",
-      "created_at": "2026-03-09T21:50:46"
-    }
-  },
-  {
-    "campaign_id": "CMP_017",
-    "campaign_name": "Flash Deal 2026",
-    "channel": "SMS",
+    "channel": "IN_APP_BANNER",
     "offer": {
       "type": "BUY_ONE_GET_ONE",
+      "promo_code": "BUY__CMP_015",
       "discount_percentage": null,
-      "min_spend_threshold": 0,
-      "budget_allocated": 19976.13
-    },
-    "rules": {
-      "target_segment": "HIGH_SPENDERS",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 1
-    },
-    "schedule": {
-      "start_date": "2026-10-20",
-      "end_date": "2026-11-10",
-      "status": "ACTIVE"
-    },
-    "metadata": {
-      "created_by": "growth_lead",
-      "created_at": "2026-10-14T12:04:22"
-    }
-  },
-  {
-    "campaign_id": "CMP_018",
-    "campaign_name": "Holiday Rewards 2026",
-    "channel": "EMAIL",
-    "offer": {
-      "type": "FREE_SHIPPING",
-      "discount_percentage": null,
-      "min_spend_threshold": 25,
-      "budget_allocated": 19154.12
+      "min_spend_threshold": 75,
+      "budget_allocated": 19910.76
     },
     "rules": {
       "target_segment": "NEW_SIGNUPS_30D",
@@ -440,24 +380,129 @@
       "max_contact_frequency_7d": 1
     },
     "schedule": {
-      "start_date": "2026-06-02",
-      "end_date": "2026-06-23",
+      "start_date": "2026-05-11",
+      "end_date": "2026-05-18",
       "status": "COMPLETED"
     },
     "metadata": {
       "created_by": "campaign_manager",
-      "created_at": "2025-11-26T21:28:48"
+      "created_at": "2026-03-06T10:18:15"
+    }
+  },
+  {
+    "campaign_id": "CMP_016",
+    "campaign_name": "VIP Deal 2026",
+    "channel": "SMS",
+    "offer": {
+      "type": "BUY_ONE_GET_ONE",
+      "promo_code": "BUY__CMP_016",
+      "discount_percentage": null,
+      "min_spend_threshold": 50,
+      "budget_allocated": 14566.97
+    },
+    "rules": {
+      "target_segment": "GOLD_AND_ABOVE",
+      "exclude_open_support_cases": false,
+      "max_contact_frequency_7d": 2
+    },
+    "schedule": {
+      "start_date": "2026-06-19",
+      "end_date": "2026-06-26",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "campaign_manager",
+      "created_at": "2026-05-19T15:53:01"
+    }
+  },
+  {
+    "campaign_id": "CMP_017",
+    "campaign_name": "Exclusive Sale 2026",
+    "channel": "SMS",
+    "offer": {
+      "type": "BUY_ONE_GET_ONE",
+      "promo_code": "BUY__CMP_017",
+      "discount_percentage": null,
+      "min_spend_threshold": 100,
+      "budget_allocated": 33175.1
+    },
+    "rules": {
+      "target_segment": "GOLD_AND_ABOVE",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 2
+    },
+    "schedule": {
+      "start_date": "2026-04-28",
+      "end_date": "2026-05-19",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "campaign_manager",
+      "created_at": "2025-12-12T21:51:38"
+    }
+  },
+  {
+    "campaign_id": "CMP_018",
+    "campaign_name": "Early Access Cashback 2026",
+    "channel": "PUSH_NOTIFICATION",
+    "offer": {
+      "type": "BUY_ONE_GET_ONE",
+      "promo_code": "BUY__CMP_018",
+      "discount_percentage": null,
+      "min_spend_threshold": 75,
+      "budget_allocated": 17601.15
+    },
+    "rules": {
+      "target_segment": "INACTIVE_90D",
+      "exclude_open_support_cases": false,
+      "max_contact_frequency_7d": 1
+    },
+    "schedule": {
+      "start_date": "2026-03-20",
+      "end_date": "2026-03-27",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "growth_lead",
+      "created_at": "2026-02-27T05:54:08"
     }
   },
   {
     "campaign_id": "CMP_019",
-    "campaign_name": "Holiday Rewards 2026",
-    "channel": "IN_APP_BANNER",
+    "campaign_name": "VIP Savings 2026",
+    "channel": "PUSH_NOTIFICATION",
     "offer": {
-      "type": "FREE_SHIPPING",
+      "type": "FIXED_AMOUNT_OFF",
+      "promo_code": "FIXE_CMP_019",
       "discount_percentage": null,
       "min_spend_threshold": 25,
-      "budget_allocated": 16927.45
+      "budget_allocated": 30751.83
+    },
+    "rules": {
+      "target_segment": "NEW_SIGNUPS_30D",
+      "exclude_open_support_cases": false,
+      "max_contact_frequency_7d": 2
+    },
+    "schedule": {
+      "start_date": "2026-05-09",
+      "end_date": "2026-05-30",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "growth_lead",
+      "created_at": "2025-11-07T03:36:37"
+    }
+  },
+  {
+    "campaign_id": "CMP_020",
+    "campaign_name": "VIP Rewards 2026",
+    "channel": "EMAIL",
+    "offer": {
+      "type": "BUY_ONE_GET_ONE",
+      "promo_code": "BUY__CMP_020",
+      "discount_percentage": null,
+      "min_spend_threshold": 100,
+      "budget_allocated": 7770.66
     },
     "rules": {
       "target_segment": "INACTIVE_90D",
@@ -465,49 +510,311 @@
       "max_contact_frequency_7d": 2
     },
     "schedule": {
-      "start_date": "2026-08-24",
-      "end_date": "2026-09-07",
+      "start_date": "2026-07-04",
+      "end_date": "2026-07-11",
       "status": "COMPLETED"
     },
     "metadata": {
       "created_by": "campaign_manager",
-      "created_at": "2025-11-17T18:56:41"
-    }
-  },
-  {
-    "campaign_id": "CMP_020",
-    "campaign_name": "Mega Cashback 2026",
-    "channel": "IN_APP_BANNER",
-    "offer": {
-      "type": "BUY_ONE_GET_ONE",
-      "discount_percentage": null,
-      "min_spend_threshold": 25,
-      "budget_allocated": 15802.41
-    },
-    "rules": {
-      "target_segment": "SILVER_AND_ABOVE",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 2
-    },
-    "schedule": {
-      "start_date": "2026-08-01",
-      "end_date": "2026-08-08",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "growth_lead",
-      "created_at": "2026-06-03T07:29:39"
+      "created_at": "2026-01-04T03:38:07"
     }
   },
   {
     "campaign_id": "CMP_021",
+    "campaign_name": "Holiday Rewards 2026",
+    "channel": "PUSH_NOTIFICATION",
+    "offer": {
+      "type": "PERCENTAGE_DISCOUNT",
+      "promo_code": "PERC_CMP_021",
+      "discount_percentage": 30,
+      "min_spend_threshold": 25,
+      "budget_allocated": 20715.77
+    },
+    "rules": {
+      "target_segment": "HIGH_SPENDERS",
+      "exclude_open_support_cases": false,
+      "max_contact_frequency_7d": 2
+    },
+    "schedule": {
+      "start_date": "2026-05-24",
+      "end_date": "2026-06-07",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "marketing_ops",
+      "created_at": "2026-05-10T07:20:21"
+    }
+  },
+  {
+    "campaign_id": "CMP_022",
+    "campaign_name": "Exclusive Points Boost 2026",
+    "channel": "SMS",
+    "offer": {
+      "type": "BUY_ONE_GET_ONE",
+      "promo_code": "BUY__CMP_022",
+      "discount_percentage": null,
+      "min_spend_threshold": 100,
+      "budget_allocated": 32537.41
+    },
+    "rules": {
+      "target_segment": "PLATINUM_ONLY",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 2
+    },
+    "schedule": {
+      "start_date": "2026-01-03",
+      "end_date": "2026-01-17",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "marketing_ops",
+      "created_at": "2025-12-03T12:47:55"
+    }
+  },
+  {
+    "campaign_id": "CMP_023",
+    "campaign_name": "Flash Deal 2026",
+    "channel": "EMAIL",
+    "offer": {
+      "type": "PERCENTAGE_DISCOUNT",
+      "promo_code": "PERC_CMP_023",
+      "discount_percentage": 20,
+      "min_spend_threshold": 50,
+      "budget_allocated": 2764.27
+    },
+    "rules": {
+      "target_segment": "INACTIVE_90D",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 1
+    },
+    "schedule": {
+      "start_date": "2026-03-09",
+      "end_date": "2026-03-16",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "campaign_manager",
+      "created_at": "2025-12-11T17:21:19"
+    }
+  },
+  {
+    "campaign_id": "CMP_024",
+    "campaign_name": "VIP Savings 2026",
+    "channel": "IN_APP_BANNER",
+    "offer": {
+      "type": "PERCENTAGE_DISCOUNT",
+      "promo_code": "PERC_CMP_024",
+      "discount_percentage": 15,
+      "min_spend_threshold": 75,
+      "budget_allocated": 22474.54
+    },
+    "rules": {
+      "target_segment": "SILVER_AND_ABOVE",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 1
+    },
+    "schedule": {
+      "start_date": "2026-05-16",
+      "end_date": "2026-05-30",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "marketing_ops",
+      "created_at": "2025-12-10T01:23:01"
+    }
+  },
+  {
+    "campaign_id": "CMP_025",
     "campaign_name": "Mega Savings 2026",
     "channel": "EMAIL",
     "offer": {
-      "type": "BUY_ONE_GET_ONE",
+      "type": "FIXED_AMOUNT_OFF",
+      "promo_code": "FIXE_CMP_025",
       "discount_percentage": null,
-      "min_spend_threshold": 25,
-      "budget_allocated": 17804.05
+      "min_spend_threshold": 75,
+      "budget_allocated": 13813.0
+    },
+    "rules": {
+      "target_segment": "INACTIVE_90D",
+      "exclude_open_support_cases": false,
+      "max_contact_frequency_7d": 2
+    },
+    "schedule": {
+      "start_date": "2026-05-21",
+      "end_date": "2026-06-04",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "marketing_ops",
+      "created_at": "2026-04-18T14:23:43"
+    }
+  },
+  {
+    "campaign_id": "CMP_026",
+    "campaign_name": "Member Sale 2026",
+    "channel": "SMS",
+    "offer": {
+      "type": "FREE_SHIPPING",
+      "promo_code": "FREE_CMP_026",
+      "discount_percentage": null,
+      "min_spend_threshold": 100,
+      "budget_allocated": 13994.75
+    },
+    "rules": {
+      "target_segment": "SILVER_AND_ABOVE",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 1
+    },
+    "schedule": {
+      "start_date": "2026-02-26",
+      "end_date": "2026-03-05",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "growth_lead",
+      "created_at": "2026-01-07T23:34:18"
+    }
+  },
+  {
+    "campaign_id": "CMP_027",
+    "campaign_name": "VIP Deal 2026",
+    "channel": "SMS",
+    "offer": {
+      "type": "BUY_ONE_GET_ONE",
+      "promo_code": "BUY__CMP_027",
+      "discount_percentage": null,
+      "min_spend_threshold": 100,
+      "budget_allocated": 29185.31
+    },
+    "rules": {
+      "target_segment": "BRONZE_AND_ABOVE",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 1
+    },
+    "schedule": {
+      "start_date": "2026-08-09",
+      "end_date": "2026-08-16",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "campaign_manager",
+      "created_at": "2025-12-07T09:58:17"
+    }
+  },
+  {
+    "campaign_id": "CMP_028",
+    "campaign_name": "Mega Cashback 2026",
+    "channel": "SMS",
+    "offer": {
+      "type": "BUY_ONE_GET_ONE",
+      "promo_code": "BUY__CMP_028",
+      "discount_percentage": null,
+      "min_spend_threshold": 75,
+      "budget_allocated": 25051.74
+    },
+    "rules": {
+      "target_segment": "INACTIVE_90D",
+      "exclude_open_support_cases": false,
+      "max_contact_frequency_7d": 1
+    },
+    "schedule": {
+      "start_date": "2026-06-10",
+      "end_date": "2026-06-24",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "campaign_manager",
+      "created_at": "2026-01-12T10:05:29"
+    }
+  },
+  {
+    "campaign_id": "CMP_029",
+    "campaign_name": "Flash Rewards 2026",
+    "channel": "PUSH_NOTIFICATION",
+    "offer": {
+      "type": "FREE_SHIPPING",
+      "promo_code": "FREE_CMP_029",
+      "discount_percentage": null,
+      "min_spend_threshold": 50,
+      "budget_allocated": 14713.95
+    },
+    "rules": {
+      "target_segment": "HIGH_SPENDERS",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 1
+    },
+    "schedule": {
+      "start_date": "2026-05-07",
+      "end_date": "2026-06-06",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "growth_lead",
+      "created_at": "2026-01-01T15:28:23"
+    }
+  },
+  {
+    "campaign_id": "CMP_030",
+    "campaign_name": "Member Cashback 2026",
+    "channel": "PUSH_NOTIFICATION",
+    "offer": {
+      "type": "BUY_ONE_GET_ONE",
+      "promo_code": "BUY__CMP_030",
+      "discount_percentage": null,
+      "min_spend_threshold": 0,
+      "budget_allocated": 7735.39
+    },
+    "rules": {
+      "target_segment": "NEW_SIGNUPS_30D",
+      "exclude_open_support_cases": false,
+      "max_contact_frequency_7d": 1
+    },
+    "schedule": {
+      "start_date": "2026-08-06",
+      "end_date": "2026-08-27",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "growth_lead",
+      "created_at": "2026-02-09T00:26:00"
+    }
+  },
+  {
+    "campaign_id": "CMP_031",
+    "campaign_name": "Flash Rewards 2026",
+    "channel": "IN_APP_BANNER",
+    "offer": {
+      "type": "LOYALTY_POINTS_MULTIPLIER",
+      "promo_code": "LOYA_CMP_031",
+      "discount_percentage": null,
+      "min_spend_threshold": 100,
+      "budget_allocated": 22507.4
+    },
+    "rules": {
+      "target_segment": "HIGH_SPENDERS",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 2
+    },
+    "schedule": {
+      "start_date": "2026-03-23",
+      "end_date": "2026-03-30",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "growth_lead",
+      "created_at": "2025-12-16T10:42:42"
+    }
+  },
+  {
+    "campaign_id": "CMP_032",
+    "campaign_name": "Mega Points Boost 2026",
+    "channel": "EMAIL",
+    "offer": {
+      "type": "FREE_SHIPPING",
+      "promo_code": "FREE_CMP_032",
+      "discount_percentage": null,
+      "min_spend_threshold": 0,
+      "budget_allocated": 16382.28
     },
     "rules": {
       "target_segment": "GOLD_AND_ABOVE",
@@ -515,127 +822,262 @@
       "max_contact_frequency_7d": 1
     },
     "schedule": {
-      "start_date": "2026-09-20",
-      "end_date": "2026-10-11",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "growth_lead",
-      "created_at": "2026-06-27T00:21:31"
-    }
-  },
-  {
-    "campaign_id": "CMP_022",
-    "campaign_name": "Member Cashback 2026",
-    "channel": "SMS",
-    "offer": {
-      "type": "BUY_ONE_GET_ONE",
-      "discount_percentage": null,
-      "min_spend_threshold": 25,
-      "budget_allocated": 12662.59
-    },
-    "rules": {
-      "target_segment": "PLATINUM_ONLY",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 2
-    },
-    "schedule": {
-      "start_date": "2026-08-24",
-      "end_date": "2026-09-23",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "growth_lead",
-      "created_at": "2026-01-11T12:44:06"
-    }
-  },
-  {
-    "campaign_id": "CMP_023",
-    "campaign_name": "Exclusive Sale 2026",
-    "channel": "PUSH_NOTIFICATION",
-    "offer": {
-      "type": "FIXED_AMOUNT_OFF",
-      "discount_percentage": null,
-      "min_spend_threshold": 100,
-      "budget_allocated": 2157.32
-    },
-    "rules": {
-      "target_segment": "PLATINUM_ONLY",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 2
-    },
-    "schedule": {
-      "start_date": "2026-04-19",
-      "end_date": "2026-05-10",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "marketing_ops",
-      "created_at": "2026-01-28T05:30:50"
-    }
-  },
-  {
-    "campaign_id": "CMP_024",
-    "campaign_name": "Holiday Savings 2026",
-    "channel": "SMS",
-    "offer": {
-      "type": "BUY_ONE_GET_ONE",
-      "discount_percentage": null,
-      "min_spend_threshold": 75,
-      "budget_allocated": 21811.64
-    },
-    "rules": {
-      "target_segment": "BRONZE_AND_ABOVE",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 2
-    },
-    "schedule": {
-      "start_date": "2026-06-25",
-      "end_date": "2026-07-09",
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-22",
       "status": "COMPLETED"
     },
     "metadata": {
       "created_by": "campaign_manager",
-      "created_at": "2026-04-28T01:51:51"
+      "created_at": "2026-01-05T03:56:52"
     }
   },
   {
-    "campaign_id": "CMP_025",
-    "campaign_name": "VIP Points Boost 2026",
+    "campaign_id": "CMP_033",
+    "campaign_name": "Mega Sale 2026",
     "channel": "PUSH_NOTIFICATION",
     "offer": {
-      "type": "PERCENTAGE_DISCOUNT",
-      "discount_percentage": 10,
+      "type": "BUY_ONE_GET_ONE",
+      "promo_code": "BUY__CMP_033",
+      "discount_percentage": null,
       "min_spend_threshold": 25,
-      "budget_allocated": 11159.16
+      "budget_allocated": 24331.06
     },
     "rules": {
-      "target_segment": "NEW_SIGNUPS_30D",
+      "target_segment": "SILVER_AND_ABOVE",
       "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 2
+      "max_contact_frequency_7d": 1
     },
     "schedule": {
-      "start_date": "2026-09-13",
-      "end_date": "2026-10-13",
+      "start_date": "2026-08-03",
+      "end_date": "2026-09-02",
       "status": "COMPLETED"
     },
     "metadata": {
       "created_by": "marketing_ops",
-      "created_at": "2026-02-01T21:08:59"
+      "created_at": "2026-02-17T21:29:22"
     }
   },
   {
-    "campaign_id": "CMP_026",
+    "campaign_id": "CMP_034",
     "campaign_name": "Member Savings 2026",
     "channel": "SMS",
     "offer": {
-      "type": "FIXED_AMOUNT_OFF",
+      "type": "LOYALTY_POINTS_MULTIPLIER",
+      "promo_code": "LOYA_CMP_034",
+      "discount_percentage": null,
+      "min_spend_threshold": 0,
+      "budget_allocated": 23699.83
+    },
+    "rules": {
+      "target_segment": "ALL_CUSTOMERS",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 1
+    },
+    "schedule": {
+      "start_date": "2026-09-15",
+      "end_date": "2026-10-06",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "marketing_ops",
+      "created_at": "2026-03-24T10:06:02"
+    }
+  },
+  {
+    "campaign_id": "CMP_035",
+    "campaign_name": "Flash Savings 2026",
+    "channel": "SMS",
+    "offer": {
+      "type": "FREE_SHIPPING",
+      "promo_code": "FREE_CMP_035",
+      "discount_percentage": null,
+      "min_spend_threshold": 100,
+      "budget_allocated": 7798.24
+    },
+    "rules": {
+      "target_segment": "PLATINUM_ONLY",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 1
+    },
+    "schedule": {
+      "start_date": "2026-01-24",
+      "end_date": "2026-02-07",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "marketing_ops",
+      "created_at": "2025-11-25T19:00:45"
+    }
+  },
+  {
+    "campaign_id": "CMP_036",
+    "campaign_name": "Exclusive Cashback 2026",
+    "channel": "IN_APP_BANNER",
+    "offer": {
+      "type": "BUY_ONE_GET_ONE",
+      "promo_code": "BUY__CMP_036",
       "discount_percentage": null,
       "min_spend_threshold": 25,
-      "budget_allocated": 32720.28
+      "budget_allocated": 22010.49
+    },
+    "rules": {
+      "target_segment": "INACTIVE_90D",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 1
+    },
+    "schedule": {
+      "start_date": "2026-07-13",
+      "end_date": "2026-08-12",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "growth_lead",
+      "created_at": "2026-03-09T15:20:16"
+    }
+  },
+  {
+    "campaign_id": "CMP_037",
+    "campaign_name": "VIP Points Boost 2026",
+    "channel": "SMS",
+    "offer": {
+      "type": "PERCENTAGE_DISCOUNT",
+      "promo_code": "PERC_CMP_037",
+      "discount_percentage": 30,
+      "min_spend_threshold": 25,
+      "budget_allocated": 23347.59
+    },
+    "rules": {
+      "target_segment": "PLATINUM_ONLY",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 2
+    },
+    "schedule": {
+      "start_date": "2026-04-10",
+      "end_date": "2026-04-17",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "growth_lead",
+      "created_at": "2026-01-12T08:01:56"
+    }
+  },
+  {
+    "campaign_id": "CMP_038",
+    "campaign_name": "Exclusive Rewards 2026",
+    "channel": "IN_APP_BANNER",
+    "offer": {
+      "type": "PERCENTAGE_DISCOUNT",
+      "promo_code": "PERC_CMP_038",
+      "discount_percentage": 40,
+      "min_spend_threshold": 0,
+      "budget_allocated": 12582.88
     },
     "rules": {
       "target_segment": "SILVER_AND_ABOVE",
+      "exclude_open_support_cases": false,
+      "max_contact_frequency_7d": 1
+    },
+    "schedule": {
+      "start_date": "2026-09-05",
+      "end_date": "2026-09-12",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "growth_lead",
+      "created_at": "2026-06-16T00:22:08"
+    }
+  },
+  {
+    "campaign_id": "CMP_039",
+    "campaign_name": "Mega Sale 2026",
+    "channel": "IN_APP_BANNER",
+    "offer": {
+      "type": "FREE_SHIPPING",
+      "promo_code": "FREE_CMP_039",
+      "discount_percentage": null,
+      "min_spend_threshold": 75,
+      "budget_allocated": 9049.77
+    },
+    "rules": {
+      "target_segment": "SILVER_AND_ABOVE",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 1
+    },
+    "schedule": {
+      "start_date": "2026-06-23",
+      "end_date": "2026-06-30",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "campaign_manager",
+      "created_at": "2025-12-25T20:35:17"
+    }
+  },
+  {
+    "campaign_id": "CMP_040",
+    "campaign_name": "Holiday Points Boost 2026",
+    "channel": "IN_APP_BANNER",
+    "offer": {
+      "type": "PERCENTAGE_DISCOUNT",
+      "promo_code": "PERC_CMP_040",
+      "discount_percentage": 15,
+      "min_spend_threshold": 0,
+      "budget_allocated": 21592.23
+    },
+    "rules": {
+      "target_segment": "ALL_CUSTOMERS",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 2
+    },
+    "schedule": {
+      "start_date": "2026-04-28",
+      "end_date": "2026-05-12",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "growth_lead",
+      "created_at": "2026-04-24T17:48:12"
+    }
+  },
+  {
+    "campaign_id": "CMP_041",
+    "campaign_name": "Mega Deal 2026",
+    "channel": "IN_APP_BANNER",
+    "offer": {
+      "type": "FREE_SHIPPING",
+      "promo_code": "FREE_CMP_041",
+      "discount_percentage": null,
+      "min_spend_threshold": 0,
+      "budget_allocated": 27504.91
+    },
+    "rules": {
+      "target_segment": "GOLD_AND_ABOVE",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 1
+    },
+    "schedule": {
+      "start_date": "2026-08-11",
+      "end_date": "2026-09-10",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "growth_lead",
+      "created_at": "2026-05-19T13:22:49"
+    }
+  },
+  {
+    "campaign_id": "CMP_042",
+    "campaign_name": "Holiday Cashback 2026",
+    "channel": "IN_APP_BANNER",
+    "offer": {
+      "type": "FREE_SHIPPING",
+      "promo_code": "FREE_CMP_042",
+      "discount_percentage": null,
+      "min_spend_threshold": 100,
+      "budget_allocated": 26436.01
+    },
+    "rules": {
+      "target_segment": "ALL_CUSTOMERS",
       "exclude_open_support_cases": true,
       "max_contact_frequency_7d": 2
     },
@@ -645,19 +1087,98 @@
       "status": "COMPLETED"
     },
     "metadata": {
-      "created_by": "growth_lead",
-      "created_at": "2026-05-28T20:50:56"
+      "created_by": "marketing_ops",
+      "created_at": "2025-11-22T22:25:44"
     }
   },
   {
-    "campaign_id": "CMP_027",
-    "campaign_name": "Member Savings 2026",
-    "channel": "PUSH_NOTIFICATION",
+    "campaign_id": "CMP_043",
+    "campaign_name": "VIP Deal 2026",
+    "channel": "EMAIL",
     "offer": {
-      "type": "LOYALTY_POINTS_MULTIPLIER",
+      "type": "BUY_ONE_GET_ONE",
+      "promo_code": "BUY__CMP_043",
       "discount_percentage": null,
-      "min_spend_threshold": 0,
-      "budget_allocated": 32084.4
+      "min_spend_threshold": 25,
+      "budget_allocated": 27611.75
+    },
+    "rules": {
+      "target_segment": "ALL_CUSTOMERS",
+      "exclude_open_support_cases": false,
+      "max_contact_frequency_7d": 1
+    },
+    "schedule": {
+      "start_date": "2026-04-01",
+      "end_date": "2026-04-08",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "growth_lead",
+      "created_at": "2026-02-04T23:55:06"
+    }
+  },
+  {
+    "campaign_id": "CMP_044",
+    "campaign_name": "Flash Points Boost 2026",
+    "channel": "SMS",
+    "offer": {
+      "type": "PERCENTAGE_DISCOUNT",
+      "promo_code": "PERC_CMP_044",
+      "discount_percentage": 15,
+      "min_spend_threshold": 100,
+      "budget_allocated": 12434.88
+    },
+    "rules": {
+      "target_segment": "GOLD_AND_ABOVE",
+      "exclude_open_support_cases": false,
+      "max_contact_frequency_7d": 2
+    },
+    "schedule": {
+      "start_date": "2026-06-27",
+      "end_date": "2026-07-04",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "campaign_manager",
+      "created_at": "2025-11-19T08:13:25"
+    }
+  },
+  {
+    "campaign_id": "CMP_045",
+    "campaign_name": "Exclusive Sale 2026",
+    "channel": "EMAIL",
+    "offer": {
+      "type": "PERCENTAGE_DISCOUNT",
+      "promo_code": "PERC_CMP_045",
+      "discount_percentage": 25,
+      "min_spend_threshold": 75,
+      "budget_allocated": 24420.86
+    },
+    "rules": {
+      "target_segment": "PLATINUM_ONLY",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 1
+    },
+    "schedule": {
+      "start_date": "2026-04-16",
+      "end_date": "2026-05-07",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "growth_lead",
+      "created_at": "2026-03-19T01:25:21"
+    }
+  },
+  {
+    "campaign_id": "CMP_046",
+    "campaign_name": "Holiday Savings 2026",
+    "channel": "EMAIL",
+    "offer": {
+      "type": "FIXED_AMOUNT_OFF",
+      "promo_code": "FIXE_CMP_046",
+      "discount_percentage": null,
+      "min_spend_threshold": 25,
+      "budget_allocated": 29393.45
     },
     "rules": {
       "target_segment": "NEW_SIGNUPS_30D",
@@ -665,74 +1186,25 @@
       "max_contact_frequency_7d": 2
     },
     "schedule": {
-      "start_date": "2026-01-24",
-      "end_date": "2026-02-14",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "campaign_manager",
-      "created_at": "2025-11-18T20:20:02"
-    }
-  },
-  {
-    "campaign_id": "CMP_028",
-    "campaign_name": "Holiday Points Boost 2026",
-    "channel": "IN_APP_BANNER",
-    "offer": {
-      "type": "LOYALTY_POINTS_MULTIPLIER",
-      "discount_percentage": null,
-      "min_spend_threshold": 75,
-      "budget_allocated": 11751.2
-    },
-    "rules": {
-      "target_segment": "BRONZE_AND_ABOVE",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 1
-    },
-    "schedule": {
-      "start_date": "2026-03-22",
-      "end_date": "2026-03-29",
+      "start_date": "2026-01-23",
+      "end_date": "2026-01-30",
       "status": "COMPLETED"
     },
     "metadata": {
       "created_by": "marketing_ops",
-      "created_at": "2025-11-06T03:13:56"
+      "created_at": "2025-11-07T23:00:19"
     }
   },
   {
-    "campaign_id": "CMP_029",
-    "campaign_name": "VIP Rewards 2026",
+    "campaign_id": "CMP_047",
+    "campaign_name": "Mega Deal 2026",
     "channel": "PUSH_NOTIFICATION",
     "offer": {
-      "type": "FREE_SHIPPING",
-      "discount_percentage": null,
-      "min_spend_threshold": 25,
-      "budget_allocated": 21481.23
-    },
-    "rules": {
-      "target_segment": "HIGH_SPENDERS",
-      "exclude_open_support_cases": false,
-      "max_contact_frequency_7d": 2
-    },
-    "schedule": {
-      "start_date": "2026-03-03",
-      "end_date": "2026-03-24",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "growth_lead",
-      "created_at": "2025-12-11T18:16:47"
-    }
-  },
-  {
-    "campaign_id": "CMP_030",
-    "campaign_name": "Early Access Rewards 2026",
-    "channel": "PUSH_NOTIFICATION",
-    "offer": {
-      "type": "FREE_SHIPPING",
-      "discount_percentage": null,
-      "min_spend_threshold": 25,
-      "budget_allocated": 5996.63
+      "type": "PERCENTAGE_DISCOUNT",
+      "promo_code": "PERC_CMP_047",
+      "discount_percentage": 10,
+      "min_spend_threshold": 0,
+      "budget_allocated": 20001.24
     },
     "rules": {
       "target_segment": "GOLD_AND_ABOVE",
@@ -740,179 +1212,82 @@
       "max_contact_frequency_7d": 1
     },
     "schedule": {
-      "start_date": "2026-07-01",
-      "end_date": "2026-07-08",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "growth_lead",
-      "created_at": "2025-11-18T12:54:00"
-    }
-  },
-  {
-    "campaign_id": "CMP_031",
-    "campaign_name": "VIP Points Boost 2026",
-    "channel": "PUSH_NOTIFICATION",
-    "offer": {
-      "type": "BUY_ONE_GET_ONE",
-      "discount_percentage": null,
-      "min_spend_threshold": 75,
-      "budget_allocated": 5142.25
-    },
-    "rules": {
-      "target_segment": "ALL_CUSTOMERS",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 1
-    },
-    "schedule": {
-      "start_date": "2026-03-19",
-      "end_date": "2026-03-26",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "growth_lead",
-      "created_at": "2025-12-17T11:29:46"
-    }
-  },
-  {
-    "campaign_id": "CMP_032",
-    "campaign_name": "Holiday Savings 2026",
-    "channel": "PUSH_NOTIFICATION",
-    "offer": {
-      "type": "FIXED_AMOUNT_OFF",
-      "discount_percentage": null,
-      "min_spend_threshold": 0,
-      "budget_allocated": 21922.19
-    },
-    "rules": {
-      "target_segment": "INACTIVE_90D",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 1
-    },
-    "schedule": {
-      "start_date": "2026-09-08",
-      "end_date": "2026-10-08",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "growth_lead",
-      "created_at": "2025-11-09T10:03:42"
-    }
-  },
-  {
-    "campaign_id": "CMP_033",
-    "campaign_name": "Exclusive Sale 2026",
-    "channel": "IN_APP_BANNER",
-    "offer": {
-      "type": "LOYALTY_POINTS_MULTIPLIER",
-      "discount_percentage": null,
-      "min_spend_threshold": 25,
-      "budget_allocated": 8078.79
-    },
-    "rules": {
-      "target_segment": "INACTIVE_90D",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 2
-    },
-    "schedule": {
-      "start_date": "2026-02-20",
-      "end_date": "2026-03-22",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "growth_lead",
-      "created_at": "2025-12-25T12:29:48"
-    }
-  },
-  {
-    "campaign_id": "CMP_034",
-    "campaign_name": "Holiday Cashback 2026",
-    "channel": "SMS",
-    "offer": {
-      "type": "PERCENTAGE_DISCOUNT",
-      "discount_percentage": 40,
-      "min_spend_threshold": 75,
-      "budget_allocated": 21119.11
-    },
-    "rules": {
-      "target_segment": "INACTIVE_90D",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 1
-    },
-    "schedule": {
-      "start_date": "2026-06-08",
-      "end_date": "2026-06-15",
+      "start_date": "2026-05-24",
+      "end_date": "2026-06-23",
       "status": "COMPLETED"
     },
     "metadata": {
       "created_by": "marketing_ops",
-      "created_at": "2026-02-19T22:29:40"
+      "created_at": "2025-12-09T06:27:35"
     }
   },
   {
-    "campaign_id": "CMP_035",
-    "campaign_name": "Member Deal 2026",
-    "channel": "PUSH_NOTIFICATION",
+    "campaign_id": "CMP_048",
+    "campaign_name": "Exclusive Points Boost 2026",
+    "channel": "SMS",
     "offer": {
-      "type": "FIXED_AMOUNT_OFF",
+      "type": "LOYALTY_POINTS_MULTIPLIER",
+      "promo_code": "LOYA_CMP_048",
       "discount_percentage": null,
-      "min_spend_threshold": 75,
-      "budget_allocated": 17360.62
+      "min_spend_threshold": 0,
+      "budget_allocated": 27441.29
     },
     "rules": {
       "target_segment": "SILVER_AND_ABOVE",
       "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 2
-    },
-    "schedule": {
-      "start_date": "2026-02-12",
-      "end_date": "2026-03-14",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "campaign_manager",
-      "created_at": "2026-01-13T04:13:21"
-    }
-  },
-  {
-    "campaign_id": "CMP_036",
-    "campaign_name": "VIP Cashback 2026",
-    "channel": "IN_APP_BANNER",
-    "offer": {
-      "type": "BUY_ONE_GET_ONE",
-      "discount_percentage": null,
-      "min_spend_threshold": 100,
-      "budget_allocated": 11758.38
-    },
-    "rules": {
-      "target_segment": "GOLD_AND_ABOVE",
-      "exclude_open_support_cases": true,
       "max_contact_frequency_7d": 1
     },
     "schedule": {
-      "start_date": "2026-01-07",
-      "end_date": "2026-01-14",
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-15",
       "status": "COMPLETED"
     },
     "metadata": {
       "created_by": "growth_lead",
-      "created_at": "2025-12-30T15:22:24"
+      "created_at": "2026-01-15T02:19:06"
     }
   },
   {
-    "campaign_id": "CMP_037",
-    "campaign_name": "Holiday Rewards 2026",
+    "campaign_id": "CMP_049",
+    "campaign_name": "Flash Rewards 2026",
     "channel": "IN_APP_BANNER",
     "offer": {
-      "type": "PERCENTAGE_DISCOUNT",
-      "discount_percentage": 40,
-      "min_spend_threshold": 75,
-      "budget_allocated": 13219.38
+      "type": "FREE_SHIPPING",
+      "promo_code": "FREE_CMP_049",
+      "discount_percentage": null,
+      "min_spend_threshold": 100,
+      "budget_allocated": 20656.23
     },
     "rules": {
-      "target_segment": "HIGH_SPENDERS",
+      "target_segment": "GOLD_AND_ABOVE",
       "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 1
+      "max_contact_frequency_7d": 2
+    },
+    "schedule": {
+      "start_date": "2026-01-05",
+      "end_date": "2026-01-19",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "created_by": "marketing_ops",
+      "created_at": "2025-12-07T22:20:21"
+    }
+  },
+  {
+    "campaign_id": "CMP_050",
+    "campaign_name": "Flash Rewards 2026",
+    "channel": "IN_APP_BANNER",
+    "offer": {
+      "type": "FREE_SHIPPING",
+      "promo_code": "FREE_CMP_050",
+      "discount_percentage": null,
+      "min_spend_threshold": 25,
+      "budget_allocated": 3523.71
+    },
+    "rules": {
+      "target_segment": "PLATINUM_ONLY",
+      "exclude_open_support_cases": true,
+      "max_contact_frequency_7d": 2
     },
     "schedule": {
       "start_date": "2026-08-08",
@@ -920,333 +1295,8 @@
       "status": "COMPLETED"
     },
     "metadata": {
-      "created_by": "growth_lead",
-      "created_at": "2026-05-02T21:23:55"
-    }
-  },
-  {
-    "campaign_id": "CMP_038",
-    "campaign_name": "Holiday Cashback 2026",
-    "channel": "EMAIL",
-    "offer": {
-      "type": "PERCENTAGE_DISCOUNT",
-      "discount_percentage": 30,
-      "min_spend_threshold": 0,
-      "budget_allocated": 29105.11
-    },
-    "rules": {
-      "target_segment": "SILVER_AND_ABOVE",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 2
-    },
-    "schedule": {
-      "start_date": "2026-10-22",
-      "end_date": "2026-11-05",
-      "status": "ACTIVE"
-    },
-    "metadata": {
-      "created_by": "growth_lead",
-      "created_at": "2025-11-22T08:06:56"
-    }
-  },
-  {
-    "campaign_id": "CMP_039",
-    "campaign_name": "Early Access Sale 2026",
-    "channel": "PUSH_NOTIFICATION",
-    "offer": {
-      "type": "PERCENTAGE_DISCOUNT",
-      "discount_percentage": 10,
-      "min_spend_threshold": 0,
-      "budget_allocated": 14896.12
-    },
-    "rules": {
-      "target_segment": "ALL_CUSTOMERS",
-      "exclude_open_support_cases": false,
-      "max_contact_frequency_7d": 1
-    },
-    "schedule": {
-      "start_date": "2026-03-09",
-      "end_date": "2026-03-23",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "campaign_manager",
-      "created_at": "2026-03-03T04:16:56"
-    }
-  },
-  {
-    "campaign_id": "CMP_040",
-    "campaign_name": "Member Cashback 2026",
-    "channel": "SMS",
-    "offer": {
-      "type": "FREE_SHIPPING",
-      "discount_percentage": null,
-      "min_spend_threshold": 25,
-      "budget_allocated": 8547.94
-    },
-    "rules": {
-      "target_segment": "GOLD_AND_ABOVE",
-      "exclude_open_support_cases": false,
-      "max_contact_frequency_7d": 1
-    },
-    "schedule": {
-      "start_date": "2026-05-06",
-      "end_date": "2026-05-20",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "growth_lead",
-      "created_at": "2026-01-09T01:50:55"
-    }
-  },
-  {
-    "campaign_id": "CMP_041",
-    "campaign_name": "Flash Savings 2026",
-    "channel": "IN_APP_BANNER",
-    "offer": {
-      "type": "PERCENTAGE_DISCOUNT",
-      "discount_percentage": 40,
-      "min_spend_threshold": 100,
-      "budget_allocated": 14131.93
-    },
-    "rules": {
-      "target_segment": "SILVER_AND_ABOVE",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 2
-    },
-    "schedule": {
-      "start_date": "2026-09-22",
-      "end_date": "2026-10-13",
-      "status": "COMPLETED"
-    },
-    "metadata": {
       "created_by": "marketing_ops",
-      "created_at": "2025-12-03T06:47:39"
-    }
-  },
-  {
-    "campaign_id": "CMP_042",
-    "campaign_name": "VIP Savings 2026",
-    "channel": "PUSH_NOTIFICATION",
-    "offer": {
-      "type": "LOYALTY_POINTS_MULTIPLIER",
-      "discount_percentage": null,
-      "min_spend_threshold": 0,
-      "budget_allocated": 32985.67
-    },
-    "rules": {
-      "target_segment": "PLATINUM_ONLY",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 2
-    },
-    "schedule": {
-      "start_date": "2026-01-12",
-      "end_date": "2026-01-19",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "campaign_manager",
-      "created_at": "2025-11-24T20:25:29"
-    }
-  },
-  {
-    "campaign_id": "CMP_043",
-    "campaign_name": "Flash Points Boost 2026",
-    "channel": "PUSH_NOTIFICATION",
-    "offer": {
-      "type": "LOYALTY_POINTS_MULTIPLIER",
-      "discount_percentage": null,
-      "min_spend_threshold": 25,
-      "budget_allocated": 10568.55
-    },
-    "rules": {
-      "target_segment": "SILVER_AND_ABOVE",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 2
-    },
-    "schedule": {
-      "start_date": "2026-02-07",
-      "end_date": "2026-02-21",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "campaign_manager",
-      "created_at": "2025-12-11T12:34:27"
-    }
-  },
-  {
-    "campaign_id": "CMP_044",
-    "campaign_name": "Exclusive Cashback 2026",
-    "channel": "EMAIL",
-    "offer": {
-      "type": "LOYALTY_POINTS_MULTIPLIER",
-      "discount_percentage": null,
-      "min_spend_threshold": 75,
-      "budget_allocated": 15620.24
-    },
-    "rules": {
-      "target_segment": "PLATINUM_ONLY",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 2
-    },
-    "schedule": {
-      "start_date": "2026-09-09",
-      "end_date": "2026-09-23",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "marketing_ops",
-      "created_at": "2026-05-23T10:06:13"
-    }
-  },
-  {
-    "campaign_id": "CMP_045",
-    "campaign_name": "Exclusive Rewards 2026",
-    "channel": "SMS",
-    "offer": {
-      "type": "PERCENTAGE_DISCOUNT",
-      "discount_percentage": 20,
-      "min_spend_threshold": 25,
-      "budget_allocated": 25110.87
-    },
-    "rules": {
-      "target_segment": "BRONZE_AND_ABOVE",
-      "exclude_open_support_cases": false,
-      "max_contact_frequency_7d": 2
-    },
-    "schedule": {
-      "start_date": "2026-01-16",
-      "end_date": "2026-02-15",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "marketing_ops",
-      "created_at": "2025-12-12T20:29:42"
-    }
-  },
-  {
-    "campaign_id": "CMP_046",
-    "campaign_name": "Early Access Savings 2026",
-    "channel": "PUSH_NOTIFICATION",
-    "offer": {
-      "type": "BUY_ONE_GET_ONE",
-      "discount_percentage": null,
-      "min_spend_threshold": 50,
-      "budget_allocated": 12425.45
-    },
-    "rules": {
-      "target_segment": "BRONZE_AND_ABOVE",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 1
-    },
-    "schedule": {
-      "start_date": "2026-09-07",
-      "end_date": "2026-09-21",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "marketing_ops",
-      "created_at": "2026-05-09T21:53:37"
-    }
-  },
-  {
-    "campaign_id": "CMP_047",
-    "campaign_name": "Member Deal 2026",
-    "channel": "IN_APP_BANNER",
-    "offer": {
-      "type": "FREE_SHIPPING",
-      "discount_percentage": null,
-      "min_spend_threshold": 50,
-      "budget_allocated": 19454.85
-    },
-    "rules": {
-      "target_segment": "INACTIVE_90D",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 2
-    },
-    "schedule": {
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-28",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "marketing_ops",
-      "created_at": "2026-01-03T22:59:29"
-    }
-  },
-  {
-    "campaign_id": "CMP_048",
-    "campaign_name": "VIP Points Boost 2026",
-    "channel": "EMAIL",
-    "offer": {
-      "type": "BUY_ONE_GET_ONE",
-      "discount_percentage": null,
-      "min_spend_threshold": 75,
-      "budget_allocated": 22640.65
-    },
-    "rules": {
-      "target_segment": "INACTIVE_90D",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 1
-    },
-    "schedule": {
-      "start_date": "2026-01-12",
-      "end_date": "2026-02-02",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "campaign_manager",
-      "created_at": "2025-12-27T04:13:22"
-    }
-  },
-  {
-    "campaign_id": "CMP_049",
-    "campaign_name": "Exclusive Points Boost 2026",
-    "channel": "IN_APP_BANNER",
-    "offer": {
-      "type": "FREE_SHIPPING",
-      "discount_percentage": null,
-      "min_spend_threshold": 0,
-      "budget_allocated": 6718.82
-    },
-    "rules": {
-      "target_segment": "INACTIVE_90D",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 2
-    },
-    "schedule": {
-      "start_date": "2026-10-01",
-      "end_date": "2026-10-22",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "marketing_ops",
-      "created_at": "2026-08-19T12:58:24"
-    }
-  },
-  {
-    "campaign_id": "CMP_050",
-    "campaign_name": "Early Access Cashback 2026",
-    "channel": "PUSH_NOTIFICATION",
-    "offer": {
-      "type": "FREE_SHIPPING",
-      "discount_percentage": null,
-      "min_spend_threshold": 100,
-      "budget_allocated": 16548.04
-    },
-    "rules": {
-      "target_segment": "SILVER_AND_ABOVE",
-      "exclude_open_support_cases": true,
-      "max_contact_frequency_7d": 2
-    },
-    "schedule": {
-      "start_date": "2026-06-13",
-      "end_date": "2026-06-20",
-      "status": "COMPLETED"
-    },
-    "metadata": {
-      "created_by": "growth_lead",
-      "created_at": "2026-02-13T13:58:22"
+      "created_at": "2025-12-02T09:02:26"
     }
   }
 ]

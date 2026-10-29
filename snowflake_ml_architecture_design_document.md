@@ -45,14 +45,14 @@ This architecture directly operationalizes the seven core architectural requirem
 ```mermaid
 flowchart LR
     subgraph S1 ["1. Bronze Layer (Raw Ingress)"]
-        STG["Internal Stage<br>@STG_RETAIL_INGRESS"] -->|"COPY INTO"| BRZ["Bronze Raw Table<br>(VARIANT JSON)"]
+        STG["Internal Stage<br>@STG_RETAIL_INGRESS"] -->|"COPY INTO"| BRZ["Bronze Raw Table<br>(9 VARIANT JSON Sources)"]
         BRZ -->|"CDC Stream"| STR["STR_RETAIL_EVENTS"]
     end
 
     subgraph S2 ["2. Silver Layer (Canonical Modeling via dbt)"]
-        STR -->|"dbt run + test"| DBT["dbt Transformation<br>and Data Quality Tests"]
-        DBT --> SLV_ENT["Reusable Entities<br>(CUSTOMER, CAMPAIGN)"]
-        DBT --> SLV_FCT["Operational Facts<br>(TRANSACTIONS, ACTIVITIES)"]
+        STR -->|"dbt run + test"| DBT["dbt Transformation<br>and Contract Tests"]
+        DBT --> SLV_ENT["Reusable Entities<br>(CUSTOMER, PRODUCT, INVENTORY, CAMPAIGN)"]
+        DBT --> SLV_FCT["Operational Facts<br>(TRANSACTION, CART_CONTEXT, ACTIVITY)"]
     end
 
     subgraph S3 ["3. Gold Layer (Feature Store Artefact)"]
@@ -120,22 +120,33 @@ Silver abandons rigid star schemas in favor of **Canonical Data Modeling**—pro
 ### 5.1 Reusable Canonical Entities & Operational Facts
 * **Reusable Canonical Entities**:
   * `CUSTOMER_ENTITY`: Authoritative customer master record (demographics, contact, communication preferences, consent flags, loyalty tier, points balance). Reusable across marketing, CRM, and ML.
-  * `CAMPAIGN_ENTITY`: Promotional definitions, offer mechanics, budget ceilings, and suppression rules.
-  * `SUPPORT_TICKET_ENTITY`: Helpdesk tickets, category taxonomy, severity levels, escalation states, and CSAT.
+  * `PRODUCT_ENTITY`: Master merchandise catalog (SKU, brand, category, sub-category, base price, wholesale cost, gross margin rate, clearance flag). Protects promotional margins.
+  * `INVENTORY_ENTITY`: Enterprise inventory positions across 50 stores and 3 regional distribution centers (available quantity, reserved quantity, reorder threshold, status, days of supply). Hard eligibility gate.
+  * `CAMPAIGN_ENTITY`: Promotional definitions, coupon promo codes, offer mechanics, budget ceilings, and suppression rules.
+  * `SUPPORT_TICKET_ENTITY`: Helpdesk tickets, category taxonomy, severity levels, escalation states, and CSAT friction evidence.
 * **Operational Facts**:
-  * `TRANSACTION_FACT`: Granular sales receipts, line items, unit pricing, discounts, and order timestamps.
-  * `CLICKSTREAM_ACTIVITY_FACT`: In-session digital events (`PAGE_VIEW`, `CART_ADD`, `CHECKOUT_START`), page categories, and dwell times.
+  * `TRANSACTION_FACT`: Granular sales receipts, exploded line items, unit pricing, discounts, and order timestamps.
+  * `CART_CONTEXT_FACT`: Real-time active shopping carts, session IDs, cart subtotal, item counts, line item mix, and primary category for live checkout personalization.
+  * `CHANNEL_ACTIVITY_FACT`: In-session digital events (`PAGE_VIEW`, `CART_ADD`, `CHECKOUT_START`), page categories, and dwell times.
+  * `CAMPAIGN_INTERACTION_FACT`: Historical campaign delivery logs, telemetry actions (`REDEEMED`, `CLICK`, `IMPRESSION`, `IGNORED`), and redemption discount dollars.
 
 ### 5.2 Automated Data Quality Testing (via dbt)
-Data Quality is enforced before records enter Silver and Gold:
-1. **Uniqueness & Completeness**: `unique` and `not_null` assertions on `customer_id`, `transaction_id`, `ticket_id`, and `activity_id`.
-2. **Referential Integrity**: Relationship checks ensuring transactions, clickstream events, and tickets join valid `customer_id` records in `CUSTOMER_ENTITY`.
-3. **Domain & Range Validation**:
-   * `totals.net_total >= 0.0`
-   * `offer.discount_percentage BETWEEN 5 AND 50`
-   * `resolution.satisfaction_score BETWEEN 1 AND 5`
-   * `contact.consent_email IN (TRUE, FALSE)`
-4. **Anomaly Thresholds**: Automated alert if null rate exceeds 2% or malformed payload count spikes.
+Data Quality is enforced via contractual dbt tests before records enter Silver and Gold:
+1. **Uniqueness & Non-Nullness**: 100% unique primary key validation across `customer_id`, `product_id`, `inventory_id`, `cart_id`, `transaction_id`, `campaign_id`, `interaction_id`, `activity_id`, and `ticket_id`.
+2. **Strict Referential Integrity**: Relationship assertions ensuring:
+   * Every transaction, cart context, interaction, activity, and ticket references a valid `CUSTOMER_ENTITY`.
+   * Every transaction line item, active cart item, and inventory record references a valid `PRODUCT_ENTITY`.
+   * Every campaign interaction references a valid `CAMPAIGN_ENTITY`.
+   * Active cart sessions link directly to `CHANNEL_ACTIVITY_FACT.session_id`.
+3. **Format & Boundary Validation**:
+   * Email RFC 5322 regex and E.164 phone formats validated.
+   * `customer.age BETWEEN 18 AND 100`.
+   * `product.base_price > 0.0` and `product.cost_price <= product.base_price`.
+   * `inventory.available_quantity >= 0`.
+   * `cart.cart_value == sum(unit_price * quantity)` and `transaction.net_total == gross_total - discount_total`.
+   * `campaign.schedule.start_date <= campaign.schedule.end_date`.
+   * `ticket.satisfaction_score BETWEEN 1 AND 5`.
+4. **Automated Anomaly Thresholds**: Snowflake alert tasks trigger if feature null rates exceed 2% or malformed payloads spike.
 
 ---
 
@@ -147,9 +158,11 @@ The **Snowflake Feature Store (`snowflake.ml.feature_store`) is the Gold Layer A
 flowchart TD
     subgraph SILVER ["Silver Layer: Canonical Entities and Facts (dbt Validated)"]
         CUST["CUSTOMER_ENTITY"]
+        PROD["PRODUCT_ENTITY"]
+        INV["INVENTORY_ENTITY"]
+        CART["CART_CONTEXT_FACT"]
         TXN["TRANSACTION_FACT"]
-        ACT["CLICKSTREAM_ACTIVITY_FACT"]
-        TKT["SUPPORT_TICKET_ENTITY"]
+        ACT["CHANNEL_ACTIVITY_FACT"]
     end
 
     subgraph GOLD ["Gold Layer: Snowflake Feature Store"]
@@ -157,23 +170,23 @@ flowchart TD
         FS_ON[("Online Feature Store<br>Snowflake Hybrid Table<br>PK: customer_id")]
     end
 
-    subgraph SERVING ["Near Real-Time Checkout / Cart Personalization"]
-        CLI["Web / App / POS Checkout<br>(Payload: customer_id, cart_total, cart_category)"]
-        SPCS["SPCS FastAPI Microservice<br>(Sub-10ms Inference)"]
+    subgraph SERVING ["Near Real-Time Checkout Personalization (< 10ms)"]
+        CLI["Web / App / POS Checkout<br>(Live Cart: customer_id, items, cart_value)"]
+        SPCS["SPCS FastAPI Microservice<br>(LightGBM M1 + M3 Inference)"]
     end
 
     CUST --> FS_OFF
+    PROD --> FS_OFF
     TXN --> FS_OFF
     ACT --> FS_OFF
-    TKT --> FS_OFF
     CUST --> FS_ON
     TXN --> FS_ON
     ACT --> FS_ON
-    TKT --> FS_ON
-    CLI -->|"POST /predict"| SPCS
-    SPCS -->|"1. Point Lookup (under 3ms)"| FS_ON
-    FS_ON -->|"2. Return Features"| SPCS
-    SPCS -->|"3. Output Personalized Offer"| CLI
+    CLI -->|"1. POST /predict (Cart Payload)"| SPCS
+    SPCS -->|"2. Point Lookup (under 3ms)"| FS_ON
+    SPCS -->|"3. Stock Eligibility Check"| INV
+    SPCS -->|"4. Margin Protection Check"| PROD
+    SPCS -->|"5. Return Personalized Offer"| CLI
 ```
 
 ### 6.1 Online Feature Store Features (Hybrid Table Schema)
