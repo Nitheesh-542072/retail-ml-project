@@ -24,3 +24,62 @@ sources:
         description: "Raw semi-structured in-session active shopping carts for checkout scoring"
       - name: support_tickets_raw
         description: "Raw semi-structured customer support tickets, escalations, and CSAT scores"
+
+models:
+
+  - name: tbl_product_catalog
+    description: "Bronze typed product catalog extracted from raw PIM JSON"
+    columns:
+      - name: product_id
+        description: "Primary key for product"
+        tests:
+          - unique
+          - not_null
+
+      - name: product_name
+        tests:
+          - not_null
+
+      - name: category
+        description: "Merchandise department"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['ELECTRONICS', 'CLOTHING', 'HOME_KITCHEN', 'BEAUTY', 'SPORTS', 'FOOTWEAR']
+
+      - name: base_price
+        tests:
+          - not_null
+
+      - name: is_active
+        tests:
+          - not_null
+
+  - name: tbl_customer_profiles
+    description: "Bronze typed customer profiles and consent flags"
+    columns:
+      - name: customer_id
+        description: "Primary key for customer"
+        tests:
+          - unique
+          - not_null
+
+      - name: email
+        tests:
+          - not_null
+
+      - name: loyalty_tier
+        description: "Loyalty program level"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['BRONZE', 'SILVER', 'GOLD', 'PLATINUM']
+
+      - name: consent_email
+        description: "Explicit GDPR/CAN-SPAM consent flag"
+        tests:
+          - not_null
+
+      - name: points_balance
+        tests:
+          - not_null
