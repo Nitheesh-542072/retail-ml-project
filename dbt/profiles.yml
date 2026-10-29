@@ -1,0 +1,10 @@
+dbt:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ROLE_DATA_ENGINEER
+      warehouse: WH_DEV
+      database: RETAIL_INTELLIGENCE_DEV
+      schema: BRONZE
+      threads: 8

@@ -1,0 +1,10 @@
+version: 2
+ 
+sources:
+  - name: raw
+    database: RETAIL_INTELLIGENCE_DEV
+    schema: RAW
+ 
+    tables:
+      - name: product_catalog_raw
+    
