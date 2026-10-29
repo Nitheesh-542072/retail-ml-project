@@ -224,7 +224,8 @@ The architecture deploys **100% Pure LightGBM Models** with zero manual formula 
 
 Automated Snowflake background tasks monitor the pipeline continuously without manual dashboards:
 
-```mermaid
+```
+mermaid
 flowchart TD
     subgraph MONITORING ["Automated Headless Monitoring Engine (Snowflake Tasks)"]
         DATA_DRIFT["1. Data Drift Monitor (Input Features)<br>• Feature Null Rate Spikes<br>• KS-Test & PSI on Numeric Features (AOV, Spend)<br>• Category Frequency Shifts"]
