@@ -11,7 +11,8 @@ select
     raw_payload:flags.is_active::boolean as is_active,
     raw_payload:status.created_at::timestamp_ntz as created_at,
     raw_payload:status.updated_at::timestamp_ntz as updated_at,
-    'PRODUCT_CATALOG_RAW'as source_table_name,
+    source_file_name,
+    '{{ source("raw", "product_catalog_raw").name | upper }}' as source_table_name,
     current_timestamp() as ingestion_timestamp 
 from
-    {{ source('raw','product_catalog_raw') }}
+    {{ source('raw', 'product_catalog_raw') }}

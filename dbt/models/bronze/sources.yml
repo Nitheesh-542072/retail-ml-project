@@ -7,4 +7,20 @@ sources:
  
     tables:
       - name: product_catalog_raw
-    
+        description: "Raw semi-structured PIM/ERP master product catalog"
+      - name: customer_profiles_raw
+        description: "Raw semi-structured CRM customer profiles, consent, and loyalty"
+      - name: inventory_levels_raw
+        description: "Raw semi-structured WMS inventory positions across stores and DCs"
+      - name: transactions_raw
+        description: "Raw semi-structured POS and e-commerce completed order transactions"
+      - name: campaigns_raw
+        description: "Raw semi-structured marketing campaign definitions and promo rules"
+      - name: campaign_interactions_raw
+        description: "Raw semi-structured campaign delivery and redemption tracking telemetry"
+      - name: channel_activities_raw
+        description: "Raw semi-structured digital clickstream activities and web/app sessions"
+      - name: cart_contexts_raw
+        description: "Raw semi-structured in-session active shopping carts for checkout scoring"
+      - name: support_tickets_raw
+        description: "Raw semi-structured customer support tickets, escalations, and CSAT scores"
