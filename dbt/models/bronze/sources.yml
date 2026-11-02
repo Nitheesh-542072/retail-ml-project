@@ -26,7 +26,9 @@ sources:
         description: "Raw semi-structured customer support tickets, escalations, and CSAT scores"
 
 models:
-
+  
+  # 1. Product Catalog Model
+  
   - name: tbl_product_catalog
     description: "Bronze typed product catalog extracted from raw PIM JSON"
     columns:
@@ -47,7 +49,19 @@ models:
           - accepted_values:
               values: ['ELECTRONICS', 'CLOTHING', 'HOME_KITCHEN', 'BEAUTY', 'SPORTS', 'FOOTWEAR']
 
+      - name: sub_category
+        tests:
+          - not_null
+
       - name: base_price
+        tests:
+          - not_null
+
+      - name: cost_price
+        tests:
+          - not_null
+
+      - name: margin_rate
         tests:
           - not_null
 
@@ -55,8 +69,11 @@ models:
         tests:
           - not_null
 
+  
+  # 2. Customer Profiles Model
+  
   - name: tbl_customer_profiles
-    description: "Bronze typed customer profiles and consent flags"
+    description: "Bronze typed customer profiles, loyalty tier, and consent flags"
     columns:
       - name: customer_id
         description: "Primary key for customer"
@@ -65,6 +82,10 @@ models:
           - not_null
 
       - name: email
+        tests:
+          - not_null
+
+      - name: phone
         tests:
           - not_null
 
@@ -80,6 +101,328 @@ models:
         tests:
           - not_null
 
+      - name: consent_sms
+        tests:
+          - not_null
+
+      - name: consent_push
+        tests:
+          - not_null
+
       - name: points_balance
+        tests:
+          - not_null
+
+      - name: is_active
+        tests:
+          - not_null
+
+  
+  # 3. Inventory Levels Model
+  
+  - name: tbl_inventory_levels
+    description: "Bronze typed inventory stock positions across stores and DCs"
+    columns:
+      - name: inventory_id
+        description: "Primary key for inventory record"
+        tests:
+          - unique
+          - not_null
+
+      - name: product_id
+        description: "Foreign key referencing product catalog"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('tbl_product_catalog')
+              field: product_id
+
+      - name: location_id
+        tests:
+          - not_null
+
+      - name: location_type
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['STORE', 'REGIONAL_DC']
+
+      - name: available_quantity
+        tests:
+          - not_null
+
+      - name: inventory_status
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['IN_STOCK', 'LOW_STOCK', 'OUT_OF_STOCK', 'OVERSTOCKED']
+
+  
+  # 4. Transactions Model
+  
+  - name: tbl_transactions
+    description: "Bronze typed sales order transactions and receipt totals"
+    columns:
+      - name: transaction_id
+        description: "Primary key for transaction"
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_id
+        description: "Foreign key referencing purchasing customer"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('tbl_customer_profiles')
+              field: customer_id
+
+      - name: store_id
+        tests:
+          - not_null
+
+      - name: channel
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['IN_STORE', 'WEB', 'MOBILE_APP']
+
+      - name: payment_method
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['CREDIT_CARD', 'DEBIT_CARD', 'APPLE_PAY', 'GOOGLE_PAY', 'PAYPAL', 'CASH']
+
+      - name: gross_total
+        tests:
+          - not_null
+
+      - name: discount_total
+        tests:
+          - not_null
+
+      - name: net_total
+        tests:
+          - not_null
+
+      - name: transaction_timestamp
+        tests:
+          - not_null
+
+  
+  # 5. Marketing Campaigns Model
+  
+  - name: tbl_campaigns
+    description: "Bronze typed marketing campaign definitions and offer rules"
+    columns:
+      - name: campaign_id
+        description: "Primary key for campaign"
+        tests:
+          - unique
+          - not_null
+
+      - name: campaign_name
+        tests:
+          - not_null
+
+      - name: channel
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['EMAIL', 'PUSH_NOTIFICATION', 'SMS', 'IN_APP_BANNER']
+
+      - name: offer_type
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['PERCENTAGE_DISCOUNT', 'FIXED_AMOUNT_OFF', 'BUY_ONE_GET_ONE', 'FREE_SHIPPING', 'LOYALTY_POINTS_MULTIPLIER']
+
+      - name: budget_allocated
+        tests:
+          - not_null
+
+      - name: start_date
+        tests:
+          - not_null
+
+      - name: end_date
+        tests:
+          - not_null
+
+      - name: campaign_status
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['SCHEDULED', 'ACTIVE', 'COMPLETED']
+
+  
+  # 6. Campaign Interactions Model
+  
+  - name: tbl_campaign_interactions
+    description: "Bronze typed marketing campaign telemetry and response logs"
+    columns:
+      - name: interaction_id
+        description: "Primary key for interaction record"
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_id
+        description: "Foreign key referencing target customer"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('tbl_customer_profiles')
+              field: customer_id
+
+      - name: campaign_id
+        description: "Foreign key referencing marketing campaign"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('tbl_campaigns')
+              field: campaign_id
+
+      - name: channel
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['EMAIL', 'PUSH_NOTIFICATION', 'SMS', 'IN_APP_BANNER']
+
+      - name: response_action
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['REDEEMED', 'CLICK', 'IMPRESSION', 'IGNORED']
+
+      - name: interaction_timestamp
+        tests:
+          - not_null
+
+  
+  # 7. Channel Activities Model
+  
+  - name: tbl_channel_activities
+    description: "Bronze typed digital clickstream events and customer browsing actions"
+    columns:
+      - name: activity_id
+        description: "Primary key for activity event"
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_id
+        description: "Foreign key referencing browsing customer"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('tbl_customer_profiles')
+              field: customer_id
+
+      - name: channel
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['WEB', 'MOBILE_APP', 'EMAIL', 'IN_STORE']
+
+      - name: session_id
+        tests:
+          - not_null
+
+      - name: event_type_detail
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['PAGE_VIEW', 'PRODUCT_DETAIL_VIEW', 'CART_ADD', 'CHECKOUT_START', 'CHECKOUT_COMPLETE', 'SEARCH']
+
+      - name: activity_timestamp
+        tests:
+          - not_null
+
+  
+  # 8. Cart Contexts Model
+  
+  - name: tbl_cart_contexts
+    description: "Bronze typed in-session active shopping carts for real-time inference"
+    columns:
+      - name: cart_id
+        description: "Primary key for active shopping cart"
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_id
+        description: "Foreign key referencing shopper"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('tbl_customer_profiles')
+              field: customer_id
+
+      - name: session_id
+        tests:
+          - not_null
+
+      - name: cart_value
+        tests:
+          - not_null
+
+      - name: item_count
+        tests:
+          - not_null
+
+      - name: cart_status
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['ACTIVE', 'CHECKOUT_INITIATED', 'ABANDONED']
+
+      - name: cart_timestamp
+        tests:
+          - not_null
+
+  
+  # 9. Support Tickets Model
+  
+  - name: tbl_support_tickets
+    description: "Bronze typed customer support cases, friction incidents, and CSAT scores"
+    columns:
+      - name: ticket_id
+        description: "Primary key for support ticket"
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_id
+        description: "Foreign key referencing ticket submitter"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('tbl_customer_profiles')
+              field: customer_id
+
+      - name: category
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['SHIPPING_DELAY', 'BILLING_DISPUTE', 'PRODUCT_DEFECT', 'RETURN_REQUEST', 'ACCOUNT_ACCESS', 'PROMO_CODE_ISSUE']
+
+      - name: severity
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['LOW', 'MEDIUM', 'HIGH', 'CRITICAL']
+
+      - name: ticket_status
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['OPEN', 'IN_PROGRESS', 'RESOLVED', 'CLOSED']
+
+      - name: is_escalated
+        tests:
+          - not_null
+
+      - name: ticket_timestamp
         tests:
           - not_null

@@ -1,0 +1,91 @@
+
+
+-- Step 1: Create Role and Establish Role Hierarchy
+USE ROLE SECURITYADMIN;
+
+CREATE ROLE IF NOT EXISTS ROLE_DATA_ENGINEER
+    COMMENT = 'Data Engineering role for retail intelligence pipeline ingestion, dbt transformations, and feature modeling';
+
+-- Inherit permissions into SYSADMIN (Snowflake Best Practice)
+GRANT ROLE ROLE_DATA_ENGINEER TO ROLE SYSADMIN;
+
+-- Optional: Assign role to specific users or current user
+-- GRANT ROLE ROLE_DATA_ENGINEER TO USER <YOUR_USERNAME>;
+GRANT ROLE ROLE_DATA_ENGINEER TO USER CURRENT_USER();
+
+
+
+-- Step 2: Virtual Warehouse Privileges
+
+USE ROLE SYSADMIN;
+
+-- Allow role to use and resume the development warehouse
+GRANT USAGE, OPERATE ON WAREHOUSE WH_DEV TO ROLE ROLE_DATA_ENGINEER;
+
+
+
+-- Step 3: Database Level Privileges
+
+GRANT USAGE, MONITOR ON DATABASE retail_intelligence_dev TO ROLE ROLE_DATA_ENGINEER;
+GRANT CREATE SCHEMA ON DATABASE retail_intelligence_dev TO ROLE ROLE_DATA_ENGINEER;
+
+
+
+-- Step 4: Schema Level Privileges (Existing Schemas)
+
+-- Grant schema usage and object creation rights across all pipeline layers
+GRANT USAGE, MONITOR, CREATE TABLE, CREATE VIEW, CREATE STAGE, CREATE FILE FORMAT, 
+      CREATE FUNCTION, CREATE PROCEDURE, CREATE STREAM, CREATE TASK, CREATE DYNAMIC TABLE 
+ON ALL SCHEMAS IN DATABASE retail_intelligence_dev TO ROLE ROLE_DATA_ENGINEER;
+
+-- Ensure rights on any future schemas created in this database
+GRANT USAGE, MONITOR, CREATE TABLE, CREATE VIEW, CREATE STAGE, CREATE FILE FORMAT, 
+      CREATE FUNCTION, CREATE PROCEDURE, CREATE STREAM, CREATE TASK, CREATE DYNAMIC TABLE 
+ON FUTURE SCHEMAS IN DATABASE retail_intelligence_dev TO ROLE ROLE_DATA_ENGINEER;
+
+
+
+-- Step 5: Table and View Privileges (DML & DDL for dbt & Ingestion)
+
+-- Current Tables & Views
+GRANT SELECT, INSERT, UPDATE, DELETE, TRUNCATE, REFERENCES 
+ON ALL TABLES IN DATABASE retail_intelligence_dev TO ROLE ROLE_DATA_ENGINEER;
+
+GRANT SELECT, REFERENCES 
+ON ALL VIEWS IN DATABASE retail_intelligence_dev TO ROLE ROLE_DATA_ENGINEER;
+
+-- Future Tables & Views (Automatically applies when dbt drops & replaces tables)
+GRANT SELECT, INSERT, UPDATE, DELETE, TRUNCATE, REFERENCES 
+ON FUTURE TABLES IN DATABASE retail_intelligence_dev TO ROLE ROLE_DATA_ENGINEER;
+
+GRANT SELECT, REFERENCES 
+ON FUTURE VIEWS IN DATABASE retail_intelligence_dev TO ROLE ROLE_DATA_ENGINEER;
+
+
+
+-- Step 6: Stage and File Format Privileges (Ingestion & Unload)
+
+-- Grant read/write access on raw.ingestion and all stages
+GRANT USAGE, READ, WRITE ON ALL STAGES IN DATABASE retail_intelligence_dev TO ROLE ROLE_DATA_ENGINEER;
+GRANT USAGE, READ, WRITE ON FUTURE STAGES IN DATABASE retail_intelligence_dev TO ROLE ROLE_DATA_ENGINEER;
+
+-- Grant usage on JSON and CSV file formats
+GRANT USAGE ON ALL FILE FORMATS IN DATABASE retail_intelligence_dev TO ROLE ROLE_DATA_ENGINEER;
+GRANT USAGE ON FUTURE FILE FORMATS IN DATABASE retail_intelligence_dev TO ROLE ROLE_DATA_ENGINEER;
+
+
+
+-- Step 7: Streams and Tasks Privileges (CDC & Scheduling)
+
+GRANT SELECT ON ALL STREAMS IN DATABASE retail_intelligence_dev TO ROLE ROLE_DATA_ENGINEER;
+GRANT SELECT ON FUTURE STREAMS IN DATABASE retail_intelligence_dev TO ROLE ROLE_DATA_ENGINEER;
+
+GRANT OPERATE, MONITOR ON ALL TASKS IN DATABASE retail_intelligence_dev TO ROLE ROLE_DATA_ENGINEER;
+GRANT OPERATE, MONITOR ON FUTURE TASKS IN DATABASE retail_intelligence_dev TO ROLE ROLE_DATA_ENGINEER;
+
+
+
+-- Step 8: Verify Permissions
+
+SHOW GRANTS TO ROLE ROLE_DATA_ENGINEER;
+
