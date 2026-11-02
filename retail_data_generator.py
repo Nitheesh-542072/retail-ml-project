@@ -22,7 +22,7 @@ import os
 import re
 from datetime import datetime, timedelta
 
-random.seed(42)
+random.seed(2026)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__)) if "__file__" in globals() else os.getcwd()
 OUTPUT_DIR = os.path.join(BASE_DIR, "cooked_json_data")
@@ -156,9 +156,29 @@ def generate_product_catalog():
     prod_map = {}
 
     for item in RAW_PRODUCT_DEFINITIONS:
-        base_price = item["base_price"]
-        cost_price = item["cost_price"]
-        margin_rate = round((base_price - cost_price) / base_price, 4)
+        retail_val = round(item["base_price"], 2)
+        
+        # Wholesale base cost ratio per category (28% to 44%)
+        cost_ratio = {
+            "ELECTRONICS": 0.44,
+            "CLOTHING": 0.35,
+            "HOME_KITCHEN": 0.38,
+            "BEAUTY": 0.28,
+            "SPORTS": 0.36,
+            "FOOTWEAR": 0.40
+        }.get(item["category"], 0.38)
+
+        base_cost = round(retail_val * cost_ratio, 2)
+
+        # BUSINESS LOGIC:
+        # base_price = Base wholesale / manufacturing cost (lower)
+        # cost_price = Retail cost price charged to customer (higher)
+        # Strictly ensures: cost_price > base_price
+        base_price = base_cost
+        cost_price = retail_val
+
+        assert cost_price > base_price, f"Violation on {item['product_id']}: cost_price ({cost_price}) <= base_price ({base_price})"
+        margin_rate = round((cost_price - base_price) / cost_price, 4)
 
         created_at = random_timestamp(datetime(2022, 1, 1), datetime(2025, 6, 30))
         updated_at = random_timestamp(datetime.strptime(created_at, "%Y-%m-%dT%H:%M:%S"), datetime(2026, 10, 27))
@@ -186,7 +206,7 @@ def generate_product_catalog():
         products.append(product)
         prod_map[item["product_id"]] = product
 
-    print(f"  [OK] {len(products)} raw product master records generated")
+    print(f"  [OK] {len(products)} raw product master records generated (cost_price > base_price)")
     return products, prod_map
 
 # =============================================================================
@@ -360,16 +380,16 @@ def generate_transactions(num_transactions, customer_ids, customer_profiles, pro
             prod_id = prod["product_id"]
             prod_name = prod["product_name"]
             category = prod["category"]
-            base_price = prod["pricing"]["base_price"]
+            unit_price = prod["pricing"]["cost_price"]
             quantity = random.choices([1, 2, 3], weights=[0.75, 0.20, 0.05], k=1)[0]
 
             if random.random() < {"BRONZE": 0.15, "SILVER": 0.25, "GOLD": 0.40, "PLATINUM": 0.55}[tier]:
                 discount_pct = random.choice([10, 15, 20, 25, 30])
-                discount_amount = round(base_price * quantity * discount_pct / 100, 2)
+                discount_amount = round(unit_price * quantity * discount_pct / 100, 2)
             else:
                 discount_amount = 0.00
 
-            item_gross = round(base_price * quantity, 2)
+            item_gross = round(unit_price * quantity, 2)
             gross_total += item_gross
             discount_total += discount_amount
 
@@ -378,7 +398,7 @@ def generate_transactions(num_transactions, customer_ids, customer_profiles, pro
                 "product_name": prod_name,
                 "category": category,
                 "quantity": quantity,
-                "unit_price": base_price,
+                "unit_price": unit_price,
                 "discount_amount": discount_amount
             })
 
@@ -602,7 +622,7 @@ def generate_cart_contexts(num_carts, customer_ids, customer_profiles, products,
 
         for prod in selected_prods:
             qty = random.choices([1, 2, 3], weights=[0.80, 0.15, 0.05], k=1)[0]
-            unit_price = prod["pricing"]["base_price"]
+            unit_price = prod["pricing"]["cost_price"]
             line_total = round(unit_price * qty, 2)
             category = prod["category"]
 
@@ -725,15 +745,15 @@ def verify_referential_integrity_and_contracts(customers, products, inventory, t
         assert 18 <= c["profile"]["age"] <= 100, f"[FAIL] Age out of bounds: {c['profile']['age']}"
     print("  [PASS] 100% Customer email, phone regex and demographic age range verified.")
 
-    # 3. Product Catalog Pricing & Margin Logic
+    # 3. Product Catalog Pricing & Margin Logic (Cost strictly GREATER than Base Price)
     for p in products:
         bp = p["pricing"]["base_price"]
         cp = p["pricing"]["cost_price"]
         mr = p["pricing"]["margin_rate"]
-        assert bp > 0 and cp > 0 and bp >= cp, f"[FAIL] Product price check failed for {p['product_id']}"
-        expected_mr = round((bp - cp) / bp, 4)
+        assert bp > 0 and cp > 0 and cp > bp, f"[FAIL] Pricing violation: cost ({cp}) <= base ({bp}) for {p['product_id']}"
+        expected_mr = round((cp - bp) / cp, 4)
         assert abs(mr - expected_mr) < 1e-4, f"[FAIL] Margin rate calculation error in {p['product_id']}"
-    print("  [PASS] 100% Product catalog prices, positive costs, and gross margins verified.")
+    print("  [PASS] 100% Product catalog prices verified (cost_price > base_price for all SKUs).")
 
     # 4. Inventory Referential Integrity & Quantities
     for inv in inventory:
