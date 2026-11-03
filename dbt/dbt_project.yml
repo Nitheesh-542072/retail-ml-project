@@ -17,3 +17,11 @@ snapshot-paths:
 models:
   retail_ml_project:
     +materialized: table
+    bronze:
+      +schema: bronze
+    silver:
+      +schema: silver
+    gold:
+      +schema: gold
+    ml:
+      +schema: ml
