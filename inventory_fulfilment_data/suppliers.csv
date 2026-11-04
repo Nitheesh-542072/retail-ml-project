@@ -1,0 +1,36 @@
+supplier_id,supplier_name,country,promised_lead_time_days,sku_id,moq,contract_unit_cost,is_preferred,is_active
+SUP-001,Apex Electronics International,China,30,SKU-1001,100,48.00,True,True
+SUP-001,Apex Electronics International,China,30,SKU-1002,100,220.00,True,True
+SUP-001,Apex Electronics International,China,30,SKU-1004,100,22.00,True,True
+SUP-001,Apex Electronics International,China,30,SKU-1006,100,65.00,True,True
+SUP-002,PowerPulse Components US,United States,5,SKU-1003,200,12.50,True,True
+SUP-002,PowerPulse Components US,United States,5,SKU-1005,200,8.50,True,True
+SUP-003,Pinnacle Apparel Manufacturing,Vietnam,35,SKU-1008,250,6.50,True,True
+SUP-003,Pinnacle Apparel Manufacturing,Vietnam,35,SKU-1009,250,18.00,True,True
+SUP-003,Pinnacle Apparel Manufacturing,Vietnam,35,SKU-1011,250,28.00,True,True
+SUP-003,Pinnacle Apparel Manufacturing,Vietnam,35,SKU-1014,250,5.00,True,True
+SUP-004,TrailPeak Gear & Outdoor Ltd,United States,7,SKU-1010,100,45.00,True,True
+SUP-004,TrailPeak Gear & Outdoor Ltd,United States,7,SKU-1012,100,35.00,True,True
+SUP-004,TrailPeak Gear & Outdoor Ltd,United States,7,SKU-1013,100,14.00,True,True
+SUP-005,PureDairy Farm Cooperatives,United States,3,SKU-1015,500,2.20,True,True
+SUP-005,PureDairy Farm Cooperatives,United States,3,SKU-1019,500,1.60,True,True
+SUP-006,Artisan Bakery & Grains Network,United States,4,SKU-1016,300,1.80,True,True
+SUP-006,Artisan Bakery & Grains Network,United States,4,SKU-1020,300,2.90,True,True
+SUP-006,Artisan Bakery & Grains Network,United States,4,SKU-1022,300,2.00,True,True
+SUP-007,MedTerra Mediterranean Imports,Italy,22,SKU-1017,150,7.50,True,True
+SUP-007,MedTerra Mediterranean Imports,Italy,22,SKU-1021,150,4.20,True,True
+SUP-008,PeakRoast Single Origin Estates,Colombia,28,SKU-1018,120,8.00,True,True
+SUP-009,ChefPro Culinary Technologies,Germany,18,SKU-1023,50,68.00,True,True
+SUP-009,ChefPro Culinary Technologies,Germany,18,SKU-1024,50,38.00,True,True
+SUP-009,ChefPro Culinary Technologies,Germany,18,SKU-1028,50,110.00,True,True
+SUP-010,DreamRest Home Comfort Co,United States,6,SKU-1025,100,12.00,True,True
+SUP-010,DreamRest Home Comfort Co,United States,6,SKU-1026,100,16.00,True,True
+SUP-010,DreamRest Home Comfort Co,United States,6,SKU-1027,100,6.50,True,True
+SUP-011,ZenMove Athletics & Yoga,United States,6,SKU-1029,200,9.00,True,True
+SUP-011,ZenMove Athletics & Yoga,United States,6,SKU-1031,200,7.00,True,True
+SUP-011,ZenMove Athletics & Yoga,United States,6,SKU-1032,200,4.00,True,True
+SUP-012,TitanForge Iron & Fitness,United States,8,SKU-1030,40,42.00,True,True
+SUP-013,GlowLab Skincare Science,United States,5,SKU-1033,300,5.50,True,True
+SUP-013,GlowLab Skincare Science,United States,5,SKU-1034,300,6.20,True,True
+SUP-014,DermaPure Botanical Extracts,France,20,SKU-1035,250,4.00,True,True
+SUP-014,DermaPure Botanical Extracts,France,20,SKU-1036,250,4.80,True,True

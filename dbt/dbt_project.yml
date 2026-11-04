@@ -25,3 +25,8 @@ models:
       +schema: gold
     ml:
       +schema: ml
+
+tests:
+  retail_ml_project:
+    +store_failures: true
+    +schema: test_failures

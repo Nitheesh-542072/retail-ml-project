@@ -1,0 +1,37 @@
+sku_id,product_name,category,brand,abc_class,unit_cost,unit_price,case_pack_qty,weight_kg,shelf_life_days,status,launch_date
+SKU-1001,Noise-Cancelling Wireless Headphones,Electronics,SoundPro,A,48.00,99.99,12,0.45,,ACTIVE,2024-03-15
+SKU-1002,Smart 4K UHD LED TV 55-inch,Electronics,VisionTech,A,220.00,399.99,2,14.50,,ACTIVE,2024-01-10
+SKU-1003,USB-C Fast Charging Hub 65W,Electronics,PowerPulse,B,12.50,29.99,24,0.25,,ACTIVE,2024-06-01
+SKU-1004,Bluetooth Waterproof Speaker,Electronics,SoundPro,B,22.00,49.99,12,0.85,,ACTIVE,2025-02-20
+SKU-1005,Wireless Ergonomic Mouse,Electronics,LogiClick,C,8.50,19.99,24,0.18,,ACTIVE,2024-08-11
+SKU-1006,Smartwatch Fitness Tracker GPS,Electronics,VisionTech,A,65.00,139.99,12,0.20,,NEW,2026-08-15
+SKU-1007,Legacy Wired Earphones 3.5mm,Electronics,SoundPro,C,3.00,7.99,48,0.08,,DISCONTINUED,2023-05-10
+SKU-1008,Men's Organic Cotton Crewneck T-Shirt,Clothing,AeroStyle,A,6.50,19.99,24,0.22,,ACTIVE,2024-02-01
+SKU-1009,Women's Slim Fit Stretch Denim Jeans,Clothing,DenimCo,A,18.00,49.99,12,0.65,,ACTIVE,2024-01-20
+SKU-1010,All-Weather Waterproof Shell Jacket,Clothing,TrailPeak,A,45.00,119.99,6,0.75,,ACTIVE,2024-09-01
+SKU-1011,Merino Wool Winter Knit Sweater,Clothing,AeroStyle,B,28.00,69.99,12,0.50,,ACTIVE,2024-10-15
+SKU-1012,Cushioned Trail Running Shoes,Clothing,TrailPeak,A,35.00,89.99,6,0.95,,ACTIVE,2024-04-10
+SKU-1013,Casual Cotton Canvas Slip-On Shoes,Clothing,AeroStyle,B,14.00,34.99,12,0.70,,ACTIVE,2025-03-01
+SKU-1014,Vintage Graphic Print Tee (Old Season),Clothing,DenimCo,C,5.00,12.99,24,0.20,,DISCONTINUED,2023-08-01
+SKU-1015,Organic Whole Milk 1 Gallon,Groceries,PureDairy,A,2.20,4.49,6,3.90,18,ACTIVE,2024-01-01
+SKU-1016,Artisanal Sourdough Bread Loaf 500g,Groceries,BakeMaster,A,1.80,4.29,12,0.55,7,ACTIVE,2024-01-01
+SKU-1017,Cold Pressed Extra Virgin Olive Oil 750ml,Groceries,MedTerra,A,7.50,15.99,12,1.20,365,ACTIVE,2024-02-15
+SKU-1018,Organic Dark Roast Coffee Beans 1kg,Groceries,PeakRoast,A,8.00,18.99,10,1.05,180,ACTIVE,2024-01-15
+SKU-1019,Almond Milk Unsweetened 1L,Groceries,PureDairy,B,1.60,3.49,12,1.05,60,ACTIVE,2024-05-10
+SKU-1020,Gluten-Free Granola Oats 500g,Groceries,BakeMaster,B,2.90,6.49,12,0.52,120,ACTIVE,2024-07-20
+SKU-1021,Sparkling Mineral Water 12-Pack,Groceries,MedTerra,B,4.20,8.99,4,4.50,270,ACTIVE,2024-03-10
+SKU-1022,Seasonal Summer Berry Jam 250g,Groceries,BakeMaster,C,2.00,4.99,24,0.40,90,DISCONTINUED,2024-05-01
+SKU-1023,Stainless Steel 10-Piece Cookware Set,Home & Kitchen,ChefPro,A,68.00,159.99,2,8.20,,ACTIVE,2024-01-15
+SKU-1024,Digital Air Fryer 5.8 Quart,Home & Kitchen,ChefPro,A,38.00,89.99,4,5.10,,ACTIVE,2024-03-01
+SKU-1025,Memory Foam Contour Sleeping Pillow,Home & Kitchen,DreamRest,B,12.00,29.99,8,1.30,,ACTIVE,2024-02-10
+SKU-1026,Microfiber Luxury 4-Piece Sheet Set Queen,Home & Kitchen,DreamRest,B,16.00,39.99,10,1.80,,ACTIVE,2024-01-25
+SKU-1027,Scented Natural Soy Wax Candle 3-Pack,Home & Kitchen,AuraHome,C,6.50,16.99,12,0.90,,ACTIVE,2024-11-01
+SKU-1028,Smart Robotic Vacuum Cleaner,Home & Kitchen,ChefPro,A,110.00,249.99,2,4.80,,NEW,2026-09-01
+SKU-1029,Eco-Friendly Non-Slip Yoga Mat 6mm,Sports,ZenMove,A,9.00,24.99,12,1.10,,ACTIVE,2024-01-10
+SKU-1030,Adjustable Cast Iron Dumbbell Set 50lbs,Sports,TitanForge,A,42.00,99.99,1,23.00,,ACTIVE,2024-04-01
+SKU-1031,Vacuum Insulated Stainless Water Bottle 32oz,Sports,ZenMove,B,7.00,18.99,20,0.42,,ACTIVE,2024-02-20
+SKU-1032,Resistance Exercise Bands 5-Pack,Sports,ZenMove,C,4.00,11.99,30,0.30,,ACTIVE,2024-01-05
+SKU-1033,Hyaluronic Acid Hydrating Face Serum 50ml,Beauty,GlowLab,A,5.50,19.99,24,0.15,730,ACTIVE,2024-02-01
+SKU-1034,Mineral Daily Sunscreen SPF 50 Broad Spectrum,Beauty,GlowLab,A,6.20,21.99,24,0.18,540,ACTIVE,2024-03-15
+SKU-1035,Gentle Foaming Daily Cleanser 200ml,Beauty,DermaPure,B,4.00,14.99,24,0.26,730,ACTIVE,2024-01-20
+SKU-1036,Organic Moroccan Argan Hair Mask 250ml,Beauty,DermaPure,C,4.80,16.49,18,0.32,540,ACTIVE,2024-06-10

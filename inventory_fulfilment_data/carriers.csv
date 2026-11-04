@@ -1,0 +1,9 @@
+carrier_id,carrier_name,service_level,promised_transit_days,base_rate
+CAR-FEDEX-SAME,FedEx SameDay City,SAME_DAY,0,32.50
+CAR-FEDEX-NEXT,FedEx Priority Overnight,NEXT_DAY,1,18.75
+CAR-FEDEX-STD,FedEx Home Delivery,STANDARD,4,7.50
+CAR-UPS-NEXT,UPS Next Day Air,NEXT_DAY,1,19.25
+CAR-UPS-STD,UPS Ground,STANDARD,3,7.80
+CAR-USPS-PRIORITY,USPS Priority Mail,STANDARD,3,6.20
+CAR-DHL-EXP,DHL Express Worldwide,NEXT_DAY,1,24.00
+CAR-LOCAL-COURIER,Metro QuickCourier,SAME_DAY,0,27.50

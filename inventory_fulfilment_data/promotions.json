@@ -1,0 +1,104 @@
+[
+  {
+    "promo_id": "PRM-2026-BTS-01",
+    "promo_name": "Back-to-School Tech & Apparel Blast",
+    "promo_type": "PERCENTAGE_OFF",
+    "discount_pct": 20,
+    "applicable_skus": [
+      "SKU-1001",
+      "SKU-1003",
+      "SKU-1008",
+      "SKU-1009"
+    ],
+    "applicable_categories": [
+      "Electronics",
+      "Clothing"
+    ],
+    "applicable_regions": [
+      "North",
+      "East",
+      "West",
+      "Central"
+    ],
+    "start_date": "2026-08-15",
+    "end_date": "2026-08-31",
+    "status": "EXPIRED"
+  },
+  {
+    "promo_id": "PRM-2026-LABORDAY-02",
+    "promo_name": "Labor Day Weekend Cookout & Home Sale",
+    "promo_type": "PRICE_CUT",
+    "discount_pct": 15,
+    "applicable_skus": [
+      "SKU-1023",
+      "SKU-1024",
+      "SKU-1025",
+      "SKU-1029",
+      "SKU-1030"
+    ],
+    "applicable_categories": [
+      "Home & Kitchen",
+      "Sports"
+    ],
+    "applicable_regions": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "start_date": "2026-09-04",
+    "end_date": "2026-09-08",
+    "status": "EXPIRED"
+  },
+  {
+    "promo_id": "PRM-2026-FALLFIT-03",
+    "promo_name": "Fall Wellness & Beauty Reset",
+    "promo_type": "BUY_ONE_GET_ONE",
+    "discount_pct": 25,
+    "applicable_skus": [
+      "SKU-1029",
+      "SKU-1031",
+      "SKU-1033",
+      "SKU-1034"
+    ],
+    "applicable_categories": [
+      "Sports",
+      "Beauty"
+    ],
+    "applicable_regions": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "start_date": "2026-09-20",
+    "end_date": "2026-10-05",
+    "status": "EXPIRED"
+  },
+  {
+    "promo_id": "PRM-2026-HALLOWEEN-04",
+    "promo_name": "Halloween Spooktacular & Warm-up Deals",
+    "promo_type": "PERCENTAGE_OFF",
+    "discount_pct": 15,
+    "applicable_skus": [
+      "SKU-1016",
+      "SKU-1018",
+      "SKU-1027",
+      "SKU-1035"
+    ],
+    "applicable_categories": [
+      "Groceries",
+      "Home & Kitchen",
+      "Beauty"
+    ],
+    "applicable_regions": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "start_date": "2026-10-24",
+    "end_date": "2026-10-31",
+    "status": "ACTIVE"
+  }
+]
