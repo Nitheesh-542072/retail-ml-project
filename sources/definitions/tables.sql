@@ -1,9 +1,3 @@
--- ==============================================================================
--- Inventory & Fulfilment Platform: Database, Schemas, Tables & Ingestion
--- Target Database: retail_intelligence_dev
--- Workload: M1 (Demand & Stock-out), M2 (Replenishment), M3 (Late Delivery & Sourcing)
--- ==============================================================================
-
 CREATE DATABASE IF NOT EXISTS retail_intelligence_dev;
 USE DATABASE retail_intelligence_dev;
 
@@ -13,10 +7,6 @@ CREATE SCHEMA IF NOT EXISTS bronze;
 CREATE SCHEMA IF NOT EXISTS silver;
 CREATE SCHEMA IF NOT EXISTS gold;
 CREATE SCHEMA IF NOT EXISTS ML;
-CREATE SCHEMA IF NOT EXISTS test_failures
-    COMMENT = 'Dedicated schema for dbt store_failures audit tables (captures failing rows from DQ tests)';
-CREATE SCHEMA IF NOT EXISTS dbt_test__audit
-    COMMENT = 'Default dbt audit schema fallback for store_failures';
 
 -- 2. Internal Stage
 CREATE STAGE IF NOT EXISTS raw.INT_STG_INVENTORY_FULFILMENT
@@ -41,9 +31,9 @@ CREATE OR REPLACE FILE FORMAT raw.FF_JSON_INVENTORY
     ALLOW_DUPLICATE = FALSE
     STRIP_NULL_VALUES = FALSE;
 
--- ==============================================================================
+
 -- SECTION A: Structured Raw Tables (9 CSV Datasets)
--- ==============================================================================
+
 
 -- 1. Products Raw
 CREATE OR REPLACE TABLE raw.products_raw (
@@ -177,9 +167,9 @@ CREATE OR REPLACE TABLE raw.transfers_raw (
     ingestion_timestamp TIMESTAMP_NTZ DEFAULT CURRENT_TIMESTAMP()
 );
 
--- ==============================================================================
+
 -- SECTION B: Semi-Structured Raw Tables (4 JSON Datasets)
--- ==============================================================================
+
 
 -- 10. Promotions Raw
 CREATE OR REPLACE TABLE raw.promotions_raw (
@@ -209,9 +199,9 @@ CREATE OR REPLACE TABLE raw.shipments_raw (
     ingestion_timestamp TIMESTAMP_NTZ DEFAULT CURRENT_TIMESTAMP()
 );
 
--- ==============================================================================
+
 -- SECTION C: COPY INTO Ingestion Scripts
--- ==============================================================================
+
 
 -- 1. Load Products (CSV)
 COPY INTO raw.products_raw (
@@ -408,9 +398,9 @@ FROM (
 FILE_FORMAT = (FORMAT_NAME = 'raw.FF_JSON_INVENTORY')
 ON_ERROR = 'ABORT_STATEMENT';
 
--- ==============================================================================
+
 -- SECTION D: dbt store_failures Audit Tables (Automated by dbt)
--- ==============================================================================
+
 -- NOTE: You do NOT need to create tables manually in test_failures schema!
 -- When dbt runs with `store_failures: true`, dbt dynamically creates a table
 -- in `retail_intelligence_dev.test_failures` whenever a test fails (e.g.):
@@ -420,4 +410,4 @@ ON_ERROR = 'ABORT_STATEMENT';
 --
 -- Querying failed rows:
 --   SELECT * FROM retail_intelligence_dev.test_failures.<test_name>;
--- ==============================================================================
+

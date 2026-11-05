@@ -248,12 +248,17 @@ models:
 
   # 10. Promotions
   - name: tbl_promotions
-    description: "Bronze promotional offers and discount schedules"
+    description: "Bronze promotional offers and discount schedules flattened per SKU"
     columns:
       - name: promo_id
         tests:
-          - unique
           - not_null
+      - name: sku_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('tbl_products')
+              field: sku_id
       - name: promo_type
         tests:
           - not_null
@@ -263,11 +268,10 @@ models:
 
   # 11. Purchase Orders
   - name: tbl_purchase_orders
-    description: "Bronze procurement orders and supplier lead time performance"
+    description: "Bronze procurement orders and supplier lead time performance flattened per item"
     columns:
       - name: po_id
         tests:
-          - unique
           - not_null
       - name: supplier_id
         tests:
@@ -278,10 +282,22 @@ models:
           - relationships:
               to: ref('tbl_locations')
               field: location_id
+      - name: sku_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('tbl_products')
+              field: sku_id
+      - name: ordered_qty
+        tests:
+          - not_null
+      - name: unit_cost
+        tests:
+          - not_null
       - name: order_date
         tests:
           - not_null
-      - name: po_status
+      - name: status
         tests:
           - not_null
           - accepted_values:
@@ -289,13 +305,21 @@ models:
 
   # 12. Customer Orders
   - name: tbl_customer_orders
-    description: "Bronze customer online orders with delivery promises and masked PII"
+    description: "Bronze customer online orders with delivery promises and masked PII flattened per item"
     columns:
       - name: order_id
         tests:
-          - unique
           - not_null
       - name: customer_id
+        tests:
+          - not_null
+      - name: sku_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('tbl_products')
+              field: sku_id
+      - name: qty
         tests:
           - not_null
       - name: promised_delivery_date
@@ -320,11 +344,10 @@ models:
 
   # 13. Shipments
   - name: tbl_shipments
-    description: "Bronze outbound shipment events and transit SLA compliance"
+    description: "Bronze outbound shipment events and transit SLA compliance flattened per event"
     columns:
       - name: shipment_id
         tests:
-          - unique
           - not_null
       - name: order_id
         tests:
@@ -346,6 +369,11 @@ models:
           - not_null
           - accepted_values:
               values: ['SAME_DAY', 'NEXT_DAY', 'STANDARD']
+      - name: event_type
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['PICKED_UP', 'IN_TRANSIT', 'DELAYED', 'DELIVERED']
       - name: is_late
         tests:
           - not_null
