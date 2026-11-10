@@ -1,3 +1,8 @@
+{{ config(
+    materialized = 'incremental',
+    unique_key = ['snapshot_date', 'sku_id', 'location_id']
+) }}
+
 select
     snapshot_date::date as snapshot_date,
     sku_id::string as sku_id,
@@ -10,8 +15,10 @@ select
     safety_stock_qty::integer as safety_stock_qty,
     is_stockout::boolean as is_stockout,
     source_file_name,
-    '{{ source("raw", "inventory_snapshots_raw").name | upper }}' as source_table_name,
-    current_timestamp() as ingestion_timestamp
+    ingestion_timestamp
 from
     {{ source('raw', 'inventory_snapshots_raw') }}
 
+{% if is_incremental() %}
+where ingestion_timestamp > (select max(ingestion_timestamp) from {{ this }})
+{% endif %}

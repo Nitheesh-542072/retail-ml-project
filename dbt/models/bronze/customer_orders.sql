@@ -1,3 +1,8 @@
+{{ config(
+    materialized = 'incremental',
+    unique_key = ['order_id', 'sku_id']
+) }}
+
 select
     raw_payload:order_id::string as order_id,
     raw_payload:customer_id::string as customer_id,
@@ -12,11 +17,16 @@ select
     raw_payload:fulfilled_from_location_id::string as fulfilled_from_location_id,
     item.value:sku_id::string as sku_id,
     item.value:qty::integer as qty,
+    item.value:unit_price::number(10, 2) as unit_price,
     raw_payload:order_status::string as order_status,
     raw_payload:is_split_shipment::boolean as is_split_shipment,
+    raw_payload:order_subtotal::number(10, 2) as order_subtotal,
     source_file_name,
-    '{{ source("raw", "customer_orders_raw").name | upper }}' as source_table_name,
-    current_timestamp() as ingestion_timestamp
+    ingestion_timestamp
 from
     {{ source('raw', 'customer_orders_raw') }},
     lateral flatten(input => raw_payload:items) as item
+
+{% if is_incremental() %}
+where ingestion_timestamp > (select max(ingestion_timestamp) from {{ this }})
+{% endif %}

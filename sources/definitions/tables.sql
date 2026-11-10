@@ -404,9 +404,9 @@ ON_ERROR = 'ABORT_STATEMENT';
 -- NOTE: You do NOT need to create tables manually in test_failures schema!
 -- When dbt runs with `store_failures: true`, dbt dynamically creates a table
 -- in `retail_intelligence_dev.test_failures` whenever a test fails (e.g.):
---   - test_failures.unique_tbl_products_sku_id
+--   - test_failures.unique_products_sku_id
 --   - test_failures.assert_product_pricing_logic
---   - test_failures.not_null_tbl_locations_location_id
+--   - test_failures.not_null_locations_location_id
 --
 -- Querying failed rows:
 --   SELECT * FROM retail_intelligence_dev.test_failures.<test_name>;

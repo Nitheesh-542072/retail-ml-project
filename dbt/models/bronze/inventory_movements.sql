@@ -1,3 +1,8 @@
+{{ config(
+    materialized = 'incremental',
+    unique_key = 'movement_id'
+) }}
+
 select
     movement_id::string as movement_id,
     sku_id::string as sku_id,
@@ -8,8 +13,10 @@ select
     nullif(reason_code, '')::string as reason_code,
     timestamp::timestamp_ntz as movement_timestamp,
     source_file_name,
-    '{{ source("raw", "inventory_movements_raw").name | upper }}' as source_table_name,
-    current_timestamp() as ingestion_timestamp
+    ingestion_timestamp
 from
     {{ source('raw', 'inventory_movements_raw') }}
 
+{% if is_incremental() %}
+where ingestion_timestamp > (select max(ingestion_timestamp) from {{ this }})
+{% endif %}

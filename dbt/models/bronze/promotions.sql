@@ -1,3 +1,8 @@
+{{ config(
+    materialized = 'incremental',
+    unique_key = ['promo_id', 'sku_id']
+) }}
+
 select
     raw_payload:promo_id::string as promo_id,
     sku.value::string as sku_id,
@@ -9,8 +14,11 @@ select
     raw_payload:end_date::date as end_date,
     raw_payload:status::string as promo_status,
     source_file_name,
-    '{{ source("raw", "promotions_raw").name | upper }}' as source_table_name,
-    current_timestamp() as ingestion_timestamp
+    ingestion_timestamp
 from
     {{ source('raw', 'promotions_raw') }},
     lateral flatten(input => raw_payload:applicable_skus) as sku
+
+{% if is_incremental() %}
+where ingestion_timestamp > (select max(ingestion_timestamp) from {{ this }})
+{% endif %}

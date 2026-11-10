@@ -1,3 +1,8 @@
+{{ config(
+    materialized = 'incremental',
+    unique_key = 'sku_id'
+) }}
+
 select
     sku_id::string as sku_id,
     product_name::string as product_name,
@@ -12,8 +17,10 @@ select
     status::string as status,
     launch_date::date as launch_date,
     source_file_name,
-    '{{ source("raw", "products_raw").name | upper }}' as source_table_name,
-    current_timestamp() as ingestion_timestamp
+    ingestion_timestamp
 from
     {{ source('raw', 'products_raw') }}
 
+{% if is_incremental() %}
+where ingestion_timestamp > (select max(ingestion_timestamp) from {{ this }})
+{% endif %}

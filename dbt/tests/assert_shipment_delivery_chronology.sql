@@ -1,6 +1,6 @@
 -- ==============================================================================
 -- Singular Test: assert_shipment_delivery_chronology.sql
--- Table: tbl_shipments
+-- Table: shipments
 -- Business Rule:
 --   1. If delivered_timestamp is present, it must be >= ship_timestamp.
 --   2. shipping_cost must be non-negative (>= 0).
@@ -13,7 +13,7 @@ select
     ship_timestamp,
     delivered_timestamp,
     shipping_cost
-from {{ ref('tbl_shipments') }}
+from {{ ref('shipments') }}
 where (delivered_timestamp is not null and delivered_timestamp < ship_timestamp)
    or shipping_cost < 0
 

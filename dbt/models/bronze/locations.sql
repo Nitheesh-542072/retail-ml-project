@@ -1,3 +1,8 @@
+{{ config(
+    materialized = 'incremental',
+    unique_key = 'location_id'
+) }}
+
 select
     location_id::string as location_id,
     location_type::string as location_type,
@@ -11,8 +16,10 @@ select
     cutoff_time::time as cutoff_time,
     is_active::boolean as is_active,
     source_file_name,
-    '{{ source("raw", "locations_raw").name | upper }}' as source_table_name,
-    current_timestamp() as ingestion_timestamp
+    ingestion_timestamp
 from
     {{ source('raw', 'locations_raw') }}
 
+{% if is_incremental() %}
+where ingestion_timestamp > (select max(ingestion_timestamp) from {{ this }})
+{% endif %}

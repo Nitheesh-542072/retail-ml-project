@@ -1,6 +1,6 @@
 -- ==============================================================================
 -- Singular Test: assert_inventory_snapshot_math.sql
--- Table: tbl_inventory_snapshots
+-- Table: inventory_snapshots
 -- Business Rule:
 --   1. available_qty must exactly equal on_hand_qty - reserved_qty.
 --   2. All inventory quantities (on_hand, reserved, available, in_transit) must be >= 0.
@@ -16,7 +16,7 @@ select
     reserved_qty,
     available_qty,
     is_stockout
-from {{ ref('tbl_inventory_snapshots') }}
+from {{ ref('inventory_snapshots') }}
 where available_qty != (on_hand_qty - reserved_qty)
    or on_hand_qty < 0
    or reserved_qty < 0

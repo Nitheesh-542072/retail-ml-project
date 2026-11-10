@@ -1,3 +1,8 @@
+{{ config(
+    materialized = 'incremental',
+    unique_key = 'transfer_id'
+) }}
+
 select
     transfer_id::string as transfer_id,
     from_location_id::string as from_location_id,
@@ -8,8 +13,10 @@ select
     nullif(received_date, '')::date as received_date,
     status::string as status,
     source_file_name,
-    '{{ source("raw", "transfers_raw").name | upper }}' as source_table_name,
-    current_timestamp() as ingestion_timestamp
+    ingestion_timestamp
 from
     {{ source('raw', 'transfers_raw') }}
 
+{% if is_incremental() %}
+where ingestion_timestamp > (select max(ingestion_timestamp) from {{ this }})
+{% endif %}

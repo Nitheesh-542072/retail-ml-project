@@ -1,3 +1,8 @@
+{{ config(
+    materialized = 'incremental',
+    unique_key = ['po_id', 'sku_id']
+) }}
+
 select
     raw_payload:po_id::string as po_id,
     raw_payload:supplier_id::string as supplier_id,
@@ -10,9 +15,13 @@ select
     raw_payload:actual_delivery_date::date as actual_delivery_date,
     raw_payload:status::string as status,
     item.value:unit_cost::number(10, 2) as unit_cost,
+    coalesce(raw_payload:total_po_value::number(12, 2), (item.value:unit_cost::number(10, 2) * item.value:ordered_qty::integer)) as total_po_value,
     source_file_name,
-    '{{ source("raw", "purchase_orders_raw").name | upper }}' as source_table_name,
-    current_timestamp() as ingestion_timestamp
+    ingestion_timestamp
 from
     {{ source('raw', 'purchase_orders_raw') }},
     lateral flatten(input => raw_payload:items) as item
+
+{% if is_incremental() %}
+where ingestion_timestamp > (select max(ingestion_timestamp) from {{ this }})
+{% endif %}

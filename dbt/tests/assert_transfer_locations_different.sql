@@ -1,6 +1,6 @@
 -- ==============================================================================
 -- Singular Test: assert_transfer_locations_different.sql
--- Table: tbl_transfers
+-- Table: transfers
 -- Business Rule:
 --   1. An internal stock transfer must move between two distinct locations (from != to).
 --   2. Transfer quantity must be strictly positive (> 0).
@@ -15,7 +15,7 @@ select
     qty,
     shipped_date,
     received_date
-from {{ ref('tbl_transfers') }}
+from {{ ref('transfers') }}
 where from_location_id = to_location_id
    or qty <= 0
    or (received_date is not null and received_date < shipped_date)
