@@ -7,6 +7,7 @@ CREATE SCHEMA IF NOT EXISTS bronze;
 CREATE SCHEMA IF NOT EXISTS silver;
 CREATE SCHEMA IF NOT EXISTS gold;
 CREATE SCHEMA IF NOT EXISTS ML;
+CREATE SCHEMA IF NOT EXISTS error;
 
 -- 2. Internal Stage
 CREATE STAGE IF NOT EXISTS raw.INT_STG_INVENTORY_FULFILMENT
@@ -401,13 +402,13 @@ ON_ERROR = 'ABORT_STATEMENT';
 
 -- SECTION D: dbt store_failures Audit Tables (Automated by dbt)
 
--- NOTE: You do NOT need to create tables manually in test_failures schema!
+-- NOTE: You do NOT need to create tables manually in error schema!
 -- When dbt runs with `store_failures: true`, dbt dynamically creates a table
--- in `retail_intelligence_dev.test_failures` whenever a test fails (e.g.):
---   - test_failures.unique_products_sku_id
---   - test_failures.assert_product_pricing_logic
---   - test_failures.not_null_locations_location_id
+-- in `retail_intelligence_dev.error` whenever a test fails (e.g.):
+--   - error.unique_products_sku_id
+--   - error.assert_product_pricing_logic
+--   - error.not_null_locations_location_id
 --
 -- Querying failed rows:
---   SELECT * FROM retail_intelligence_dev.test_failures.<test_name>;
+--   SELECT * FROM retail_intelligence_dev.error.<test_name>;
 

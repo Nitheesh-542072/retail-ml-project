@@ -29,4 +29,5 @@ models:
 tests:
   retail_ml_project:
     +store_failures: true
-    +schema: test_failures
+    +schema: error
+    +severity: warn

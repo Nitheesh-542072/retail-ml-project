@@ -1,0 +1,172 @@
+version: 2
+
+models:
+  # 1. Product Entity
+  - name: dim_products
+    description: "Silver canonical product catalog entity with validated pricing, taxonomy, and physical attributes"
+    columns:
+      - name: sku_id
+        description: "Primary Key: Stock Keeping Unit unique identifier"
+      - name: product_name
+        description: "Commercial product name"
+      - name: category
+        description: "Product taxonomy category"
+      - name: abc_class
+        description: "Inventory velocity classification"
+      - name: unit_cost
+        description: "Wholesale procurement unit cost"
+      - name: unit_price
+        description: "Retail selling price"
+      - name: status
+        description: "Product lifecycle status"
+
+  # 2. Location Entity
+  - name: dim_locations
+    description: "Silver canonical fulfillment facility nodes (DCs, retail stores, 3PLs) with capacities"
+    columns:
+      - name: location_id
+        description: "Primary Key: Facility node unique identifier"
+      - name: location_type
+        description: "Type of facility node (DC, STORE, 3PL)"
+      - name: region
+        description: "Operating geographic region"
+
+  # 3. Supplier Entity
+  - name: dim_suppliers
+    description: "Silver canonical vendor profile entity"
+    columns:
+      - name: supplier_id
+        description: "Primary Key: Vendor unique identifier"
+      - name: supplier_name
+        description: "Vendor business name"
+
+  # 4. Supplier SKU Terms
+  - name: dim_supplier_sku_terms
+    description: "Silver bridge entity defining contractual terms, MOQ, and SLA per vendor and SKU"
+    columns:
+      - name: supplier_id
+        description: "Foreign Key referencing dim_suppliers"
+      - name: sku_id
+        description: "Foreign Key referencing dim_products"
+      - name: contracted_lead_time_days
+        description: "Contractual delivery SLA in days"
+
+  # 5. Carrier Entity
+  - name: dim_carriers
+    description: "Silver canonical logistics carrier matrix and transit SLAs"
+    columns:
+      - name: carrier_id
+        description: "Primary Key: Carrier unique identifier"
+      - name: carrier_name
+        description: "Logistics carrier name"
+      - name: service_level
+        description: "Offered delivery SLA tier"
+
+  # 6. Calendar Dimension
+  - name: dim_calendar
+    description: "Silver operating retail calendar with seasonality, holidays, and peak indicators"
+    columns:
+      - name: calendar_date
+        description: "Primary Key: Calendar date"
+
+  # 7. Inventory Snapshots Fact
+  - name: fct_inventory_snapshots
+    description: "Silver validated daily physical stock snapshot balances per SKU and location"
+    columns:
+      - name: snapshot_date
+        description: "Primary Key component: Snapshot calendar date"
+      - name: sku_id
+        description: "Foreign Key referencing dim_products"
+      - name: location_id
+        description: "Foreign Key referencing dim_locations"
+      - name: on_hand_qty
+        description: "Physical on-hand inventory count"
+      - name: available_qty
+        description: "Calculated free inventory: (on_hand_qty - reserved_qty)"
+
+  # 8. Inventory Movements Fact
+  - name: fct_inventory_movements
+    description: "Silver operational inventory ledger movements and transaction records"
+    columns:
+      - name: movement_id
+        description: "Primary Key: Inventory transaction movement event ID"
+      - name: sku_id
+        description: "Foreign Key referencing dim_products"
+      - name: location_id
+        description: "Foreign Key referencing dim_locations"
+
+  # 9. Sales Demand Fact
+  - name: fct_sales_demand
+    description: "Silver cleaned multi-channel sales demand and customer return balances"
+    columns:
+      - name: sales_date
+        description: "Primary Key component: Sales transaction calendar date"
+      - name: sku_id
+        description: "Foreign Key referencing dim_products"
+      - name: location_id
+        description: "Foreign Key referencing dim_locations"
+      - name: channel
+        description: "Sales channel (IN_STORE, WEB, APP)"
+
+  # 10. Transfers Fact
+  - name: fct_transfers
+    description: "Silver inter-facility stock transfers and transit tracking"
+    columns:
+      - name: transfer_id
+        description: "Primary Key: Stock transfer identifier"
+      - name: from_location_id
+        description: "Origin facility node"
+      - name: to_location_id
+        description: "Destination facility node"
+      - name: sku_id
+        description: "Transferred product SKU identifier"
+
+  # 11. Promotions Fact
+  - name: fct_promotions
+    description: "Silver promotional campaign discounts and eligibility bridge"
+    columns:
+      - name: promo_id
+        description: "Primary Key component: Promotion identifier"
+      - name: sku_id
+        description: "Eligible product SKU identifier"
+
+  # 12. Purchase Orders Fact
+  - name: fct_purchase_orders
+    description: "Silver validated supplier purchase orders and receiving line items"
+    columns:
+      - name: po_id
+        description: "Primary Key component: Purchase order number"
+      - name: sku_id
+        description: "Procured product SKU identifier"
+      - name: supplier_id
+        description: "Vendor sourcing supplier identifier"
+      - name: destination_location_id
+        description: "Receiving facility node"
+
+  # 13. Customer Orders Fact
+  - name: fct_customer_orders
+    description: "Silver customer order lines with promised SLAs and fulfillment assignments"
+    columns:
+      - name: order_id
+        description: "Primary Key component: Customer sales order number"
+      - name: sku_id
+        description: "Ordered product SKU line item identifier"
+      - name: customer_id
+        description: "Pseudonymous customer account identifier"
+      - name: fulfilled_from_location_id
+        description: "Dispatching fulfillment facility node"
+
+  # 14. Shipments Fact
+  - name: fct_shipments
+    description: "Silver shipment tracking milestone events and SLA breach evaluations"
+    columns:
+      - name: shipment_id
+        description: "Primary Key component: Shipment dispatch parcel tracking ID"
+      - name: event_seq
+        description: "Milestone Event Sequence (1, 2, 3...) per shipment tracking timeline"
+      - name: order_id
+        description: "Associated customer sales order identifier"
+      - name: origin_location_id
+        description: "Dispatch facility node"
+      - name: carrier_id
+        description: "Logistics shipping carrier identifier"
