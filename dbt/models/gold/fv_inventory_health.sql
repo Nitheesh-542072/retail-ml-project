@@ -41,7 +41,7 @@ shrinkage_90d as (
             4
         ) as shrinkage_rate_90d
     from {{ ref('fct_inventory_movements') }}
-    where movement_timestamp >= dateadd(day, -90, current_timestamp())
+    where event_timestamp >= dateadd(day, -90, current_timestamp())
     group by sku_id, location_id
 )
 

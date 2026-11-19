@@ -14,6 +14,7 @@ select
     b.reference_id,
     b.reason_code,
     b.movement_timestamp as event_timestamp,
+    b.movement_timestamp,
     b.source_file_name,
     b.ingestion_timestamp
 from {{ ref('inventory_movements') }} as b
