@@ -3,7 +3,7 @@
     unique_key = ['shipment_id', 'event_type', 'event_timestamp']
 ) }}
 
-{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='assert_shipment_delivery_chronology') %}
+{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_shipments') %}
 
 select
     b.shipment_id,
@@ -28,12 +28,13 @@ from {{ ref('shipments') }} as b
 {% if err_table %}
 left join {{ err_table }} as err
     on b.shipment_id = err.shipment_id
-where err.shipment_id is null
+   and b.event_type = err.event_type
+   and b.event_timestamp = err.event_timestamp
+{% endif %}
+where 1 = 1
+{% if err_table %}
+  and err.shipment_id is null
+{% endif %}
 {% if is_incremental() %}
   and b.ingestion_timestamp > (select max(ingestion_timestamp) from {{ this }})
-{% endif %}
-{% else %}
-{% if is_incremental() %}
-where b.ingestion_timestamp > (select max(ingestion_timestamp) from {{ this }})
-{% endif %}
 {% endif %}

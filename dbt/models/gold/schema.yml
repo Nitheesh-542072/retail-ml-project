@@ -1,0 +1,155 @@
+version: 2
+
+models:
+  # 1. Daily Inventory Position Fact
+  - name: fct_daily_inventory_position
+    description: "Gold curated daily stock position with 14-day rolling demand, open purchase orders, in-transit stock, and Days of Supply (DOS)"
+    columns:
+      - name: snapshot_date
+        description: "Primary Key component: Snapshot calendar date"
+      - name: sku_id
+        description: "Primary Key component: Product SKU reference"
+      - name: location_id
+        description: "Primary Key component: Facility node reference"
+      - name: on_hand_qty
+        description: "Physical stock on hand"
+      - name: available_qty
+        description: "Available-to-promise inventory: on_hand_qty - reserved_qty"
+      - name: rolling_demand_14d
+        description: "Total units sold across past 14 days up to snapshot date"
+      - name: avg_daily_demand_14d
+        description: "Average daily sales velocity over past 14 days"
+      - name: days_of_supply
+        description: "Days of Supply calculated as available_qty / avg_daily_demand_14d"
+      - name: inventory_value
+        description: "Total dollar value of on-hand inventory (on_hand_qty * unit_cost)"
+      - name: stockout_risk_flag
+        description: "Boolean indicator if available stock is zero or days of supply < 3 days"
+
+  # 2. Daily Demand Summary Fact
+  - name: fct_daily_demand_summary
+    description: "Gold curated daily multi-channel aggregated demand with promotional depth, holiday indicators, and estimated lost sales"
+    columns:
+      - name: sales_date
+        description: "Primary Key component: Sales transaction calendar date"
+      - name: sku_id
+        description: "Primary Key component: Product SKU reference"
+      - name: location_id
+        description: "Primary Key component: Fulfillment location reference"
+      - name: total_units_sold
+        description: "Gross units sold across all channels (store, web, app)"
+      - name: net_units_sold
+        description: "Net units sold after customer returns (total_units_sold - total_units_returned)"
+      - name: is_promo_active
+        description: "Boolean flag indicating active promotional campaign on this day"
+      - name: estimated_lost_sales_units
+        description: "Estimated unfulfilled demand units during stockout days based on trailing velocity"
+
+  # 3. Monthly Supplier Performance Fact
+  - name: fct_supplier_performance_monthly
+    description: "Gold vendor scorecard aggregating procurement lead times, fill rates, and On-Time-In-Full (OTIF) compliance"
+    columns:
+      - name: month_start_date
+        description: "Primary Key component: Calendar month start date"
+      - name: supplier_id
+        description: "Primary Key component: Vendor identifier"
+      - name: sku_id
+        description: "Primary Key component: Sourced product SKU"
+      - name: avg_actual_lead_time_days
+        description: "Average realized lead time from PO emission to physical gate receipt"
+      - name: lead_time_variance_days
+        description: "Standard deviation of realized lead times"
+      - name: fill_rate_pct
+        description: "Percentage of ordered units received (received_qty / ordered_qty)"
+      - name: otif_pct
+        description: "On-Time-In-Full fulfillment percentage"
+
+  # 4. Daily Fulfilment SLA Fact
+  - name: fct_fulfilment_sla_daily
+    description: "Gold logistics fulfillment performance measuring carrier transit times, late delivery breaches, and freight costs"
+    columns:
+      - name: order_date
+        description: "Primary Key component: Customer order date"
+      - name: location_id
+        description: "Primary Key component: Dispatching warehouse or store node"
+      - name: carrier_id
+        description: "Primary Key component: Contracted delivery carrier"
+      - name: carrier_on_time_pct
+        description: "Percentage of shipments delivered within promised SLA"
+      - name: avg_shipping_cost
+        description: "Average parcel delivery cost incurred"
+      - name: total_shipping_cost
+        description: "Total freight expenditure for the date and node"
+
+  # 5. SKU Location Demand Feature View
+  - name: fv_sku_location_demand
+    description: "Gold Feature Store View powering M1 Demand Forecasting (lagged demand, rolling mean/std, promo uplift)"
+    columns:
+      - name: sales_date
+        description: "Feature observation date"
+      - name: sku_id
+        description: "Product SKU identifier"
+      - name: location_id
+        description: "Facility node identifier"
+      - name: sales_lag_7d
+        description: "Sales unit demand lagged by 7 days"
+      - name: sales_lag_14d
+        description: "Sales unit demand lagged by 14 days"
+      - name: sales_lag_28d
+        description: "Sales unit demand lagged by 28 days"
+      - name: rolling_mean_7d
+        description: "7-day moving average of sales demand"
+      - name: rolling_std_28d
+        description: "28-day standard deviation of sales demand"
+      - name: promo_uplift_ratio
+        description: "Ratio of current demand to rolling baseline during promotion"
+
+  # 6. Inventory Health Feature View
+  - name: fv_inventory_health
+    description: "Gold Feature Store View powering M1 Stockout Risk & M2 Replenishment Engine"
+    columns:
+      - name: sku_id
+        description: "Product SKU identifier"
+      - name: location_id
+        description: "Facility node identifier"
+      - name: current_dos
+        description: "Current Days of Supply"
+      - name: stockout_days_last_90d
+        description: "Total stockout days experienced in the trailing 90 days"
+      - name: shrinkage_rate_90d
+        description: "Inventory loss / adjustment rate over the last 90 days"
+      - name: shelf_life_remaining_days
+        description: "Usable product shelf life window in days"
+
+  # 7. Supplier Reliability Feature View
+  - name: fv_supplier_reliability
+    description: "Gold Feature Store View powering M2 Lead-Time Prediction and Vendor Selection"
+    columns:
+      - name: supplier_id
+        description: "Supplier vendor identifier"
+      - name: sku_id
+        description: "Supplied SKU identifier"
+      - name: contracted_lead_time_days
+        description: "Contractual delivery lead time in days"
+      - name: historical_lead_time_p50
+        description: "Median (P50) historical delivery lead time over last 90 days"
+      - name: historical_lead_time_p90
+        description: "90th percentile (P90) historical delivery lead time"
+      - name: supplier_otif_rate_90d
+        description: "Vendor 90-day historical OTIF compliance rate"
+
+  # 8. Order Fulfilment Risk Feature View
+  - name: fv_order_fulfilment_risk
+    description: "Gold Feature Store View powering M3 Late Delivery Classifier & Node Ranker"
+    columns:
+      - name: location_id
+        description: "Fulfillment facility node identifier"
+      - name: carrier_id
+        description: "Carrier identifier"
+      - name: node_daily_backlog_ratio
+        description: "Ratio of open orders backlog to facility daily dispatch capacity"
+      - name: carrier_on_time_rate_30d
+        description: "Carrier 30-day on-time delivery rate from this node"
+      - name: is_peak_period_active
+        description: "Indicator whether current date is within high-volume retail peak"
+

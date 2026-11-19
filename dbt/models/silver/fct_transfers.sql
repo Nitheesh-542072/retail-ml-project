@@ -3,7 +3,7 @@
     unique_key = 'transfer_id'
 ) }}
 
-{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='assert_transfer_locations_different') %}
+{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_transfers') %}
 
 select
     b.transfer_id,
@@ -20,12 +20,11 @@ from {{ ref('transfers') }} as b
 {% if err_table %}
 left join {{ err_table }} as err
     on b.transfer_id = err.transfer_id
-where err.transfer_id is null
+{% endif %}
+where 1 = 1
+{% if err_table %}
+  and err.transfer_id is null
+{% endif %}
 {% if is_incremental() %}
   and b.ingestion_timestamp > (select max(ingestion_timestamp) from {{ this }})
-{% endif %}
-{% else %}
-{% if is_incremental() %}
-where b.ingestion_timestamp > (select max(ingestion_timestamp) from {{ this }})
-{% endif %}
 {% endif %}
