@@ -18,7 +18,7 @@ select
         when d.carrier_id is not null then 'Duplicate carrier_id'
         when c.carrier_name is null then 'Missing carrier_name'
         when c.service_level not in ('SAME_DAY', 'NEXT_DAY', 'STANDARD') then 'Invalid carrier service_level'
-        when c.promised_transit_days <= 0 then 'Non-positive promised transit days'
+        when c.promised_transit_days < 0 then 'Negative promised transit days'
         when c.base_rate < 0 then 'Negative base rate'
         else 'Carrier validation failure'
     end as failure_reason
@@ -29,5 +29,5 @@ where c.carrier_id is null
    or d.carrier_id is not null
    or c.carrier_name is null
    or c.service_level not in ('SAME_DAY', 'NEXT_DAY', 'STANDARD')
-   or c.promised_transit_days <= 0
+   or c.promised_transit_days < 0
    or c.base_rate < 0

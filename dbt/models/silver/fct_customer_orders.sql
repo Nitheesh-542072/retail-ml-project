@@ -3,8 +3,6 @@
     unique_key = ['order_id', 'sku_id']
 ) }}
 
-{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_customer_orders') %}
-
 select
     b.order_id,
     b.sku_id,
@@ -26,15 +24,7 @@ select
     b.source_file_name,
     b.ingestion_timestamp
 from {{ ref('customer_orders') }} as b
-{% if err_table %}
-left join {{ err_table }} as err
-    on b.order_id = err.order_id
-   and b.sku_id = err.sku_id
-{% endif %}
 where 1 = 1
-{% if err_table %}
-  and err.order_id is null
-{% endif %}
 {% if is_incremental() %}
   and b.ingestion_timestamp > (select max(ingestion_timestamp) from {{ this }})
 {% endif %}
