@@ -3,7 +3,10 @@
     unique_key = ['sales_date', 'sku_id', 'location_id', 'channel']
 ) }}
 
-{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_sales_demand') %}
+{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='TEST_SALES_DEMAND') %}
+{% if not err_table %}
+  {% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_sales_demand') %}
+{% endif %}
 
 select
     b.sales_date,

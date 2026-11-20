@@ -36,6 +36,24 @@ sources:
       - name: shipments_raw
         description: "Raw fulfillment shipments and tracking timelines"
 
+  - name: error
+    database: RETAIL_INTELLIGENCE_DEV
+    schema: ERROR
+    tables:
+      - name: TEST_CALENDAR
+      - name: TEST_CARRIERS
+      - name: TEST_CUSTOMER_ORDERS
+      - name: TEST_INVENTORY_MOVEMENTS
+      - name: TEST_INVENTORY_SNAPSHOTS
+      - name: TEST_LOCATIONS
+      - name: TEST_PRODUCTS
+      - name: TEST_PROMOTIONS
+      - name: TEST_PURCHASE_ORDERS
+      - name: TEST_SALES_DEMAND
+      - name: TEST_SHIPMENTS
+      - name: TEST_SUPPLIERS
+      - name: TEST_TRANSFERS
+
 models:
   # 1. Products
   - name: products

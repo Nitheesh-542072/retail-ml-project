@@ -3,7 +3,10 @@
     unique_key = ['snapshot_date', 'sku_id', 'location_id']
 ) }}
 
-{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_inventory_snapshots') %}
+{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='TEST_INVENTORY_SNAPSHOTS') %}
+{% if not err_table %}
+  {% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_inventory_snapshots') %}
+{% endif %}
 
 select
     b.snapshot_date,

@@ -3,7 +3,10 @@
     unique_key = ['po_id', 'sku_id']
 ) }}
 
-{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_purchase_orders') %}
+{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='TEST_PURCHASE_ORDERS') %}
+{% if not err_table %}
+  {% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_purchase_orders') %}
+{% endif %}
 
 select
     b.po_id,

@@ -3,7 +3,10 @@
     unique_key = ['promo_id', 'sku_id']
 ) }}
 
-{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_promotions') %}
+{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='TEST_PROMOTIONS') %}
+{% if not err_table %}
+  {% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_promotions') %}
+{% endif %}
 
 select
     b.promo_id,

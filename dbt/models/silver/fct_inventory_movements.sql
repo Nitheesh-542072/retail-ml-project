@@ -3,7 +3,10 @@
     unique_key = 'movement_id'
 ) }}
 
-{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_inventory_movements') %}
+{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='TEST_INVENTORY_MOVEMENTS') %}
+{% if not err_table %}
+  {% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_inventory_movements') %}
+{% endif %}
 
 select
     b.movement_id,

@@ -3,7 +3,10 @@
     unique_key = 'supplier_id'
 ) }}
 
-{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_suppliers') %}
+{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='TEST_SUPPLIERS') %}
+{% if not err_table %}
+  {% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_suppliers') %}
+{% endif %}
 
 select
     b.supplier_id,

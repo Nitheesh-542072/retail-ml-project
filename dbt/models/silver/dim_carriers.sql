@@ -3,7 +3,10 @@
     unique_key = 'carrier_id'
 ) }}
 
-{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_carriers') %}
+{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='TEST_CARRIERS') %}
+{% if not err_table %}
+  {% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_carriers') %}
+{% endif %}
 
 select
     b.carrier_id,

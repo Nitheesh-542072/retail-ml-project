@@ -3,7 +3,10 @@
     unique_key = 'calendar_date'
 ) }}
 
-{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_calendar') %}
+{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='TEST_CALENDAR') %}
+{% if not err_table %}
+  {% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_calendar') %}
+{% endif %}
 
 select
     b.calendar_date,

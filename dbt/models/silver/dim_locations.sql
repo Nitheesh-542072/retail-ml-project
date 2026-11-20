@@ -3,7 +3,10 @@
     unique_key = 'location_id'
 ) }}
 
-{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_locations') %}
+{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='TEST_LOCATIONS') %}
+{% if not err_table %}
+  {% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_locations') %}
+{% endif %}
 
 select
     b.location_id,

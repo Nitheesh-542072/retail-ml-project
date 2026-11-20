@@ -3,7 +3,10 @@
     unique_key = ['shipment_id', 'event_type', 'event_timestamp']
 ) }}
 
-{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_shipments') %}
+{% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='TEST_SHIPMENTS') %}
+{% if not err_table %}
+  {% set err_table = adapter.get_relation(database=target.database, schema='ERROR', identifier='test_shipments') %}
+{% endif %}
 
 select
     b.shipment_id,
